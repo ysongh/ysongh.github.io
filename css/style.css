@@ -1,3 +1,10 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 10;
+  box-sizing: inherit; }
+
 .header {
   background-color: yellow; }
   .header .title {
