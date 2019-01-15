@@ -5,7 +5,11 @@
     background-position: top;
     position: relative;
 
-    .title{
-        font-size: 1.6rem;
+    &__text-box{
+        position: absolute;
+        text-align: center;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
