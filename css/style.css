@@ -17,6 +17,12 @@ body {
 .introduction__summary {
   font-size: 2rem; }
 
+.heading-primary {
+  font-size: 3rem; }
+
+.u-center-text {
+  text-align: center; }
+
 .u-margin-bottom-medium {
   margin-bottom: 4rem; }
 
