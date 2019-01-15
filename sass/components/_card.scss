@@ -1,0 +1,23 @@
+.card{
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    background-color: $color-silver;
+    height: 50rem;
+
+    &__picture{
+        background-size: cover;
+        height: 30rem;
+
+        &--1{
+            background-image: url(../img/project-1.jpg);
+        }
+
+        &--2{
+            background-image: url(../img/project-2.png);
+        }
+
+        &--3{
+            background-image: url(../img/project-3.png);
+        }
+    }
+}

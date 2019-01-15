@@ -26,6 +26,21 @@ body {
 .u-margin-bottom-medium {
   margin-bottom: 4rem; }
 
+.card {
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  background-color: #f2f2f2;
+  height: 50rem; }
+  .card__picture {
+    background-size: cover;
+    height: 30rem; }
+    .card__picture--1 {
+      background-image: url(../img/project-1.jpg); }
+    .card__picture--2 {
+      background-image: url(../img/project-2.png); }
+    .card__picture--3 {
+      background-image: url(../img/project-3.png); }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
