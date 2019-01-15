@@ -11,6 +11,12 @@ html {
 body {
   box-sizing: border-box; }
 
+.introduction__title {
+  font-size: 4rem; }
+
+.introduction__summary {
+  font-size: 2rem; }
+
 .header {
   height: 100vh;
   background-image: linear-gradient(to right bottom, rgba(242, 242, 242, 0.5), rgba(128, 255, 255, 0.8)), url(../img/laptop.jpeg);
