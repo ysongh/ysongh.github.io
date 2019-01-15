@@ -1,5 +1,9 @@
 .header{
-    background-color: $color;
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, rgba($color-silver, 0.5), rgba($color-light-blue, 0.8)), url(../img/laptop.jpeg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
 
     .title{
         font-size: 1.6rem;
