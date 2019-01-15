@@ -1,0 +1,19 @@
+.row{
+    max-width: $grid-width;
+    margin: 0 auto;
+
+    &:not(:last-child){
+        margin-bottom: $gutter-vertical;
+    }
+
+    @include clearfix;
+
+    .col-1-of-3{
+        width: calc((100% - 2 * #{$gutter-horizaontal}) / 3);
+        float: left;
+
+        &:not(:last-child){
+            margin-right: $gutter-horizaontal;
+        }
+    }
+} 

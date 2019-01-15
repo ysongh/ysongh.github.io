@@ -20,6 +20,21 @@ body {
 .u-margin-bottom-medium {
   margin-bottom: 4rem; }
 
+.row {
+  max-width: 114rem;
+  margin: 0 auto; }
+  .row:not(:last-child) {
+    margin-bottom: 8rem; }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row .col-1-of-3 {
+    width: calc((100% - 2 * 6rem) / 3);
+    float: left; }
+    .row .col-1-of-3:not(:last-child) {
+      margin-right: 6rem; }
+
 .header {
   height: 100vh;
   background-image: linear-gradient(to right bottom, rgba(242, 242, 242, 0.5), rgba(128, 255, 255, 0.8)), url(../img/laptop.jpeg);
