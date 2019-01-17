@@ -40,6 +40,9 @@ body {
       background-image: url(../img/project-2.png); }
     .card__picture--3 {
       background-image: url(../img/project-3.png); }
+  .card__details {
+    padding: 1rem;
+    font-size: 1.6rem; }
 
 .row {
   max-width: 114rem;
