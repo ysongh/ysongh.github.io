@@ -58,7 +58,7 @@ body {
 
 .header {
   height: 100vh;
-  background-image: linear-gradient(to right bottom, rgba(242, 242, 242, 0.5), rgba(128, 255, 255, 0.8)), url(../img/laptop.jpeg);
+  background-image: linear-gradient(to right bottom, rgba(242, 242, 242, 0.5), rgba(128, 255, 255, 0.8)), url(../img/background-1.jpeg);
   background-size: cover;
   background-position: top;
   position: relative; }
@@ -68,3 +68,11 @@ body {
     top: 25%;
     left: 50%;
     transform: translate(-50%, -50%); }
+
+.section-projects {
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, rgba(242, 242, 242, 0.5), rgba(128, 255, 255, 0.8)), url(../img/background-2.jpeg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  padding: 2rem 2rem; }
