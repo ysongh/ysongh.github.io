@@ -26,6 +26,25 @@ body {
 .u-margin-bottom-medium {
   margin-bottom: 4rem; }
 
+.btn:link, .btn:visited {
+  font-size: 1.8rem;
+  color: #66b3ff;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px solid #66b3ff;
+  padding: .8rem;
+  transition: all .1s; }
+
+.btn:hover {
+  background-color: #66b3ff;
+  color: #ffffff;
+  box-shadow: 0 1rem 2rem rgba(0, 13, 26, 0.1);
+  transform: translateY(-2px); }
+
+.btn:active {
+  box-shadow: 0 0.5rem 1rem rgba(0, 13, 26, 0.1);
+  transform: translateY(0); }
+
 .card {
   perspective: 150rem;
   -moz-perspective: 150rem;
