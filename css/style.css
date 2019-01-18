@@ -63,13 +63,13 @@ body {
     padding: 1rem;
     font-size: 1.6rem; }
 
-.education {
+.rectangle {
   width: 75%;
   margin: 5rem auto;
   box-shadow: 0 3rem 6rem rgba(0, 13, 26, 0.5);
   background-color: rgba(255, 255, 255, 0.7);
   padding: 5.5rem; }
-  .education__details {
+  .rectangle__details {
     font-size: 2rem; }
 
 .row {
@@ -111,6 +111,14 @@ body {
 .section-education {
   height: 100vh;
   background-image: linear-gradient(to right bottom, rgba(242, 242, 242, 0.5), rgba(128, 255, 255, 0.8)), url(../img/background-3.jpeg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  padding: 5rem 0; }
+
+.section-experience {
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, rgba(242, 242, 242, 0.5), rgba(128, 255, 255, 0.8)), url(../img/background-4.jpeg);
   background-size: cover;
   background-position: top;
   position: relative;
