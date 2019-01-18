@@ -63,6 +63,13 @@ body {
     padding: 1rem;
     font-size: 1.6rem; }
 
+.education {
+  width: 75%;
+  margin: 5rem auto;
+  box-shadow: 0 3rem 6rem rgba(0, 13, 26, 0.5);
+  background-color: #ffffff;
+  padding: 7rem; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
@@ -98,3 +105,11 @@ body {
   background-position: top;
   position: relative;
   padding: 2rem 2rem; }
+
+.section-education {
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, rgba(242, 242, 242, 0.5), rgba(128, 255, 255, 0.8)), url(../img/background-3.jpeg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  padding: 10rem 0; }

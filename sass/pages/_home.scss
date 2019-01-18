@@ -6,3 +6,12 @@
     position: relative;
     padding: 2rem 2rem;
 }
+
+.section-education{
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, rgba($color-silver, 0.5), rgba($color-light-blue, 0.8)), url(../img/background-3.jpeg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    padding: 10rem 0;
+}
