@@ -18,7 +18,10 @@ body {
   font-size: 2rem; }
 
 .heading-primary {
-  font-size: 3rem; }
+  font-size: 3rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px #66b3ff; }
 
 .u-center-text {
   text-align: center; }
