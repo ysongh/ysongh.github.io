@@ -26,6 +26,9 @@ body {
 .u-margin-bottom-medium {
   margin-bottom: 4rem; }
 
+.u-p-font-size {
+  font-size: 2.6rem; }
+
 .btn:link, .btn:visited {
   font-size: 1.8rem;
   color: #66b3ff;
@@ -119,6 +122,14 @@ body {
 .section-experience {
   height: 100vh;
   background-image: linear-gradient(to right bottom, rgba(242, 242, 242, 0.5), rgba(128, 255, 255, 0.8)), url(../img/background-4.jpeg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  padding: 5rem 0; }
+
+.section-contact {
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, rgba(242, 242, 242, 0.5), rgba(128, 255, 255, 0.8)), url(../img/background-5.jpeg);
   background-size: cover;
   background-position: top;
   position: relative;
