@@ -69,6 +69,9 @@ body {
       background-image: url(../img/project-2.PNG); }
     .card__picture--3 {
       background-image: url(../img/project-3.PNG); }
+    .card__picture:hover {
+      outline: 1rem groove #66b3ff;
+      transform: scale(1.05) translateY(-0.5rem); }
   .card__details {
     padding: 1rem;
     font-size: 1.6rem; }

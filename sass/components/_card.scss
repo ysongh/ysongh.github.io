@@ -19,6 +19,11 @@
         &--3{
             background-image: url(../img/project-3.PNG);
         }
+
+        &:hover{
+            outline: 1rem groove $color-blue;
+            transform: scale(1.05) translateY(-.5rem);
+        }
     }
 
     &__details{
