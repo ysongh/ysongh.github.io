@@ -1,0 +1,10 @@
+.footer{
+    background-image: linear-gradient($color-blue-light, $color-blue);
+    padding: 1.5rem 0;
+
+    &__copyright{
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.6rem;
+    }
+}
