@@ -76,6 +76,11 @@ body {
     padding: 1rem;
     font-size: 1.6rem; }
 
+.icon {
+  font-size: 6rem;
+  text-align: center;
+  margin: 2rem; }
+
 .rectangle {
   width: 75%;
   margin: 5rem auto;
