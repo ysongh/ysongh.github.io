@@ -123,14 +123,22 @@ body {
   .row .col-1-of-3 {
     width: calc((100% - 2 * 6rem) / 3);
     float: left; }
-    .row .col-1-of-3:not(:last-child) {
-      margin-right: 6rem; }
-      @media (max-width: 56.25em) {
-        .row .col-1-of-3:not(:last-child) {
-          margin-bottom: 3rem; } }
+    @media (max-width: 75em) {
+      .row .col-1-of-3 {
+        width: calc((100% - 6rem) / 2); } }
     @media (max-width: 56.25em) {
       .row .col-1-of-3 {
         width: 100%; } }
+    .row .col-1-of-3:not(:last-child) {
+      margin-right: 6rem; }
+      @media (max-width: 75em) {
+        .row .col-1-of-3:not(:last-child) {
+          margin-right: 3rem;
+          margin-bottom: 3rem; } }
+      @media (max-width: 56.25em) {
+        .row .col-1-of-3:not(:last-child) {
+          margin-right: 0;
+          margin-bottom: 3rem; } }
 
 .header {
   background-image: linear-gradient(to right bottom, rgba(242, 242, 242, 0.5), rgba(128, 255, 255, 0.8)), url(../img/background-1.jpeg);

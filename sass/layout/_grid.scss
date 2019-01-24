@@ -4,10 +4,6 @@
 
     &:not(:last-child){
         margin-bottom: $gutter-vertical;
-
-        @include responsive(t-portrait){
-
-        }
     }
 
     @include responsive(t-portrait){
@@ -21,16 +17,26 @@
         width: calc((100% - 2 * #{$gutter-horizaontal}) / 3);
         float: left;
 
-        &:not(:last-child){
-            margin-right: $gutter-horizaontal;
-
-            @include responsive(t-portrait){
-                margin-bottom: $gutter-vertical-small;
-            }
+        @include responsive(t-landscape){
+            width: calc((100% - #{$gutter-horizaontal}) / 2);
         }
 
         @include responsive(t-portrait){
             width: 100%;
+        }
+
+        &:not(:last-child){
+            margin-right: $gutter-horizaontal;
+
+            @include responsive(t-landscape){
+                margin-right: $gutter-horizaontal-small;
+                margin-bottom: $gutter-vertical-small;
+            }
+
+            @include responsive(t-portrait){
+                margin-right: 0;
+                margin-bottom: $gutter-vertical-small;
+            }
         }
     }
 } 
