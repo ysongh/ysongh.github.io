@@ -112,6 +112,10 @@ body {
   margin: 0 auto; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
+  @media (max-width: 56.25em) {
+    .row {
+      max-width: 50rem;
+      padding: 0 1.5rem; } }
   .row::after {
     content: "";
     display: table;
@@ -121,6 +125,12 @@ body {
     float: left; }
     .row .col-1-of-3:not(:last-child) {
       margin-right: 6rem; }
+      @media (max-width: 56.25em) {
+        .row .col-1-of-3:not(:last-child) {
+          margin-bottom: 3rem; } }
+    @media (max-width: 56.25em) {
+      .row .col-1-of-3 {
+        width: 100%; } }
 
 .header {
   background-image: linear-gradient(to right bottom, rgba(242, 242, 242, 0.5), rgba(128, 255, 255, 0.8)), url(../img/background-1.jpeg);

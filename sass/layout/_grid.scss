@@ -4,6 +4,15 @@
 
     &:not(:last-child){
         margin-bottom: $gutter-vertical;
+
+        @include responsive(t-portrait){
+
+        }
+    }
+
+    @include responsive(t-portrait){
+        max-width: 50rem;
+        padding: 0 1.5rem;
     }
 
     @include clearfix;
@@ -14,6 +23,14 @@
 
         &:not(:last-child){
             margin-right: $gutter-horizaontal;
+
+            @include responsive(t-portrait){
+                margin-bottom: $gutter-vertical-small;
+            }
+        }
+
+        @include responsive(t-portrait){
+            width: 100%;
         }
     }
 } 
