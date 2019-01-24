@@ -5,3 +5,18 @@
         clear: both;
     }
 }
+
+@mixin responsive($breakpoint){
+    @if $breakpoint == phone{
+        @media(max-width: 37.5em){ @content };
+    }
+    @if $breakpoint == t-portrait{
+        @media(max-width: 56.25em){ @content };
+    }
+    @if $breakpoint == t-landscape{
+        @media(max-width: 75em){ @content };
+    }
+    @if $breakpoint == b-desktop{
+        @media(max-width: 112.5em){ @content };
+    }
+}
