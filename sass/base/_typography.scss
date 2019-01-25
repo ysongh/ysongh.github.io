@@ -20,3 +20,11 @@ body{
     text-transform: uppercase;
     text-shadow: 2px 2px $color-blue;
 }
+
+.contact-paragraph{
+    font-size: 3rem;
+
+    @include responsive(t-portrait){
+        font-size: 2rem;
+    }
+}
