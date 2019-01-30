@@ -106,7 +106,8 @@ body {
     .rectangle {
       padding: 3rem; } }
   .rectangle__details {
-    font-size: 2rem; }
+    font-size: 2rem;
+    margin-bottom: .7rem; }
     @media (max-width: 37.5em) {
       .rectangle__details {
         font-size: 1.4rem; } }

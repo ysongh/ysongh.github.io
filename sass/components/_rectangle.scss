@@ -11,6 +11,7 @@
 
     &__details{
         font-size: 2rem;
+        margin-bottom: .7rem;
 
         @include responsive(phone){
             font-size: 1.4rem;
