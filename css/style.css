@@ -113,8 +113,10 @@ body {
         font-size: 1.4rem; } }
   .rectangle__icon {
     font-size: 2.5rem; }
-    .rectangle__icon--med {
+    .rectangle__icon--large {
       margin-right: 1.5rem; }
+    .rectangle__icon--med {
+      margin-right: 1.3rem; }
     .rectangle__icon--small {
       margin-right: .6rem; }
 
