@@ -111,6 +111,12 @@ body {
     @media (max-width: 37.5em) {
       .rectangle__details {
         font-size: 1.4rem; } }
+  .rectangle__icon {
+    font-size: 2.5rem; }
+    .rectangle__icon--med {
+      margin-right: 1.5rem; }
+    .rectangle__icon--small {
+      margin-right: .6rem; }
 
 .footer {
   background-image: linear-gradient(#80ffff, #66b3ff);
