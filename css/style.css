@@ -121,10 +121,15 @@ body {
       margin-right: .6rem; }
   .rectangle__list {
     border-top: 1px solid #66b3ff;
-    list-style-type: circle; }
+    list-style-type: circle;
+    margin-top: 1.5rem; }
   .rectangle__item {
     font-size: 1.8rem;
-    padding: 1rem; }
+    padding: .6rem;
+    margin-left: 1rem; }
+    @media (max-width: 56.25em) {
+      .rectangle__item {
+        font-size: 1.4rem; } }
 
 .footer {
   background-image: linear-gradient(#80ffff, #66b3ff);
