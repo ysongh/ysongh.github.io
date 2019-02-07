@@ -177,7 +177,8 @@ body {
   background-size: cover;
   background-position: top;
   position: relative;
-  padding: 30rem 0; }
+  padding: 30rem 0;
+  height: 100vh; }
   .header__text-box {
     position: absolute;
     text-align: center;
@@ -216,3 +217,6 @@ body {
   position: relative;
   padding: 5rem 0;
   padding-bottom: 23rem; }
+  @media (max-width: 37.5em) {
+    .section-contact {
+      height: 70vh; } }

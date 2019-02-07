@@ -29,4 +29,8 @@
     position: relative;
     padding: 5rem 0;
     padding-bottom: 23rem;
+
+    @include responsive(phone){
+       height: 70vh;
+    }
 }
