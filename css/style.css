@@ -86,15 +86,20 @@ body {
       background-image: url(../img/project-2.PNG); }
     .card__picture--3 {
       background-image: url(../img/project-3.PNG); }
-  .card__link {
+  .card__button-link {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 3rem;
+    padding: 1.5rem;
+    color: #000066;
+    background-color: rgba(128, 255, 255, 0.7);
+    border-radius: 50%;
+    text-decoration: none;
     opacity: 0;
-    font-size: 5rem;
     backface-visibility: hidden; }
-  .card:hover .card__link {
+  .card:hover .card__button-link {
     transform: translate(-50%, -50%);
     opacity: 1; }
   .card:hover .card__picture {

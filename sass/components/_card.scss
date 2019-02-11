@@ -23,17 +23,22 @@
         }
     }
 
-    &__link{
+    &__button-link{
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        font-size: 3rem;
+        padding: 1.5rem;
+        color: $color-blue-dark;
+        background-color: rgba($color-blue-light, .7);
+        border-radius: 50%;
+        text-decoration: none;
         opacity: 0;
-        font-size: 5rem;
         backface-visibility: hidden;
     }
 
-    &:hover &__link{
+    &:hover &__button-link{
         transform: translate(-50%, -50%);
         opacity: 1;
     }
