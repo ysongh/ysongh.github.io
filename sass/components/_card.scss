@@ -7,6 +7,7 @@
     &__picture{
         background-size: cover;
         height: 30rem;
+        transition: all .3s;
 
         &--1{
             background-image: url(../img/project-1.JPG);
@@ -19,11 +20,12 @@
         &--3{
             background-image: url(../img/project-3.PNG);
         }
+    }
 
-        &:hover{
-            outline: 1rem groove $color-blue;
-            transform: scale(1.05) translateY(-.5rem);
-        }
+    &:hover &__picture{
+        outline: 1rem groove $color-blue;
+        transform: scale(1.05) translateY(-.5rem);
+        filter: brightness(60%);
     }
 
     &__details{
