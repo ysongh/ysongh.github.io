@@ -78,6 +78,7 @@ body {
   .card__picture {
     background-size: cover;
     height: 30rem;
+    position: relative;
     transition: all .3s; }
     .card__picture--1 {
       background-image: url(../img/project-1.JPG); }
@@ -85,10 +86,21 @@ body {
       background-image: url(../img/project-2.PNG); }
     .card__picture--3 {
       background-image: url(../img/project-3.PNG); }
+  .card__link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    font-size: 5rem;
+    backface-visibility: hidden; }
+  .card:hover .card__link {
+    transform: translate(-50%, -50%);
+    opacity: 1; }
   .card:hover .card__picture {
     outline: 1rem groove #66b3ff;
     transform: scale(1.05) translateY(-0.5rem);
-    filter: brightness(60%); }
+    filter: brightness(80%); }
   .card__details {
     padding: 1rem;
     font-size: 1.6rem; }
