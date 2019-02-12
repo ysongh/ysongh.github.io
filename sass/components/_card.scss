@@ -53,6 +53,12 @@
         outline: 1rem groove $color-blue;
         transform: scale(1.05) translateY(-.5rem);
         filter: brightness(80%);
+
+        @media only screen and (hover: none){
+            outline: none;
+            transform: scale(1) translateY(0);
+            filter: brightness(100%);
+        }
     }
 
     &__details{

@@ -111,6 +111,11 @@ body {
     outline: 1rem groove #66b3ff;
     transform: scale(1.05) translateY(-0.5rem);
     filter: brightness(80%); }
+    @media only screen and (hover: none) {
+      .card:hover .card__picture {
+        outline: none;
+        transform: scale(1) translateY(0);
+        filter: brightness(100%); } }
   .card__details {
     padding: 1rem;
     font-size: 1.6rem; }
