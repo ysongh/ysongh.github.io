@@ -99,6 +99,12 @@ body {
     text-decoration: none;
     opacity: 0;
     backface-visibility: hidden; }
+    @media only screen and (hover: none) {
+      .card__button-link {
+        top: -8%;
+        left: 15%;
+        border-radius: 0;
+        opacity: 1; } }
   .card:hover .card__button-link {
     transform: translate(-50%, -50%);
     opacity: 1; }

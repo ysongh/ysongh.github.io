@@ -36,6 +36,13 @@
         text-decoration: none;
         opacity: 0;
         backface-visibility: hidden;
+
+        @media only screen and (hover: none){
+            top: -8%;
+            left: 15%;
+            border-radius: 0;
+            opacity: 1;
+        }
     }
 
     &:hover &__button-link{
