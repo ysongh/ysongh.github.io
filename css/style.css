@@ -99,15 +99,14 @@ body {
     text-decoration: none;
     opacity: 0;
     backface-visibility: hidden; }
-    @media only screen and (hover: none) {
-      .card__button-link {
-        top: -8%;
-        left: 15%;
-        border-radius: 0;
-        opacity: 1; } }
   .card:hover .card__button-link {
-    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
     opacity: 1; }
+    @media only screen and (hover: none) {
+      .card:hover .card__button-link {
+        display: none;
+        opacity: 0; } }
   .card:hover .card__picture {
     outline: 1rem groove #66b3ff;
     transform: scale(1.05) translateY(-0.5rem);
