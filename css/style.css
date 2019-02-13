@@ -121,11 +121,6 @@ body {
     padding: 1rem;
     font-size: 1.6rem; }
 
-.icon {
-  font-size: 6rem;
-  text-align: center;
-  margin: 2rem; }
-
 .rectangle {
   width: 75%;
   margin: 5rem auto;
@@ -250,3 +245,7 @@ body {
   @media (max-width: 37.5em) {
     .section-contact {
       height: 70vh; } }
+  .section-contact .icon {
+    font-size: 6rem;
+    text-align: center;
+    margin: 2rem; }

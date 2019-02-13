@@ -33,4 +33,10 @@
     @include responsive(phone){
        height: 70vh;
     }
+
+    .icon{
+        font-size: 6rem;
+        text-align: center;
+        margin: 2rem;
+    }
 }
