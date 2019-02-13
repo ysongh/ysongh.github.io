@@ -38,5 +38,13 @@
         font-size: 6rem;
         text-align: center;
         margin: 2rem;
+
+        &__link{
+            color: $color-blue-dark;
+
+            &:hover{
+                color: $color-blue-light;
+            }
+        }
     }
 }

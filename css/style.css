@@ -249,3 +249,7 @@ body {
     font-size: 6rem;
     text-align: center;
     margin: 2rem; }
+    .section-contact .icon__link {
+      color: #000066; }
+      .section-contact .icon__link:hover {
+        color: #80ffff; }
