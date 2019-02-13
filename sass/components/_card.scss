@@ -36,6 +36,11 @@
         text-decoration: none;
         opacity: 0;
         backface-visibility: hidden;
+
+        &:hover{
+            background-color: $color-blue;
+            color: $color-white;
+        }
     }
 
     &:hover &__button-link{
