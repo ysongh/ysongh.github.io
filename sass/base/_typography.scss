@@ -11,6 +11,7 @@ body{
 
     &__summary{
         font-size: 2rem;
+        background: rgba(lighten($color-blue, 2), 0.1);
     }
 }
 

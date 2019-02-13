@@ -28,7 +28,8 @@ body {
   font-size: 4rem; }
 
 .introduction__summary {
-  font-size: 2rem; }
+  font-size: 2rem;
+  background: rgba(112, 184, 255, 0.1); }
 
 .heading-primary {
   font-size: 3rem;
