@@ -1,0 +1,19 @@
+.navigation{
+    position: fixed;
+    z-index: 20;
+
+    &__button{
+        position: fixed;
+        top: 3rem;
+        right: 3rem;
+        cursor: pointer;
+        z-index: 12;
+
+        &__line{
+            width: 2.8rem;
+            height: 3px;
+            margin: 0 0 5px 0;
+            background: $color-blue-dark;
+        }
+    }
+}

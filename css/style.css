@@ -217,6 +217,21 @@ body {
     padding: 5rem;
     border-radius: 50%; }
 
+.navigation {
+  position: fixed;
+  z-index: 20; }
+  .navigation__button {
+    position: fixed;
+    top: 3rem;
+    right: 3rem;
+    cursor: pointer;
+    z-index: 12; }
+    .navigation__button__line {
+      width: 2.8rem;
+      height: 3px;
+      margin: 0 0 5px 0;
+      background: #000066; }
+
 .section-projects {
   background-image: linear-gradient(to right bottom, rgba(242, 242, 242, 0.5), rgba(128, 255, 255, 0.8)), url(../img/background-2.jpeg);
   background-size: cover;
