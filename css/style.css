@@ -225,12 +225,21 @@ body {
     top: 3rem;
     right: 3rem;
     cursor: pointer;
-    z-index: 12; }
+    z-index: 12;
+    transition: all .5s; }
     .navigation__button__line {
       width: 2.8rem;
       height: 3px;
       margin: 0 0 5px 0;
       background: #000066; }
+    .navigation__button.close {
+      transform: rotate(180deg); }
+      .navigation__button.close .navigation__button__line:nth-child(1) {
+        transform: rotate(1deg) translate(1px, -5px); }
+      .navigation__button.close .navigation__button__line:nth-child(2) {
+        transform: rotate(92deg) translate(2px, -17px); }
+      .navigation__button.close .navigation__button__line:nth-child(3) {
+        transform: rotate(1deg) translate(1px, 11px); }
 
 .section-projects {
   background-image: linear-gradient(to right bottom, rgba(242, 242, 242, 0.5), rgba(128, 255, 255, 0.8)), url(../img/background-2.jpeg);

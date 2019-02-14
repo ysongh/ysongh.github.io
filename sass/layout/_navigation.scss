@@ -8,12 +8,32 @@
         right: 3rem;
         cursor: pointer;
         z-index: 12;
+        transition: all .5s;
 
         &__line{
             width: 2.8rem;
             height: 3px;
             margin: 0 0 5px 0;
             background: $color-blue-dark;
+        }
+
+        &.close{
+            transform: rotate(180deg);
+
+            .navigation__button__line{
+
+                &:nth-child(1){
+                    transform: rotate(1deg) translate(1px, -5px);
+                }
+
+                &:nth-child(2){
+                    transform: rotate(92deg) translate(2px, -17px)
+                }
+
+                &:nth-child(3){
+                    transform: rotate(1deg) translate(1px, 11px);
+                }
+            }
         }
     }
 }
