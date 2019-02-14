@@ -6,6 +6,10 @@
     }
 }
 
+@mixin animationAll{
+    transition: all .5s;
+}
+
 @mixin responsive($breakpoint){
     @if $breakpoint == phone{
         @media(max-width: 37.5em){ @content };

@@ -257,7 +257,11 @@ body {
     width: 50%;
     height: 100vh;
     background: #66b3ff;
-    list-style: none; }
+    list-style: none;
+    transform: translate3d(0, -100%, 0);
+    transition: all .5s; }
+    .navigation__list.show {
+      transform: translate3d(0, 0, 0); }
 
 .section-projects {
   background-image: linear-gradient(to right bottom, rgba(242, 242, 242, 0.5), rgba(128, 255, 255, 0.8)), url(../img/background-2.jpeg);
