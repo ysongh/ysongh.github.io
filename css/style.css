@@ -262,6 +262,19 @@ body {
     transition: all .5s; }
     .navigation__list.show {
       transform: translate3d(0, 0, 0); }
+  .navigation__item {
+    transform: translate3d(500px, 0, 0);
+    transition: all .5s; }
+    .navigation__item.show {
+      transform: translate3d(0, 0, 0); }
+  .navigation__link {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding: 1rem 0;
+    font-weight: 300;
+    color: #000066; }
 
 .section-projects {
   background-image: linear-gradient(to right bottom, rgba(242, 242, 242, 0.5), rgba(128, 255, 255, 0.8)), url(../img/background-2.jpeg);

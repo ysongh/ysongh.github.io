@@ -66,4 +66,23 @@
             transform: translate3d(0, 0, 0);
         }
     }
+
+    &__item{
+        transform: translate3d(500px, 0, 0);
+        @include animationAll;
+
+        &.show{
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    &__link{
+        text-decoration: none;
+        display: inline-block;
+        font-size: 3rem;
+        text-transform: uppercase;
+        padding: 1rem 0;
+        font-weight: 300;
+        color: $color-blue-dark;
+    }
 }
