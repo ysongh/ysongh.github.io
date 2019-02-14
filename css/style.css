@@ -240,6 +240,14 @@ body {
         transform: rotate(92deg) translate(2px, -17px); }
       .navigation__button.close .navigation__button__line:nth-child(3) {
         transform: rotate(1deg) translate(1px, 11px); }
+  .navigation__nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 0.9;
+    visibility: hidden; }
+    .navigation__nav.show {
+      visibility: visible; }
 
 .section-projects {
   background-image: linear-gradient(to right bottom, rgba(242, 242, 242, 0.5), rgba(128, 255, 255, 0.8)), url(../img/background-2.jpeg);
