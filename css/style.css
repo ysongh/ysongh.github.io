@@ -248,6 +248,16 @@ body {
     visibility: hidden; }
     .navigation__nav.show {
       visibility: visible; }
+  .navigation__list {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    width: 50%;
+    height: 100vh;
+    background: #66b3ff;
+    list-style: none; }
 
 .section-projects {
   background-image: linear-gradient(to right bottom, rgba(242, 242, 242, 0.5), rgba(128, 255, 255, 0.8)), url(../img/background-2.jpeg);

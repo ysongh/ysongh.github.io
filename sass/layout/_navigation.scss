@@ -48,4 +48,16 @@
             visibility: visible;
         }
     }
+
+    &__list{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        float: right;
+        width: 50%;
+        height: 100vh;
+        background: $color-blue;
+        list-style: none;
+    }
 }
