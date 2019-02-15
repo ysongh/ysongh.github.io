@@ -89,6 +89,12 @@
         }
     }
 
+    @for $item from 1 through 4{
+        &__item:nth-child(#{$item}){
+            transition-delay: $item * 0.1s;
+        }
+    }
+
     &__link{
         text-decoration: none;
         display: inline-block;
