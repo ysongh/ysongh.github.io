@@ -227,6 +227,10 @@ body {
     cursor: pointer;
     z-index: 12;
     transition: all .5s; }
+    @media (max-width: 37.5em) {
+      .navigation__button {
+        top: 2.5rem;
+        right: 2.5rem; } }
     .navigation__button__line {
       width: 2.8rem;
       height: 3px;
@@ -254,12 +258,18 @@ body {
     align-items: center;
     justify-content: center;
     float: right;
-    width: 50%;
+    width: 25%;
     height: 100vh;
     background: #66b3ff;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all .5s; }
+    @media (max-width: 56.25em) {
+      .navigation__list {
+        width: 45%; } }
+    @media (max-width: 37.5em) {
+      .navigation__list {
+        width: 100%; } }
     .navigation__list.show {
       transform: translate3d(0, 0, 0); }
   .navigation__item {
@@ -270,7 +280,7 @@ body {
   .navigation__link {
     text-decoration: none;
     display: inline-block;
-    font-size: 3rem;
+    font-size: 2.4rem;
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;

@@ -10,6 +10,11 @@
         z-index: 12;
         @include animationAll;
 
+        @include responsive(phone){
+            top: 2.5rem;
+            right: 2.5rem;
+        }
+
         &__line{
             width: 2.8rem;
             height: 3px;
@@ -55,12 +60,20 @@
         align-items: center;
         justify-content: center;
         float: right;
-        width: 50%;
+        width: 25%;
         height: 100vh;
         background: $color-blue;
         list-style: none;
         transform: translate3d(0, -100%, 0);
         @include animationAll;
+
+        @include responsive(t-portrait){
+            width: 45%;
+        }
+
+        @include responsive(phone){
+            width: 100%;
+        }
 
         &.show{
             transform: translate3d(0, 0, 0);
@@ -79,7 +92,7 @@
     &__link{
         text-decoration: none;
         display: inline-block;
-        font-size: 3rem;
+        font-size: 2.4rem;
         text-transform: uppercase;
         padding: 1rem 0;
         font-weight: 300;
