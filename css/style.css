@@ -292,7 +292,13 @@ body {
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: #000066; }
+    color: #000066;
+    transition: all .5s; }
+    .navigation__link:hover {
+      background-color: #80ffff;
+      padding: 1rem;
+      border-radius: 50%;
+      font-size: 2.2rem; }
 
 .section-projects {
   background-image: linear-gradient(to right bottom, rgba(242, 242, 242, 0.5), rgba(128, 255, 255, 0.8)), url(../img/background-2.jpeg);
