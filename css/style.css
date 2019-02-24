@@ -93,7 +93,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding: 1.5rem;
     color: #000066;
     background-color: rgba(128, 255, 255, 0.7);
@@ -122,8 +122,9 @@ body {
         transform: scale(1) translateY(0);
         filter: brightness(100%); } }
   .card__details {
-    padding: 1rem;
-    font-size: 1.6rem; }
+    padding: .8rem;
+    font-size: 1.6rem;
+    margin-top: 1rem; }
 
 .rectangle {
   width: 75%;
