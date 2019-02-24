@@ -22,7 +22,8 @@ body {
 
 body {
   color: #000066;
-  line-height: 1.2; }
+  line-height: 1.2;
+  font-family: "Lucida Grande", sans-serif; }
 
 .introduction__title {
   font-size: 4rem; }
