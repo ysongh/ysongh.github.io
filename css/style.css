@@ -287,6 +287,8 @@ body {
     transition-delay: 0.3s; }
   .navigation__item:nth-child(4) {
     transition-delay: 0.4s; }
+  .navigation__item:nth-child(5) {
+    transition-delay: 0.5s; }
   .navigation__link {
     text-decoration: none;
     display: inline-block;
