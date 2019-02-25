@@ -17,5 +17,9 @@
     &__photo{
         padding: 5rem;
         border-radius: 50%;
+
+        @include responsive(t-portrait){
+            padding: 2.5rem 5rem;
+        }
     }
 }

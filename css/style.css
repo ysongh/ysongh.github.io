@@ -26,7 +26,11 @@ body {
   font-family: "Lucida Grande", sans-serif; }
 
 .introduction__title {
-  font-size: 4rem; }
+  font-size: 4rem;
+  margin-bottom: 4rem; }
+  @media (max-width: 56.25em) {
+    .introduction__title {
+      margin-bottom: 2.5rem; } }
 
 .introduction__summary {
   font-size: 2rem;
@@ -218,6 +222,9 @@ body {
   .header__photo {
     padding: 5rem;
     border-radius: 50%; }
+    @media (max-width: 56.25em) {
+      .header__photo {
+        padding: 2.5rem 5rem; } }
 
 .navigation {
   position: fixed;

@@ -8,6 +8,11 @@ body{
 
     &__title{
         font-size: 4rem;
+        margin-bottom: 4rem;
+
+        @include responsive(t-portrait){
+            margin-bottom: 2.5rem;
+        }
     }
 
     &__summary{
