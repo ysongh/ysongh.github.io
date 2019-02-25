@@ -208,11 +208,16 @@ body {
 
 .header {
   background-image: linear-gradient(to right bottom, rgba(242, 242, 242, 0.5), rgba(128, 255, 255, 0.8)), url(../img/background-1.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
   position: relative;
   padding: 30rem 0;
   height: 100vh; }
+  @media (max-width: 37.5em) {
+    .header {
+      background-attachment: scroll; } }
   .header__text-box {
     position: absolute;
     text-align: center;
@@ -313,32 +318,52 @@ body {
 
 .section-projects {
   background-image: linear-gradient(to left bottom, rgba(242, 242, 242, 0.8), rgba(128, 255, 255, 0.8)), url(../img/background-2.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
   position: relative;
   padding: 5rem 2rem; }
+  @media (max-width: 37.5em) {
+    .section-projects {
+      background-attachment: scroll; } }
 
 .section-education {
   background-image: linear-gradient(to right bottom, rgba(242, 242, 242, 0.8), rgba(128, 255, 255, 0.8)), url(../img/background-3.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
   position: relative;
   padding: 5rem 0; }
+  @media (max-width: 37.5em) {
+    .section-education {
+      background-attachment: scroll; } }
 
 .section-experience {
   background-image: linear-gradient(to left bottom, rgba(242, 242, 242, 0.8), rgba(128, 255, 255, 0.8)), url(../img/background-4.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
   position: relative;
   padding: 5rem 0; }
+  @media (max-width: 37.5em) {
+    .section-experience {
+      background-attachment: scroll; } }
 
 .section-contact {
   background-image: linear-gradient(to right bottom, rgba(242, 242, 242, 0.8), rgba(128, 255, 255, 0.8)), url(../img/background-5.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
   position: relative;
   padding: 5rem 0;
   padding-bottom: 23rem; }
+  @media (max-width: 37.5em) {
+    .section-contact {
+      background-attachment: scroll; } }
   @media (max-width: 37.5em) {
     .section-contact {
       height: 70vh; } }

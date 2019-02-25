@@ -24,3 +24,14 @@
         @media(max-width: 112.5em){ @content };
     }
 }
+
+@mixin parallaxScrolling{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @include responsive(phone){
+        background-attachment: scroll;
+    }
+}

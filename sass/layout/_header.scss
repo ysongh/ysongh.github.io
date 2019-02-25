@@ -1,7 +1,6 @@
 .header{
     background-image: linear-gradient(to right bottom, rgba($color-silver, 0.5), rgba($color-blue-light, 0.8)), url(../img/background-1.jpeg);
-    background-size: cover;
-    background-position: top;
+    @include parallaxScrolling;
     position: relative;
     padding: 30rem 0;
     height: 100vh;
