@@ -303,28 +303,28 @@ body {
       font-size: 2.2rem; }
 
 .section-projects {
-  background-image: linear-gradient(to right bottom, rgba(242, 242, 242, 0.5), rgba(128, 255, 255, 0.8)), url(../img/background-2.jpeg);
+  background-image: linear-gradient(to left bottom, rgba(242, 242, 242, 0.8), rgba(128, 255, 255, 0.8)), url(../img/background-2.jpeg);
   background-size: cover;
   background-position: top;
   position: relative;
   padding: 5rem 2rem; }
 
 .section-education {
-  background-image: linear-gradient(to right bottom, rgba(242, 242, 242, 0.5), rgba(128, 255, 255, 0.8)), url(../img/background-3.jpeg);
+  background-image: linear-gradient(to right bottom, rgba(242, 242, 242, 0.8), rgba(128, 255, 255, 0.8)), url(../img/background-3.jpeg);
   background-size: cover;
   background-position: top;
   position: relative;
   padding: 5rem 0; }
 
 .section-experience {
-  background-image: linear-gradient(to right bottom, rgba(242, 242, 242, 0.5), rgba(128, 255, 255, 0.8)), url(../img/background-4.jpeg);
+  background-image: linear-gradient(to left bottom, rgba(242, 242, 242, 0.8), rgba(128, 255, 255, 0.8)), url(../img/background-4.jpeg);
   background-size: cover;
   background-position: top;
   position: relative;
   padding: 5rem 0; }
 
 .section-contact {
-  background-image: linear-gradient(to right bottom, rgba(242, 242, 242, 0.5), rgba(128, 255, 255, 0.8)), url(../img/background-5.jpeg);
+  background-image: linear-gradient(to right bottom, rgba(242, 242, 242, 0.8), rgba(128, 255, 255, 0.8)), url(../img/background-5.jpeg);
   background-size: cover;
   background-position: top;
   position: relative;
