@@ -14,11 +14,12 @@
     }
     
     &__photo{
-        padding: 5rem;
+        margin: 5rem;
         border-radius: 50%;
+        border: 2px solid $color-blue-dark;
 
         @include responsive(t-portrait){
-            padding: 2.5rem 5rem;
+            margin: 2.5rem 5rem;
         }
     }
 }
