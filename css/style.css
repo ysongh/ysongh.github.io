@@ -30,11 +30,15 @@ body {
   margin-bottom: 4rem; }
   @media (max-width: 56.25em) {
     .introduction__title {
+      font-size: 3.6rem;
       margin-bottom: 2.5rem; } }
 
 .introduction__summary {
   font-size: 2rem;
   background: rgba(112, 184, 255, 0.1); }
+  @media (max-width: 37.5em) {
+    .introduction__summary {
+      font-size: 1.5rem; } }
 
 .heading-primary {
   font-size: 3rem;
