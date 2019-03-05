@@ -135,14 +135,26 @@ body {
   box-shadow: 0 1.5rem 3rem rgba(0, 13, 26, 0.3);
   transform: skewX(-15deg);
   background-image: linear-gradient(to right bottom, rgba(128, 255, 255, 0.5), rgba(102, 179, 255, 0.5)); }
+  @media (max-width: 75em) {
+    .parallelogram {
+      width: 55%; } }
+  @media (max-width: 56.25em) {
+    .parallelogram {
+      width: 65%; } }
+  @media (max-width: 37.5em) {
+    .parallelogram {
+      width: 85%; } }
   .parallelogram__contact-text {
     font-size: 2.5rem;
     padding: 1rem;
     transform: skewX(15deg);
     margin-left: 1rem; }
-    @media (max-width: 56.25em) {
+    @media (max-width: 75em) {
       .parallelogram__contact-text {
         font-size: 2rem; } }
+    @media (max-width: 56.25em) {
+      .parallelogram__contact-text {
+        font-size: 1.5rem; } }
 
 .rectangle {
   width: 75%;
@@ -381,7 +393,7 @@ body {
       background-attachment: scroll; } }
   @media (max-width: 37.5em) {
     .section-contact {
-      height: 70vh; } }
+      height: 80vh; } }
   .section-contact .icon {
     font-size: 6rem;
     text-align: center;
