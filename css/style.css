@@ -46,12 +46,6 @@ body {
   text-transform: uppercase;
   text-shadow: 2px 2px #66b3ff; }
 
-.contact-paragraph {
-  font-size: 3rem; }
-  @media (max-width: 56.25em) {
-    .contact-paragraph {
-      font-size: 2rem; } }
-
 .u-center-text {
   text-align: center; }
 
@@ -133,6 +127,17 @@ body {
     padding: .8rem;
     font-size: 1.6rem;
     margin-top: 1rem; }
+
+.parallelogram {
+  width: 50%;
+  border: 2px solid #000066;
+  margin: 2rem auto; }
+  .parallelogram__contact-text {
+    font-size: 2.5rem;
+    padding: 1rem; }
+    @media (max-width: 56.25em) {
+      .parallelogram__contact-text {
+        font-size: 2rem; } }
 
 .rectangle {
   width: 75%;
