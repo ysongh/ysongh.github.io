@@ -3,6 +3,7 @@
     @include parallaxScrolling;
     position: relative;
     padding: 5rem 2rem;
+    min-height: 100vh;
 }
 
 .section-education{
@@ -10,6 +11,7 @@
     @include parallaxScrolling;
     position: relative;
     padding: 5rem 0;
+    min-height: 100vh;
 }
 
 .section-experience{
@@ -17,6 +19,7 @@
     @include parallaxScrolling;
     position: relative;
     padding: 5rem 0;
+    min-height: 100vh;
 }
 
 .section-contact{
@@ -25,9 +28,10 @@
     position: relative;
     padding: 5rem 0;
     padding-bottom: 23rem;
+    min-height: 90vh;
 
     @include responsive(phone){
-       height: 80vh;
+        min-height: 80vh;
     }
 
     .icon{

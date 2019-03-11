@@ -350,7 +350,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  padding: 5rem 2rem; }
+  padding: 5rem 2rem;
+  min-height: 100vh; }
   @media (max-width: 37.5em) {
     .section-projects {
       background-attachment: scroll; } }
@@ -362,7 +363,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  padding: 5rem 0; }
+  padding: 5rem 0;
+  min-height: 100vh; }
   @media (max-width: 37.5em) {
     .section-education {
       background-attachment: scroll; } }
@@ -374,7 +376,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  padding: 5rem 0; }
+  padding: 5rem 0;
+  min-height: 100vh; }
   @media (max-width: 37.5em) {
     .section-experience {
       background-attachment: scroll; } }
@@ -387,13 +390,14 @@ body {
   background-size: cover;
   position: relative;
   padding: 5rem 0;
-  padding-bottom: 23rem; }
+  padding-bottom: 23rem;
+  min-height: 90vh; }
   @media (max-width: 37.5em) {
     .section-contact {
       background-attachment: scroll; } }
   @media (max-width: 37.5em) {
     .section-contact {
-      height: 80vh; } }
+      min-height: 80vh; } }
   .section-contact .icon {
     font-size: 6rem;
     text-align: center;
