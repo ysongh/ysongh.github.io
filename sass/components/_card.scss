@@ -4,11 +4,19 @@
     background-color: $color-silver;
     height: 50rem;
 
+    @include responsive(b-desktop){
+        height: 60rem;
+    }
+
     &__picture{
         background-size: 100% 100%;
         height: 30rem;
         position: relative;
         transition: all .3s;
+
+        @include responsive(b-desktop){
+            height: 35rem;
+        }
 
         &--1{
             background-image: url(../img/project-1.JPG);
