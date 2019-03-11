@@ -163,14 +163,17 @@ body {
         font-size: 1.5rem; } }
 
 .rectangle {
-  width: 75%;
+  width: 60%;
   margin: 5rem auto;
   box-shadow: 0 3rem 6rem rgba(0, 13, 26, 0.5);
   background-color: rgba(255, 255, 255, 0.7);
-  padding: 5.5rem; }
+  padding: 4rem; }
+  @media (max-width: 56.25em) {
+    .rectangle {
+      width: 85%; } }
   @media (max-width: 37.5em) {
     .rectangle {
-      padding: 3rem; } }
+      padding: 2.5rem; } }
   .rectangle__details {
     font-size: 2rem;
     margin-bottom: .7rem; }

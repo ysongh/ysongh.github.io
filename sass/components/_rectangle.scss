@@ -1,12 +1,16 @@
 .rectangle{
-    width: 75%;
+    width: 60%;
     margin: 5rem auto;
     box-shadow: 0 3rem 6rem rgba($color-black, .5);
     background-color: rgba($color-white, .7);
-    padding: 5.5rem;
+    padding: 4rem;
+
+    @include responsive(t-portrait){
+        width: 85%;
+    }
 
     @include responsive(phone){
-        padding: 3rem;
+        padding: 2.5rem;
     }
 
     &__details{
