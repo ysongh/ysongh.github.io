@@ -1,9 +1,14 @@
 .row{
     max-width: $grid-width;
     margin: 0 auto;
+    padding: 0 10rem;
 
     &:not(:last-child){
         margin-bottom: $gutter-vertical;
+    }
+
+    @include responsive(t-landscape){
+        padding: 0 4rem;
     }
 
     @include responsive(t-portrait){
@@ -13,30 +18,16 @@
 
     @include clearfix;
 
-    .col-1-of-3{
-        width: calc((100% - 2 * #{$gutter-horizaontal}) / 3);
+    .col-1-of-2{
+        width: calc((100% - #{$gutter-horizaontal}) / 2);
         float: left;
-
-        @include responsive(t-landscape){
-            width: calc((100% - #{$gutter-horizaontal}) / 2);
-        }
 
         @include responsive(t-portrait){
             width: 100%;
         }
 
         &:not(:last-child){
-            margin-right: $gutter-horizaontal;
-
-            @include responsive(t-landscape){
-                margin-right: $gutter-horizaontal-small;
-                margin-bottom: $gutter-vertical-small;
-            }
-
-            @include responsive(t-portrait){
-                margin-right: 0;
-                margin-bottom: $gutter-vertical-small;
-            }
+            margin-right: $gutter-horizaontal;    
         }
     }
 } 

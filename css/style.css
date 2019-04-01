@@ -210,9 +210,13 @@ body {
 
 .row {
   max-width: 114rem;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 0 10rem; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
+  @media (max-width: 75em) {
+    .row {
+      padding: 0 4rem; } }
   @media (max-width: 56.25em) {
     .row {
       max-width: 50rem;
@@ -221,25 +225,14 @@ body {
     content: "";
     display: table;
     clear: both; }
-  .row .col-1-of-3 {
-    width: calc((100% - 2 * 6rem) / 3);
+  .row .col-1-of-2 {
+    width: calc((100% - 10rem) / 2);
     float: left; }
-    @media (max-width: 75em) {
-      .row .col-1-of-3 {
-        width: calc((100% - 6rem) / 2); } }
     @media (max-width: 56.25em) {
-      .row .col-1-of-3 {
+      .row .col-1-of-2 {
         width: 100%; } }
-    .row .col-1-of-3:not(:last-child) {
-      margin-right: 6rem; }
-      @media (max-width: 75em) {
-        .row .col-1-of-3:not(:last-child) {
-          margin-right: 3rem;
-          margin-bottom: 3rem; } }
-      @media (max-width: 56.25em) {
-        .row .col-1-of-3:not(:last-child) {
-          margin-right: 0;
-          margin-bottom: 3rem; } }
+    .row .col-1-of-2:not(:last-child) {
+      margin-right: 10rem; }
 
 .header {
   background-image: linear-gradient(to right bottom, rgba(242, 242, 242, 0.5), rgba(128, 255, 255, 0.8)), url(../img/background-1.jpeg);
