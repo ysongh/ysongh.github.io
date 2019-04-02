@@ -35,12 +35,14 @@
     }
 
     .icon{
-        font-size: 6rem;
+        font-size: 6.5rem;
         text-align: center;
         margin: 2rem;
+        margin-top: 5rem;
 
         &__link{
             color: $color-blue-dark;
+            margin-right: 3rem;
 
             &:hover{
                 color: $color-blue-light;

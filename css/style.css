@@ -401,10 +401,12 @@ body {
     .section-contact {
       min-height: 80vh; } }
   .section-contact .icon {
-    font-size: 6rem;
+    font-size: 6.5rem;
     text-align: center;
-    margin: 2rem; }
+    margin: 2rem;
+    margin-top: 5rem; }
     .section-contact .icon__link {
-      color: #000066; }
+      color: #000066;
+      margin-right: 3rem; }
       .section-contact .icon__link:hover {
         color: #80ffff; }
