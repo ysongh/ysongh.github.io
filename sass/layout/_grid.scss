@@ -24,10 +24,14 @@
 
         @include responsive(t-portrait){
             width: 100%;
+            
+            &:not(:last-child){
+                margin-bottom: 5rem;
+            }
         }
 
         &:not(:last-child){
-            margin-right: $gutter-horizaontal;    
+            margin-right: $gutter-horizaontal;
         }
     }
 } 
