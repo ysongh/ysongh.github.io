@@ -120,12 +120,12 @@ body {
       .card:hover .card__button-link {
         display: none;
         opacity: 0; } }
-  .card:hover .card__picture {
+  .card__picture:hover {
     outline: 1rem groove #66b3ff;
-    transform: scale(1.05) translateY(-0.5rem);
-    filter: brightness(80%); }
+    transform: scale(1.02) translateY(-0.5rem);
+    filter: brightness(90%); }
     @media only screen and (hover: none) {
-      .card:hover .card__picture {
+      .card__picture:hover {
         outline: none;
         transform: scale(1) translateY(0);
         filter: brightness(100%); } }

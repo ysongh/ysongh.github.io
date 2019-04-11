@@ -62,10 +62,10 @@
         }
     }
 
-    &:hover &__picture{
+    &__picture:hover{
         outline: 1rem groove $color-blue;
-        transform: scale(1.05) translateY(-.5rem);
-        filter: brightness(80%);
+        transform: scale(1.02) translateY(-.5rem);
+        filter: brightness(90%);
 
         @media only screen and (hover: none){
             outline: none;
