@@ -2,6 +2,7 @@
     perspective: 150rem;
     -moz-perspective: 150rem;
     background-color: $color-silver;
+    outline: 1rem groove $color-blue;
     height: 50rem;
 
     @include responsive(b-desktop){
@@ -9,12 +10,11 @@
     }
 
     &__picture{
-        background-size: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
         height: 30rem;
         position: relative;
-        transition-duration: 0.3s;
-        transition-property: transform, outline;
-        transition-timing-function: ease-in-out;
+        transition: transform 0.3s ease-in-out;
 
         @include responsive(b-desktop){
             height: 35rem;
@@ -68,13 +68,12 @@
     }
 
     &__picture:hover{
-        outline: 1rem groove $color-blue;
-        transform: scale(1.02) translateY(-.5rem);
+        transform: scale(.97);
         filter: brightness(90%);
 
         @media only screen and (hover: none){
             outline: none;
-            transform: scale(1) translateY(0);
+            transform: scale(1);
             filter: brightness(100%);
         }
     }
