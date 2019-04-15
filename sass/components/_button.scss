@@ -7,7 +7,9 @@
         text-decoration: none;
         border-bottom: 1px solid $color-blue;
         padding: 1rem;
-        transition: all .1s;
+        transition-duration: .2s;
+        transition-property: background-color, color, box-shadow, transform;
+        transition-timing-function: ease-in-out;
     }
 
     &:hover{
