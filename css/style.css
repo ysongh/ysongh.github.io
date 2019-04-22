@@ -1,3 +1,31 @@
+@keyframes moveInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-10rem); }
+  70% {
+    transform: translateY(1rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem); }
+  70% {
+    transform: translateX(-2rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInImage {
+  0% {
+    opacity: 0;
+    transform: translateY(5rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
 *,
 *::after,
 *::before {
@@ -28,7 +56,10 @@ body {
 
 .introduction__title {
   font-size: 4rem;
-  margin-bottom: 4rem; }
+  margin-bottom: 4rem;
+  animation-name: moveInTop;
+  animation-duration: 1s;
+  animation-timing-function: ease-out; }
   @media (max-width: 56.25em) {
     .introduction__title {
       font-size: 3.6rem;
@@ -36,7 +67,10 @@ body {
 
 .introduction__summary {
   font-size: 2rem;
-  background: rgba(112, 184, 255, 0.1); }
+  background: rgba(112, 184, 255, 0.1);
+  animation-name: moveInRight;
+  animation-duration: 1s;
+  animation-timing-function: ease-out; }
   @media (max-width: 37.5em) {
     .introduction__summary {
       font-size: 1.5rem; } }
@@ -267,7 +301,10 @@ body {
   .header__photo {
     margin: 5rem;
     border-radius: 50%;
-    border: 2px solid #000066; }
+    border: 2px solid #000066;
+    animation-name: moveInImage;
+    animation-duration: 1s;
+    animation-timing-function: ease-out; }
     @media (max-width: 56.25em) {
       .header__photo {
         margin: 2.5rem 5rem; } }

@@ -10,6 +10,10 @@ body{
         font-size: 4rem;
         margin-bottom: 4rem;
 
+        animation-name: moveInTop;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+
         @include responsive(t-portrait){
             font-size: 3.6rem;
             margin-bottom: 2.5rem;
@@ -19,6 +23,11 @@ body{
     &__summary{
         font-size: 2rem;
         background: rgba(lighten($color-blue, 2), 0.1);
+
+        animation-name: moveInRight;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+        
 
         @include responsive(phone){
             font-size: 1.5rem;

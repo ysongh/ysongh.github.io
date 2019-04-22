@@ -18,6 +18,10 @@
         border-radius: 50%;
         border: 2px solid $color-blue-dark;
 
+        animation-name: moveInImage;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+
         @include responsive(t-portrait){
             margin: 2.5rem 5rem;
         }
