@@ -324,9 +324,9 @@ body {
         top: 2.5rem;
         right: 2.5rem; } }
     .navigation__button__line {
-      width: 2.8rem;
+      width: 3.2rem;
       height: 3px;
-      margin: 0 0 5px 0;
+      margin: 0 0 7px 0;
       background: #000066; }
     .navigation__button.close {
       transform: rotate(180deg); }
@@ -440,9 +440,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  padding: 5rem 0;
+  padding: 5rem 3rem;
   padding-bottom: 23rem;
-  min-height: 90vh; }
+  min-height: 80vh; }
   @media (max-width: 37.5em) {
     .section-contact {
       background-attachment: scroll; } }
@@ -452,8 +452,8 @@ body {
   .section-contact .icon {
     font-size: 6.5rem;
     text-align: center;
-    margin: 2rem;
-    margin-top: 5rem; }
+    width: 70vw;
+    margin: 5rem auto; }
     .section-contact .icon__link {
       color: #000066;
       margin-right: 3rem; }

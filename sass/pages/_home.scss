@@ -26,9 +26,9 @@
     background-image: linear-gradient(to right bottom, rgba($color-silver, 0.8), rgba($color-blue-light, 0.8)), url(../img/background-5.jpeg);
     @include parallaxScrolling;
     position: relative;
-    padding: 5rem 0;
+    padding: 5rem 3rem;
     padding-bottom: 23rem;
-    min-height: 90vh;
+    min-height: 80vh;
 
     @include responsive(phone){
         min-height: 80vh;
@@ -37,8 +37,9 @@
     .icon{
         font-size: 6.5rem;
         text-align: center;
-        margin: 2rem;
-        margin-top: 5rem;
+        width: 70vw;
+        margin: 5rem auto;
+
 
         &__link{
             color: $color-blue-dark;
