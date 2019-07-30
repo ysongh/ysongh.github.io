@@ -136,10 +136,10 @@ body {
       background-image: linear-gradient(rgba(0, 13, 26, 0.1), rgba(242, 242, 242, 0.1)), url(../img/project-1.JPG); }
       .card__picture--1:hover {
         background-image: linear-gradient(rgba(0, 13, 26, 0.8), rgba(242, 242, 242, 0.7)), url(../img/project-1.JPG); }
-    .card__picture--3 {
-      background-image: linear-gradient(rgba(0, 13, 26, 0.1), rgba(242, 242, 242, 0.1)), url(../img/project-3.PNG); }
-      .card__picture--3:hover {
-        background-image: linear-gradient(rgba(0, 13, 26, 0.8), rgba(242, 242, 242, 0.7)), url(../img/project-3.PNG); }
+    .card__picture--2 {
+      background-image: linear-gradient(rgba(0, 13, 26, 0.1), rgba(242, 242, 242, 0.1)), url(../img/project-2.PNG); }
+      .card__picture--2:hover {
+        background-image: linear-gradient(rgba(0, 13, 26, 0.8), rgba(242, 242, 242, 0.7)), url(../img/project-2.PNG); }
   .card__button-link {
     position: absolute;
     top: 20%;

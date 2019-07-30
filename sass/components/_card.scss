@@ -28,11 +28,11 @@
             }
         }
 
-        &--3{
-            background-image: linear-gradient(rgba($color-black, 0.1), rgba($color-silver, 0.1)), url(../img/project-3.PNG);
+        &--2{
+            background-image: linear-gradient(rgba($color-black, 0.1), rgba($color-silver, 0.1)), url(../img/project-2.PNG);
 
             &:hover{
-                background-image: linear-gradient(rgba($color-black, 0.8), rgba($color-silver, 0.7)), url(../img/project-3.PNG);
+                background-image: linear-gradient(rgba($color-black, 0.8), rgba($color-silver, 0.7)), url(../img/project-2.PNG);
             }
         }
     }
