@@ -140,33 +140,6 @@ body {
       background-image: linear-gradient(rgba(0, 13, 26, 0.1), rgba(242, 242, 242, 0.1)), url(../img/project-2.PNG); }
       .card__picture--2:hover {
         background-image: linear-gradient(rgba(0, 13, 26, 0.8), rgba(242, 242, 242, 0.7)), url(../img/project-2.PNG); }
-  .card__button-link {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2.5rem;
-    padding: 1.5rem;
-    color: #000066;
-    background-color: rgba(128, 255, 255, 0.7);
-    border-radius: 50%;
-    text-decoration: none;
-    opacity: 0;
-    backface-visibility: hidden;
-    transition-duration: .3s;
-    transition-property: background-color, color, opacity, top;
-    transition-timing-function: ease-in-out; }
-    .card__button-link:hover {
-      background-color: #66b3ff;
-      color: #ffffff; }
-  .card:hover .card__button-link {
-    top: 50%;
-    left: 50%;
-    opacity: 1; }
-    @media only screen and (hover: none) {
-      .card:hover .card__button-link {
-        display: none;
-        opacity: 0; } }
   .card__picture:hover {
     transform: scale(0.97); }
     @media only screen and (hover: none) {
@@ -177,6 +150,9 @@ body {
     padding: .8rem;
     font-size: 1.6rem;
     margin-top: 1rem; }
+  .card__buttonsGroup {
+    display: flex;
+    justify-content: space-around; }
 
 .parallelogram {
   width: 50%;

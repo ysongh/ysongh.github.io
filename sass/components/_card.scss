@@ -37,40 +37,6 @@
         }
     }
 
-    &__button-link{
-        position: absolute;
-        top: 20%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 2.5rem;
-        padding: 1.5rem;
-        color: $color-blue-dark;
-        background-color: rgba($color-blue-light, .7);
-        border-radius: 50%;
-        text-decoration: none;
-        opacity: 0;
-        backface-visibility: hidden;
-        transition-duration: .3s;
-        transition-property: background-color, color, opacity, top;
-        transition-timing-function: ease-in-out;
-
-        &:hover{
-            background-color: $color-blue;
-            color: $color-white;
-        }
-    }
-
-    &:hover &__button-link{
-        top: 50%;
-        left: 50%;
-        opacity: 1;
-
-        @media only screen and (hover: none){
-            display: none;
-            opacity: 0;
-        }
-    }
-
     &__picture:hover{
         transform: scale(.97);
 
@@ -84,5 +50,10 @@
         padding: .8rem;
         font-size: 1.6rem;
         margin-top: 1rem;
+    }
+
+    &__buttonsGroup{
+        display: flex;
+        justify-content: space-around;
     }
 }
