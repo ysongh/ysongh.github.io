@@ -378,7 +378,7 @@ body {
   background-size: cover;
   position: relative;
   padding: 5rem 2rem;
-  min-height: 100vh; }
+  min-height: 80vh; }
   @media (max-width: 37.5em) {
     .section-projects {
       background-attachment: scroll; } }
