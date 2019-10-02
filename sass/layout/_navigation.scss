@@ -89,7 +89,7 @@
         }
     }
 
-    @for $item from 1 through 5{
+    @for $item from 1 through 6{
         &__item:nth-child(#{$item}){
             transition-delay: $item * 0.1s;
         }
