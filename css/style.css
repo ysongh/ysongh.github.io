@@ -134,12 +134,8 @@ body {
         height: 35rem; } }
     .card__picture--1 {
       background-image: linear-gradient(rgba(0, 13, 26, 0.1), rgba(242, 242, 242, 0.1)), url(../img/project-1.JPG); }
-      .card__picture--1:hover {
-        background-image: linear-gradient(rgba(0, 13, 26, 0.8), rgba(242, 242, 242, 0.7)), url(../img/project-1.JPG); }
     .card__picture--2 {
       background-image: linear-gradient(rgba(0, 13, 26, 0.1), rgba(242, 242, 242, 0.1)), url(../img/project-2.PNG); }
-      .card__picture--2:hover {
-        background-image: linear-gradient(rgba(0, 13, 26, 0.8), rgba(242, 242, 242, 0.7)), url(../img/project-2.PNG); }
   .card__picture:hover {
     transform: scale(0.97); }
     @media only screen and (hover: none) {
