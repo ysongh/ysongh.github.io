@@ -11,6 +11,7 @@
 
     &__picture{
         height: 30rem;
+        position: relative;
 
         @include responsive(b-desktop){
             height: 35rem;
@@ -20,6 +21,24 @@
             width: 100%;
             height: 100%;
         }
+
+        & span{
+            position: absolute;
+            font-size: 3rem;
+            bottom: 50%;
+            background-color: #98EE11;
+            border-radius: 50%;
+            padding: .5rem;
+            cursor: pointer;
+        }
+    }
+
+    &__leftArrow{
+        left: 0;
+    }
+
+    &__rightArrow{
+        right: 0;
     }
 
     &__details{
