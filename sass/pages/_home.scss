@@ -27,20 +27,4 @@
     @include parallaxScrolling;
     position: relative;
     padding: 5rem 3rem;
-
-    .icon{
-        font-size: 6.5rem;
-        text-align: center;
-        width: 70vw;
-        margin: 5rem auto;
-
-        &__link{
-            color: $color-blue-dark;
-            margin-right: 3rem;
-
-            &:hover{
-                color: $color-green;
-            }
-        }
-    }
 }
