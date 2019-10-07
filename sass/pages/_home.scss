@@ -27,19 +27,12 @@
     @include parallaxScrolling;
     position: relative;
     padding: 5rem 3rem;
-    padding-bottom: 23rem;
-    min-height: 80vh;
-
-    @include responsive(phone){
-        min-height: 80vh;
-    }
 
     .icon{
         font-size: 6.5rem;
         text-align: center;
         width: 70vw;
         margin: 5rem auto;
-
 
         &__link{
             color: $color-blue-dark;
