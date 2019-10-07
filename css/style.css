@@ -157,11 +157,20 @@ body {
   flex-direction: column;
   align-items: center; }
   .contact-form__input {
-    width: 60%;
+    width: 50%;
     font-size: 1.4rem;
     padding: .5rem;
     margin-bottom: .5rem;
     line-height: 1.4; }
+    @media (max-width: 75em) {
+      .contact-form__input {
+        width: 55%; } }
+    @media (max-width: 56.25em) {
+      .contact-form__input {
+        width: 65%; } }
+    @media (max-width: 37.5em) {
+      .contact-form__input {
+        width: 85%; } }
   .contact-form__button {
     width: 15rem;
     background-color: #66b3ff;
@@ -173,6 +182,9 @@ body {
     text-align: center;
     border-radius: 4px;
     cursor: pointer; }
+    @media (max-width: 37.5em) {
+      .contact-form__button {
+        width: 85%; } }
 
 .icon {
   font-size: 2.8rem;
@@ -453,3 +465,6 @@ body {
   @media (max-width: 37.5em) {
     .section-contact {
       background-attachment: scroll; } }
+  @media (max-width: 37.5em) {
+    .section-contact {
+      padding: 5rem .5rem; } }

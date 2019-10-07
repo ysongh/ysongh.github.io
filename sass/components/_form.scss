@@ -4,11 +4,23 @@
     align-items: center;
 
     &__input{
-        width: 60%;
+        width: 50%;
         font-size: 1.4rem;
         padding: .5rem;
         margin-bottom: .5rem;
         line-height: 1.4;
+
+        @include responsive(t-landscape){
+            width: 55%;
+        }
+    
+        @include responsive(t-portrait){
+            width: 65%;
+        }
+    
+        @include responsive(phone){
+            width: 85%;
+        }
     }
 
     &__button{
@@ -22,5 +34,9 @@
         text-align: center;
         border-radius: 4px;
         cursor: pointer;
+
+        @include responsive(phone){
+            width: 85%;
+        }
     }
 }
