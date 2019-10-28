@@ -114,6 +114,23 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 13, 26, 0.1);
   transform: translateY(0); }
 
+.btn-cta:link, .btn-cta:visited {
+  font-size: 2.4rem;
+  border-radius: 10px;
+  padding: 1rem;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #000066;
+  transition-duration: .1s;
+  transition-property: opacity;
+  transition-timing-function: ease-in-out; }
+  @media (max-width: 37.5em) {
+    .btn-cta:link, .btn-cta:visited {
+      font-size: 1.8rem; } }
+
+.btn-cta:hover {
+  opacity: .8; }
+
 .card {
   perspective: 150rem;
   -moz-perspective: 150rem;
@@ -317,6 +334,9 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
+    @media (max-width: 37.5em) {
+      .header__text-box {
+        top: 45%; } }
   .header__photo {
     margin: 5rem;
     border-radius: 50%;
