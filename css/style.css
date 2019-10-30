@@ -90,6 +90,9 @@ body {
 .u-margin-bottom-medium {
   margin-bottom: 4rem; }
 
+.u-margin-bottom-small {
+  margin-bottom: 2rem; }
+
 .u-p-font-size {
   font-size: 2.6rem; }
 
@@ -166,6 +169,7 @@ body {
     font-size: 1.6rem;
     margin-top: 1rem; }
   .card__buttonsGroup {
+    bottom: 0;
     display: flex;
     justify-content: space-around; }
 
