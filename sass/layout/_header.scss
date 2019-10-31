@@ -2,23 +2,28 @@
     background-image: linear-gradient(to right bottom, rgba($color-silver, 0.5), rgba($color-blue-light, 0.8)), url(../img/background-1.jpeg);
     @include parallaxScrolling;
     position: relative;
-    padding: 30rem 0;
     height: 100vh;
 
     &__text-box{
+        width: 50%;
         position: absolute;
         text-align: center;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
 
+        @include responsive(t-portrait){
+            width: 60%;
+        }
+
         @include responsive(phone){
+            width: 80%;
             top: 45%;
         }
     }
     
     &__photo{
-        margin: 5rem;
+        margin: 4rem 0;
         border-radius: 50%;
         border: 2px solid $color-blue-dark;
 
@@ -27,7 +32,7 @@
         animation-timing-function: ease-out;
 
         @include responsive(t-portrait){
-            margin: 2.5rem 5rem;
+            margin: 2.5rem 0;
         }
     }
 }

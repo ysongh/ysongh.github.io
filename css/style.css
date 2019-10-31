@@ -332,22 +332,26 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  padding: 30rem 0;
   height: 100vh; }
   @media (max-width: 37.5em) {
     .header {
       background-attachment: scroll; } }
   .header__text-box {
+    width: 50%;
     position: absolute;
     text-align: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
+    @media (max-width: 56.25em) {
+      .header__text-box {
+        width: 60%; } }
     @media (max-width: 37.5em) {
       .header__text-box {
+        width: 80%;
         top: 45%; } }
   .header__photo {
-    margin: 5rem;
+    margin: 4rem 0;
     border-radius: 50%;
     border: 2px solid #000066;
     animation-name: moveInImage;
@@ -355,7 +359,7 @@ body {
     animation-timing-function: ease-out; }
     @media (max-width: 56.25em) {
       .header__photo {
-        margin: 2.5rem 5rem; } }
+        margin: 2.5rem 0; } }
 
 .navigation {
   position: fixed;
