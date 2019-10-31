@@ -5,16 +5,18 @@
         color: $color-blue;
         display: inline-block;
         text-decoration: none;
-        border-bottom: 1px solid $color-blue;
-        padding: 1rem;
+        border: 1px solid $color-blue;
+        background-color: $color-blue;
+        color: $color-white;
+        padding: .8rem;
         transition-duration: .2s;
         transition-property: background-color, color, box-shadow, transform;
         transition-timing-function: ease-in-out;
     }
 
     &:hover{
-        background-color: $color-blue;
-        color: $color-white;
+        background-color: $color-white;
+        color: $color-blue;
         box-shadow: 0 1rem 2rem rgba($color-black, 0.1);
         transform: translateY(-2px);
     }
@@ -33,9 +35,10 @@
         padding: 1rem;
         text-decoration: none;
         color: $color-white;
+        border: 1px solid $color-blue;
         background-color: $color-blue-dark;
-        transition-duration: .1s;
-        transition-property: opacity;
+        transition-duration: .2s;
+        transition-property: background-color, color;
         transition-timing-function: ease-in-out;
         
         @include responsive(phone){
@@ -44,6 +47,7 @@
     }
 
     &:hover{
-        opacity: .8;
+        background-color: $color-white;
+        color: $color-blue-dark;
     }
 }

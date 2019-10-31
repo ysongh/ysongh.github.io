@@ -101,15 +101,17 @@ body {
   color: #66b3ff;
   display: inline-block;
   text-decoration: none;
-  border-bottom: 1px solid #66b3ff;
-  padding: 1rem;
+  border: 1px solid #66b3ff;
+  background-color: #66b3ff;
+  color: #ffffff;
+  padding: .8rem;
   transition-duration: .2s;
   transition-property: background-color, color, box-shadow, transform;
   transition-timing-function: ease-in-out; }
 
 .btn:hover {
-  background-color: #66b3ff;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #66b3ff;
   box-shadow: 0 1rem 2rem rgba(0, 13, 26, 0.1);
   transform: translateY(-2px); }
 
@@ -123,16 +125,18 @@ body {
   padding: 1rem;
   text-decoration: none;
   color: #ffffff;
+  border: 1px solid #66b3ff;
   background-color: #000066;
-  transition-duration: .1s;
-  transition-property: opacity;
+  transition-duration: .2s;
+  transition-property: background-color, color;
   transition-timing-function: ease-in-out; }
   @media (max-width: 37.5em) {
     .btn-cta:link, .btn-cta:visited {
       font-size: 1.8rem; } }
 
 .btn-cta:hover {
-  opacity: .8; }
+  background-color: #ffffff;
+  color: #000066; }
 
 .card {
   perspective: 150rem;
