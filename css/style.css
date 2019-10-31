@@ -104,7 +104,7 @@ body {
   border: 1px solid #66b3ff;
   background-color: #66b3ff;
   color: #ffffff;
-  padding: .8rem;
+  padding: .8rem 2rem;
   transition-duration: .2s;
   transition-property: background-color, color, box-shadow, transform;
   transition-timing-function: ease-in-out; }
@@ -147,6 +147,8 @@ body {
   @media (max-width: 112.5em) {
     .card {
       height: 60rem; } }
+  .card__main {
+    height: 87%; }
   .card__picture {
     height: 30rem;
     position: relative; }
