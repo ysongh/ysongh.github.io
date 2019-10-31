@@ -169,7 +169,6 @@ body {
     font-size: 1.6rem;
     margin-top: 1rem; }
   .card__buttonsGroup {
-    bottom: 0;
     display: flex;
     justify-content: space-around; }
 
@@ -383,18 +382,19 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    opacity: 0.9;
+    opacity: 0.95;
     visibility: hidden; }
     .navigation__nav.show {
       visibility: visible; }
   .navigation__list {
     display: flex;
     flex-flow: column wrap;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
     float: right;
     width: 25%;
     height: 100vh;
+    padding-top: 10rem;
+    padding-left: 4rem;
     background: #66b3ff;
     list-style: none;
     transform: translate3d(0, -100%, 0);
@@ -404,7 +404,9 @@ body {
         width: 45%; } }
     @media (max-width: 37.5em) {
       .navigation__list {
-        width: 100%; } }
+        padding-left: 2rem;
+        width: 100%;
+        align-items: center; } }
     .navigation__list.show {
       transform: translate3d(0, 0, 0); }
   .navigation__item {
