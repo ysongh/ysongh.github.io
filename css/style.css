@@ -409,9 +409,12 @@ body {
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all .5s; }
+    @media (max-width: 75em) {
+      .navigation__list {
+        width: 35%; } }
     @media (max-width: 56.25em) {
       .navigation__list {
-        width: 45%; } }
+        width: 50%; } }
     @media (max-width: 37.5em) {
       .navigation__list {
         padding-left: 2rem;
@@ -446,10 +449,8 @@ body {
     color: #000066;
     transition: all .5s; }
     .navigation__link:hover {
-      background-color: #80ffff;
-      padding: 1rem;
-      border-radius: 50%;
-      font-size: 2.2rem; }
+      opacity: .5;
+      transform: translateX(10px); }
 
 .section-projects {
   background-image: linear-gradient(to left bottom, rgba(242, 242, 242, 0.8), rgba(128, 255, 255, 0.8));

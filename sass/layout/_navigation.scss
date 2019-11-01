@@ -68,8 +68,12 @@
         transform: translate3d(0, -100%, 0);
         @include animationAll;
 
+        @include responsive(t-landscape){
+            width: 35%;
+        }
+
         @include responsive(t-portrait){
-            width: 45%;
+            width: 50%;
         }
 
         @include responsive(phone){
@@ -109,10 +113,8 @@
         @include animationAll;
 
         &:hover{
-            background-color: $color-blue-light;
-            padding: 1rem;
-            border-radius: 50%;
-            font-size: 2.2rem;
+            opacity: .5;
+            transform: translateX(10px);
         }
     }
 }
