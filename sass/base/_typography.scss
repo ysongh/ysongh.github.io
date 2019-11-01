@@ -21,6 +21,8 @@ body{
     }
 
     &__summary{
+        text-align: left;
+        line-height: 1.4;
         font-size: 2rem;
         background: rgba(lighten($color-blue, 2), 0.1);
 
