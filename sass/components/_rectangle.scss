@@ -42,12 +42,13 @@
         border-top: 1px solid $color-blue;
         list-style-type: circle;
         margin-top: 1.5rem;
+        margin-left: 1rem;
     }
 
     &__item{
         font-size: 1.8rem;
         padding: .6rem;
-        margin-left: 1rem;
+        margin-left: 1.95rem;
 
         @include responsive(t-portrait){
             font-size: 1.4rem;
