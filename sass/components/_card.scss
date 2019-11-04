@@ -3,23 +3,15 @@
     -moz-perspective: 150rem;
     background-color: $color-silver;
     outline: 1rem groove $color-blue;
-    height: 50rem;
-
-    @include responsive(b-desktop){
-        height: 60rem;
-    }
+    height: 45rem;
 
     &__main{
-        height: 87%;
+        height: 86%;
     }
 
     &__picture{
-        height: 30rem;
+        height: 24rem;
         position: relative;
-
-        @include responsive(b-desktop){
-            height: 35rem;
-        }
 
         & img{
             width: 100%;
@@ -29,7 +21,7 @@
         & span{
             position: absolute;
             font-size: 3rem;
-            bottom: 50%;
+            bottom: 40%;
             background-color: #98EE11;
             border-radius: 50%;
             padding: .5rem;
@@ -46,8 +38,9 @@
     }
 
     &__details{
-        padding: .8rem;
-        font-size: 1.6rem;
+        padding: .2rem 1rem;
+        line-height: 1.2;
+        font-size: 1.5rem;
         margin-top: 1rem;
     }
 

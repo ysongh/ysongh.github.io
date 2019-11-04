@@ -106,7 +106,7 @@ body {
   border: 1px solid #66b3ff;
   background-color: #66b3ff;
   color: #ffffff;
-  padding: .8rem 2rem;
+  padding: .6rem 2rem;
   transition-duration: .2s;
   transition-property: background-color, color, box-shadow, transform;
   transition-timing-function: ease-in-out; }
@@ -145,25 +145,19 @@ body {
   -moz-perspective: 150rem;
   background-color: #f2f2f2;
   outline: 1rem groove #66b3ff;
-  height: 50rem; }
-  @media (max-width: 112.5em) {
-    .card {
-      height: 60rem; } }
+  height: 45rem; }
   .card__main {
-    height: 87%; }
+    height: 86%; }
   .card__picture {
-    height: 30rem;
+    height: 24rem;
     position: relative; }
-    @media (max-width: 112.5em) {
-      .card__picture {
-        height: 35rem; } }
     .card__picture img {
       width: 100%;
       height: 100%; }
     .card__picture span {
       position: absolute;
       font-size: 3rem;
-      bottom: 50%;
+      bottom: 40%;
       background-color: #98EE11;
       border-radius: 50%;
       padding: .5rem;
@@ -173,8 +167,9 @@ body {
   .card__rightArrow {
     right: 0; }
   .card__details {
-    padding: .8rem;
-    font-size: 1.6rem;
+    padding: .2rem 1rem;
+    line-height: 1.2;
+    font-size: 1.5rem;
     margin-top: 1rem; }
   .card__buttonsGroup {
     display: flex;
@@ -459,11 +454,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  padding: 5rem 2rem;
+  padding: 4rem 8rem 6rem 8rem;
   min-height: 80vh; }
   @media (max-width: 37.5em) {
     .section-projects {
       background-attachment: scroll; } }
+  @media (max-width: 75em) {
+    .section-projects {
+      padding: 4rem 2rem 6rem 2rem; } }
 
 .section-education {
   background-image: linear-gradient(to right bottom, rgba(242, 242, 242, 0.8), rgba(128, 255, 255, 0.8)), url(../img/background-3.jpeg);
