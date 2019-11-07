@@ -42,4 +42,13 @@ body{
     letter-spacing: 1px;
     text-transform: uppercase;
     text-shadow: 2px 2px $color-blue;
+
+    &:after {
+        display:block;
+        content: "";
+        width: 15rem;
+        border-bottom: 2px solid $color-blue-dark;
+        margin: auto;
+        padding: .35rem 0;
+    }
 }
