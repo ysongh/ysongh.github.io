@@ -1,0 +1,31 @@
+.lines{
+    display: flex;
+    align-items: center;
+    margin: 1.5rem auto;
+    width: 50%;
+    
+
+    @include responsive(t-landscape){
+        width: 55%;
+    }
+
+    @include responsive(t-portrait){
+        width: 65%;
+    }
+
+    @include responsive(phone){
+        width: 85%;
+    }
+    
+    &__line{
+        text-align: center;
+        width: 90%;
+        height: 2px;
+        background-color: $color-blue-dark;
+    }
+
+    &__text{
+        font-size: 2rem;
+        margin: 0 1rem
+    }
+}
