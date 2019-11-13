@@ -145,10 +145,16 @@ body {
   @media (max-width: 37.5em) {
     .btn-cta:link, .btn-cta:visited {
       font-size: 1.8rem; } }
+  .btn-cta:link i, .btn-cta:visited i {
+    transition-duration: .2s;
+    transition-property: transform;
+    transition-timing-function: ease-in-out; }
 
 .btn-cta:hover {
   background-color: #ffffff;
   color: #000066; }
+  .btn-cta:hover i {
+    transform: rotate(90deg); }
 
 .card {
   perspective: 150rem;

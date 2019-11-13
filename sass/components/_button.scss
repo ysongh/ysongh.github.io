@@ -47,10 +47,22 @@
         @include responsive(phone){
             font-size: 1.8rem;
         }
+
+        & i{
+            transition-duration: .2s;
+            transition-property: transform;
+            transition-timing-function: ease-in-out;
+        }
     }
 
     &:hover{
         background-color: $color-white;
         color: $color-blue-dark;
+
+        & i{
+            transform: rotate(90deg);
+        }
     }
+
+    
 }
