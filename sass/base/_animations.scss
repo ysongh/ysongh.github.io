@@ -1,4 +1,4 @@
-@keyframes moveInTop{
+@keyframes moveFromTop{
     0%{
         opacity: 0;
         transform: translateY(-10rem);
@@ -14,26 +14,14 @@
     }
 }
 
-@keyframes moveInRight{
-    0%{
-        opacity: 0;
-        transform: translateX(10rem);
-    }
-
-    70%{
-        transform: translateX(-2rem);
-    }
-
-    100%{
-        opacity: 1;
-         transform: translate(0);
-    }
-}
-
-@keyframes moveInImage{
+@keyframes moveFromBottom{
     0%{
         opacity: 0;
         transform: translateY(5rem);
+    }
+
+    70%{
+        transform: translateY(-1rem);
     }
 
     100%{

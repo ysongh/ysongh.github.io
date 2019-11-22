@@ -10,7 +10,7 @@ body{
         font-size: 4rem;
         margin-bottom: 3rem;
 
-        animation-name: moveInTop;
+        animation-name: moveFromTop;
         animation-duration: 1s;
         animation-timing-function: ease-out;
 
@@ -26,10 +26,9 @@ body{
         font-size: 2rem;
         background: rgba(lighten($color-blue, 2), 0.1);
 
-        animation-name: moveInRight;
+        animation-name: moveFromTop;
         animation-duration: 1s;
         animation-timing-function: ease-out;
-        
 
         @include responsive(phone){
             font-size: 1.5rem;

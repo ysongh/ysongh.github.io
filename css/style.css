@@ -1,4 +1,4 @@
-@keyframes moveInTop {
+@keyframes moveFromTop {
   0% {
     opacity: 0;
     transform: translateY(-10rem); }
@@ -8,20 +8,12 @@
     opacity: 1;
     transform: translate(0); } }
 
-@keyframes moveInRight {
-  0% {
-    opacity: 0;
-    transform: translateX(10rem); }
-  70% {
-    transform: translateX(-2rem); }
-  100% {
-    opacity: 1;
-    transform: translate(0); } }
-
-@keyframes moveInImage {
+@keyframes moveFromBottom {
   0% {
     opacity: 0;
     transform: translateY(5rem); }
+  70% {
+    transform: translateY(-1rem); }
   100% {
     opacity: 1;
     transform: translate(0); } }
@@ -57,7 +49,7 @@ body {
 .introduction__title {
   font-size: 4rem;
   margin-bottom: 3rem;
-  animation-name: moveInTop;
+  animation-name: moveFromTop;
   animation-duration: 1s;
   animation-timing-function: ease-out; }
   @media (max-width: 56.25em) {
@@ -70,7 +62,7 @@ body {
   line-height: 1.4;
   font-size: 2rem;
   background: rgba(112, 184, 255, 0.1);
-  animation-name: moveInRight;
+  animation-name: moveFromTop;
   animation-duration: 1s;
   animation-timing-function: ease-out; }
   @media (max-width: 37.5em) {
@@ -141,7 +133,10 @@ body {
   background-color: #000066;
   transition-duration: .2s;
   transition-property: background-color, color;
-  transition-timing-function: ease-in-out; }
+  transition-timing-function: ease-in-out;
+  animation-name: moveFromBottom;
+  animation-duration: 1s;
+  animation-timing-function: ease-out; }
   @media (max-width: 37.5em) {
     .btn-cta:link, .btn-cta:visited {
       font-size: 1.8rem; } }
@@ -385,7 +380,7 @@ body {
     margin: 3rem 0;
     border-radius: 50%;
     border: 2px solid #000066;
-    animation-name: moveInImage;
+    animation-name: moveFromTop;
     animation-duration: 1s;
     animation-timing-function: ease-out; }
     @media (max-width: 56.25em) {

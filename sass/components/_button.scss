@@ -43,6 +43,10 @@
         transition-duration: .2s;
         transition-property: background-color, color;
         transition-timing-function: ease-in-out;
+
+        animation-name: moveFromBottom;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
         
         @include responsive(phone){
             font-size: 1.8rem;
