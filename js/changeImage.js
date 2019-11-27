@@ -3,7 +3,8 @@ const prevImage1 = document.getElementById("prevProject1");
 const nextImage2 = document.getElementById("nextProject2");
 const prevImage2 = document.getElementById("prevProject2");
 const modal = document.querySelector('.modal');
-const showModalBtn = document.getElementById('showModalBtn');
+const showModalP1Btn = document.getElementById('showModalP1Btn');
+const showModalP2Btn = document.getElementById('showModalP2Btn');
 const closeModalBtn = document.getElementById('closeModalBtn');
 
 const image1List = [
@@ -27,6 +28,8 @@ const image2ListLen = image2List.length - 1;
 let currentImage1 = 0;
 let currentImage2 = 0;
 
+let projectNumber = 0;
+
 if(nextImage1){
     nextImage1.addEventListener('click', changeNextImage1);
     prevImage1.addEventListener('click', changePrevImage1);
@@ -37,8 +40,9 @@ if(nextImage1){
 // nextImage2.addEventListener('click', changeNextImage2);
 // prevImage2.addEventListener('click', changePrevImage2);
 
-showModalBtn.addEventListener('click', showModal);
-
+showModalP1Btn.addEventListener('click', showModal, "p1");
+showModalP1Btn.myParam = "p1";
+showModalP2Btn.addEventListener('click', showModal);
 
 function changeNextImage1() {
     if(currentImage1 === image1ListLen){
@@ -84,8 +88,17 @@ function changePrevImage2() {
     document.getElementById("project2").src = image2List[currentImage2];
 }
 
-function showModal(){
+function showModal(pNumber){
     modal.style.display = 'block';
+
+    if(pNumber.currentTarget.myParam === "p1"){
+        projectNumber = 1;
+        document.getElementById("projects").src = image1List[currentImage1];
+    }
+    else{
+        projectNumber = 2;
+        document.getElementById("projects").src = image2List[currentImage2];
+    }
 }
 
 function closeModal(){
