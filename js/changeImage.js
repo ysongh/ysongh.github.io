@@ -27,12 +27,18 @@ const image2ListLen = image2List.length - 1;
 let currentImage1 = 0;
 let currentImage2 = 0;
 
-nextImage1.addEventListener('click', changeNextImage1);
-prevImage1.addEventListener('click', changePrevImage1);
-nextImage2.addEventListener('click', changeNextImage2);
-prevImage2.addEventListener('click', changePrevImage2);
+if(nextImage1){
+    nextImage1.addEventListener('click', changeNextImage1);
+    prevImage1.addEventListener('click', changePrevImage1);
+    
+    closeModalBtn.addEventListener('click', closeModal);
+}
+
+// nextImage2.addEventListener('click', changeNextImage2);
+// prevImage2.addEventListener('click', changePrevImage2);
+
 showModalBtn.addEventListener('click', showModal);
-closeModalBtn.addEventListener('click', closeModal);
+
 
 function changeNextImage1() {
     if(currentImage1 === image1ListLen){

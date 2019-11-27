@@ -181,18 +181,6 @@ body {
     height: 15rem;
     position: relative;
     background-color: #ffffff; }
-    .card__picture img {
-      width: 100%;
-      height: 100%; }
-    .card__picture span {
-      position: absolute;
-      font-size: 3rem;
-      bottom: 40%;
-      cursor: pointer; }
-  .card__leftArrow {
-    left: 0; }
-  .card__rightArrow {
-    right: 0; }
   .card__details {
     padding: .2rem 1rem;
     line-height: 1.2;
@@ -296,6 +284,10 @@ body {
     border-top-right-radius: 10px;
     background-color: #000066;
     color: #ffffff; }
+  .modal span {
+    font-size: 3rem;
+    bottom: 40%;
+    cursor: pointer; }
 
 .parallelogram {
   width: 50%;

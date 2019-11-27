@@ -33,5 +33,11 @@
         background-color: $color-blue-dark;
         color: $color-white;
     }
+
+    & span{
+        font-size: 3rem;
+        bottom: 40%;
+        cursor: pointer;
+    }
 }
 
