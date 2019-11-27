@@ -3,6 +3,7 @@ const prevImage1 = document.getElementById("prevProject1");
 const nextImage2 = document.getElementById("nextProject2");
 const prevImage2 = document.getElementById("prevProject2");
 const modal = document.querySelector('.modal');
+const showModalBtn = document.getElementById('showModalBtn');
 const closeModalBtn = document.getElementById('closeModalBtn');
 
 const image1List = [
@@ -30,6 +31,7 @@ nextImage1.addEventListener('click', changeNextImage1);
 prevImage1.addEventListener('click', changePrevImage1);
 nextImage2.addEventListener('click', changeNextImage2);
 prevImage2.addEventListener('click', changePrevImage2);
+showModalBtn.addEventListener('click', showModal);
 closeModalBtn.addEventListener('click', closeModal);
 
 function changeNextImage1() {
@@ -39,8 +41,6 @@ function changeNextImage1() {
     else{
         currentImage1++;
     }
-
-    modal.style.display = 'block';
     
     document.getElementById("project1").src = image1List[currentImage1];
 }
@@ -76,6 +76,10 @@ function changePrevImage2() {
     }
     
     document.getElementById("project2").src = image2List[currentImage2];
+}
+
+function showModal(){
+    modal.style.display = 'block';
 }
 
 function closeModal(){

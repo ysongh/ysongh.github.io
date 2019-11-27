@@ -9,9 +9,25 @@
         height: 86%;
     }
 
+    &__title{
+        text-align: center;
+        font-size: 3.5rem;
+        padding-top: 2rem;
+    }
+
+    &__button{
+        margin: 2rem auto;
+        padding: .5rem;
+        font-size: 2rem;
+        background-color: $color-blue-dark;
+        color: $color-white;
+        border-radius: 10px;
+    }
+
     &__picture{
-        height: 24rem;
+        height: 15rem;
         position: relative;
+        background-color: $color-white;
 
         & img{
             width: 100%;

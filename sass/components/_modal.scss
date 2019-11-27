@@ -1,5 +1,5 @@
 .modal{
-    display: block;
+    display: none;
     position: fixed;
     z-index: 100;
     left: 0;
@@ -14,10 +14,8 @@
         background-color: $color-white;
         text-align-last: center;
         margin: 7% auto;
-        padding: 1rem 0;
         width: 50%;
         height: 70vh;
-        border-radius: 10px;
     }
 
     &__img{

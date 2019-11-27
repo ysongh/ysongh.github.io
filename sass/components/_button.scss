@@ -67,6 +67,16 @@
             transform: rotate(90deg);
         }
     }
+}
 
-    
+.button{
+    &,
+    &:link,
+    &:visited{
+        display: block;
+        background: none;
+        cursor: pointer;
+        text-decoration: none;
+        border: none;
+    }
 }
