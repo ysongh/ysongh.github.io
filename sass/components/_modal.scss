@@ -1,5 +1,5 @@
 .modal{
-    //display: none;
+    display: block;
     position: fixed;
     z-index: 100;
     left: 0;
@@ -10,6 +10,7 @@
     background: rgba(0, 0, 0, 0.4);
 
     &__content{
+        position: relative;
         background-color: $color-white;
         text-align-last: center;
         margin: 7% auto;
@@ -17,6 +18,22 @@
         width: 50%;
         height: 70vh;
         border-radius: 10px;
-    } 
+    }
+
+    &__img{
+        width: 100%;
+        height: 90%;
+    }
+
+    &__button{
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 2rem;
+        padding: .3rem .5rem;
+        border-top-right-radius: 10px;
+        background-color: $color-blue-dark;
+        color: $color-white;
+    }
 }
 
