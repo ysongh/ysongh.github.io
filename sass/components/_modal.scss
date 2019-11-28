@@ -16,6 +16,18 @@
         margin: 7% auto;
         width: 50%;
         height: 70vh;
+
+        @include responsive(t-landscape){
+            width: 70%;
+        }
+    
+        @include responsive(t-portrait){
+            width: 90%;
+        }
+
+        @include responsive(phone){
+            margin: 15% auto;
+        }
     }
 
     &__img{
