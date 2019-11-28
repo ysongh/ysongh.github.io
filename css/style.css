@@ -18,6 +18,16 @@
     opacity: 1;
     transform: translate(0); } }
 
+@keyframes openModal {
+  0% {
+    opacity: 0;
+    transform: translateY(-20rem); }
+  10% {
+    opacity: .7; }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
 *,
 *::after,
 *::before {
@@ -271,7 +281,10 @@ body {
     text-align-last: center;
     margin: 7% auto;
     width: 50%;
-    height: 70vh; }
+    height: 70vh;
+    animation-name: openModal;
+    animation-duration: .7s;
+    animation-timing-function: ease-out; }
     @media (max-width: 75em) {
       .modal__content {
         width: 70%; } }

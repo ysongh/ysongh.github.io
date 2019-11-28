@@ -28,6 +28,10 @@
         @include responsive(phone){
             margin: 15% auto;
         }
+
+        animation-name: openModal;
+        animation-duration: .7s;
+        animation-timing-function: ease-out;
     }
 
     &__img{
