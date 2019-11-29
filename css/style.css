@@ -299,11 +299,12 @@ body {
     height: 90%; }
   .modal__button {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -16px;
+    right: -12px;
     font-size: 2rem;
-    padding: .3rem .5rem;
-    border-top-right-radius: 10px;
+    font-weight: 800;
+    padding: .3rem .75rem;
+    border-radius: 50%;
     background-color: #000066;
     color: #ffffff; }
   .modal span {
