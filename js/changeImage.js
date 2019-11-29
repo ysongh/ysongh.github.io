@@ -1,5 +1,6 @@
 const nextImage = document.getElementById("nextProject");
 const prevImage = document.getElementById("prevProject");
+const numProject = document.getElementById("numProject");
 const modal = document.querySelector('.modal');
 const showModalP1Btn = document.getElementById('showModalP1Btn');
 const showModalP2Btn = document.getElementById('showModalP2Btn');
@@ -48,6 +49,7 @@ function changeNextImage(){
             currentImage1++;
         }
         document.getElementById("projects").src = image1List[currentImage1];
+        numProject.innerHTML = `${currentImage1 + 1}/${image1ListLen + 1} `;
     }
     else{
         if(currentImage2 === image2ListLen){
@@ -57,6 +59,7 @@ function changeNextImage(){
             currentImage2++;
         }
         document.getElementById("projects").src = image2List[currentImage2];
+        numProject.innerHTML = `${currentImage2 + 1}/${image2ListLen + 1} `;
     }
 }
 
@@ -69,6 +72,7 @@ function changePrevImage(){
             currentImage1--;
         }
         document.getElementById("projects").src = image1List[currentImage1];
+        numProject.innerHTML = `${currentImage1 + 1}/${image1ListLen + 1} `;
     }
     else{
         if(currentImage2 === 0){
@@ -78,6 +82,7 @@ function changePrevImage(){
             currentImage2--;
         }
         document.getElementById("projects").src = image2List[currentImage2];
+        numProject.innerHTML = `${currentImage2 + 1}/${image2ListLen + 1} `;
     }
 }
 
@@ -87,10 +92,12 @@ function showModal(pNumber){
     if(pNumber.currentTarget.myParam === "p1"){
         projectNumber = 1;
         document.getElementById("projects").src = image1List[currentImage1];
+        numProject.innerHTML = `${currentImage1 + 1}/${image1ListLen + 1} `;
     }
     else{
         projectNumber = 2;
         document.getElementById("projects").src = image2List[currentImage2];
+        numProject.innerHTML = `${currentImage2 + 1}/${image2ListLen + 1} `;
     }
 }
 
