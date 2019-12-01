@@ -9,10 +9,11 @@
         height: 86%;
     }
 
-    &__title{
-        text-align: center;
-        font-size: 3.5rem;
-        padding-top: 2rem;
+    &__logo{
+        display: block;
+        width: 70%;
+        margin: auto;
+        padding: 1rem 0;
     }
 
     &__button{
@@ -25,7 +26,6 @@
     }
 
     &__picture{
-        height: 15rem;
         position: relative;
         background-color: $color-white;
     }
