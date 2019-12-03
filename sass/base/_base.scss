@@ -25,4 +25,9 @@ html{
 
 body{
     box-sizing: border-box;
-} 
+}
+
+textarea:focus, input:focus{
+    outline: none;
+    border-left: 3px solid $color-blue-dark
+}

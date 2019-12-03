@@ -51,6 +51,10 @@ html {
 body {
   box-sizing: border-box; }
 
+textarea:focus, input:focus {
+  outline: none;
+  border-left: 3px solid #000066; }
+
 body {
   color: #000066;
   line-height: 1.2;
