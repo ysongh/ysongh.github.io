@@ -112,14 +112,16 @@ body {
   font-size: 2.6rem; }
 
 .btn:link, .btn:visited {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: #66b3ff;
   display: inline-block;
   text-decoration: none;
   border: 1px solid #66b3ff;
   background-color: #66b3ff;
   color: #ffffff;
-  padding: .6rem 2rem;
+  padding: .8rem 0;
+  width: 46%;
+  text-align: center;
   transition-duration: .2s;
   transition-property: background-color, color, box-shadow, transform;
   transition-timing-function: ease-in-out; }
