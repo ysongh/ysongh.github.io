@@ -199,6 +199,13 @@ body {
     line-height: 1.2;
     font-size: 1.5rem;
     margin-top: 1rem; }
+    .card__details span {
+      display: inline-block;
+      background-color: #80ffff;
+      padding: .6rem;
+      border-radius: 50px;
+      margin-bottom: 1rem;
+      margin-right: .4rem; }
   .card__buttonsGroup {
     display: flex;
     justify-content: space-around; }
