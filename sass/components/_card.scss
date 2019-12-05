@@ -16,12 +16,11 @@
     }
 
     &__button{
-        margin: 2rem auto;
+        margin: 1rem 0;
         padding: .5rem;
         font-size: 2rem;
         background-color: $color-blue-dark;
         color: $color-white;
-        border-radius: 10px;
     }
 
     &__picture{
@@ -30,10 +29,9 @@
     }
 
     &__details{
-        padding: .2rem 1rem;
         line-height: 1.2;
-        font-size: 1.5rem;
         margin-top: 1rem;
+        padding: .5rem 1.5rem;
 
         & span{
             display: inline-block;
@@ -42,11 +40,17 @@
             border-radius: 50px;
             margin-bottom: 1rem;
             margin-right: .4rem;
+            font-size: 1.3rem;
         }
+    }
+
+    &__summary{
+        font-size: 1.5rem;
     }
 
     &__buttonsGroup{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+        padding: 0 1.5rem;
     }
 }

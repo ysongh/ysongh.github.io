@@ -185,30 +185,32 @@ body {
     margin: auto;
     padding: 1rem 0; }
   .card__button {
-    margin: 2rem auto;
+    margin: 1rem 0;
     padding: .5rem;
     font-size: 2rem;
     background-color: #000066;
-    color: #ffffff;
-    border-radius: 10px; }
+    color: #ffffff; }
   .card__picture {
     position: relative;
     background-color: #ffffff; }
   .card__details {
-    padding: .2rem 1rem;
     line-height: 1.2;
-    font-size: 1.5rem;
-    margin-top: 1rem; }
+    margin-top: 1rem;
+    padding: .5rem 1.5rem; }
     .card__details span {
       display: inline-block;
       background-color: #80ffff;
       padding: .6rem;
       border-radius: 50px;
       margin-bottom: 1rem;
-      margin-right: .4rem; }
+      margin-right: .4rem;
+      font-size: 1.3rem; }
+  .card__summary {
+    font-size: 1.5rem; }
   .card__buttonsGroup {
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-between;
+    padding: 0 1.5rem; }
 
 .contact-form {
   display: flex;
