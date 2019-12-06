@@ -605,7 +605,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  padding: 5rem 3rem; }
+  padding: 5rem 3rem;
+  min-height: 100vh; }
   @media (max-width: 37.5em) {
     .section-contact {
       background-attachment: scroll; } }
