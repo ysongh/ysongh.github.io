@@ -401,7 +401,7 @@ body {
         font-size: 1.4rem; } }
 
 .footer {
-  background-image: linear-gradient(#80ffff, #66b3ff);
+  background-color: #80ffff;
   padding: 2rem 0; }
   .footer__copyright {
     text-align: center;
