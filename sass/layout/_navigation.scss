@@ -11,8 +11,8 @@
         @include animationAll;
 
         @include responsive(phone){
-            top: 2.5rem;
-            right: 2.5rem;
+            top: 2rem;
+            right: 2rem;
         }
 
         &__line{
