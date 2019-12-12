@@ -177,7 +177,7 @@ body {
 .card {
   perspective: 150rem;
   -moz-perspective: 150rem;
-  background-color: #f2f2f2;
+  background-color: #e2dada;
   height: 45rem; }
   .card__main {
     height: 86%; }
@@ -364,7 +364,7 @@ body {
 .rectangle {
   width: 60%;
   margin: 5rem auto;
-  box-shadow: 0 3rem 6rem rgba(0, 13, 26, 0.5);
+  box-shadow: 0 1rem 3rem rgba(0, 13, 26, 0.2);
   background-color: #ffffff;
   padding: 4rem; }
   @media (max-width: 56.25em) {
@@ -437,7 +437,7 @@ body {
       margin-right: 10rem; }
 
 .header {
-  background-image: linear-gradient(to right bottom, rgba(242, 242, 242, 0.5), rgba(128, 255, 255, 0.8)), url(../img/background-1.jpeg);
+  background-image: linear-gradient(to right bottom, rgba(226, 218, 218, 0.5), rgba(128, 255, 255, 0.8)), url(../img/background-1.jpeg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -564,59 +564,31 @@ body {
       transform: translateX(10px); }
 
 .section-projects {
-  background-image: linear-gradient(to left bottom, rgba(242, 242, 242, 0.8), rgba(128, 255, 255, 0.8));
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #a6dada;
   position: relative;
   padding: 4rem 8rem 6rem 8rem;
   min-height: 80vh; }
-  @media (max-width: 37.5em) {
-    .section-projects {
-      background-attachment: scroll; } }
   @media (max-width: 75em) {
     .section-projects {
       padding: 4rem 2rem 6rem 2rem; } }
 
 .section-education {
-  background-image: linear-gradient(to right bottom, rgba(242, 242, 242, 0.8), rgba(128, 255, 255, 0.8)), url(../img/background-3.jpeg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #e2dada;
   position: relative;
   padding: 5rem 0;
   min-height: 100vh; }
-  @media (max-width: 37.5em) {
-    .section-education {
-      background-attachment: scroll; } }
 
 .section-experience {
-  background-image: linear-gradient(to left bottom, rgba(242, 242, 242, 0.8), rgba(128, 255, 255, 0.8)), url(../img/background-4.jpeg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #a6dada;
   position: relative;
   padding: 5rem 0;
   min-height: 100vh; }
-  @media (max-width: 37.5em) {
-    .section-experience {
-      background-attachment: scroll; } }
 
 .section-contact {
-  background-image: linear-gradient(to right bottom, rgba(242, 242, 242, 0.8), rgba(128, 255, 255, 0.8)), url(../img/background-5.jpeg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #e2dada;
   position: relative;
   padding: 5rem 3rem;
   min-height: 100vh; }
-  @media (max-width: 37.5em) {
-    .section-contact {
-      background-attachment: scroll; } }
   @media (max-width: 37.5em) {
     .section-contact {
       padding: 5rem .5rem; } }

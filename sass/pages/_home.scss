@@ -1,6 +1,5 @@
 .section-projects{
-    background-image: linear-gradient(to left bottom, rgba($color-silver, 0.8), rgba($color-blue-light, 0.8));
-    @include parallaxScrolling;
+    background-color: $color-blue-lighter;
     position: relative;
     padding: 4rem 8rem 6rem 8rem;
     min-height: 80vh;
@@ -11,24 +10,21 @@
 }
 
 .section-education{
-    background-image: linear-gradient(to right bottom, rgba($color-silver, 0.8), rgba($color-blue-light, 0.8)), url(../img/background-3.jpeg);
-    @include parallaxScrolling;
+    background-color: $color-silver;
     position: relative;
     padding: 5rem 0;
     min-height: 100vh;
 }
 
 .section-experience{
-    background-image: linear-gradient(to left bottom, rgba($color-silver, 0.8), rgba($color-blue-light, 0.8)), url(../img/background-4.jpeg);
-    @include parallaxScrolling;
+    background-color: $color-blue-lighter;
     position: relative;
     padding: 5rem 0;
     min-height: 100vh;
 }
 
 .section-contact{
-    background-image: linear-gradient(to right bottom, rgba($color-silver, 0.8), rgba($color-blue-light, 0.8)), url(../img/background-5.jpeg);
-    @include parallaxScrolling;
+    background-color: $color-silver;
     position: relative;
     padding: 5rem 3rem;
     min-height: 100vh;
