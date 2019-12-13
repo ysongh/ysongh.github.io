@@ -208,7 +208,8 @@ body {
       margin-right: .4rem;
       font-size: 1.3rem; }
   .card__summary {
-    font-size: 1.5rem; }
+    font-size: 1.8rem;
+    line-height: 1.25; }
   .card__buttonsGroup {
     display: flex;
     justify-content: space-between;
