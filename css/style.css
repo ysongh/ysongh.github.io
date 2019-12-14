@@ -230,10 +230,9 @@ body {
     .contact-form {
       width: 85%; } }
   .contact-form__label {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     margin-top: 1rem;
-    margin-bottom: .2rem;
-    margin-left: .6rem;
+    margin-bottom: .3rem;
     font-weight: 600; }
   .contact-form__input {
     width: 100%;
