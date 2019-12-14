@@ -233,7 +233,8 @@ body {
     font-size: 1.4rem;
     margin-top: 1rem;
     margin-bottom: .2rem;
-    margin-left: .6rem; }
+    margin-left: .6rem;
+    font-weight: 600; }
   .contact-form__input {
     width: 100%;
     font-size: 1.4rem;
