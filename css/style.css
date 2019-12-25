@@ -501,11 +501,15 @@ body {
     .navigation__button.close {
       transform: rotate(180deg); }
       .navigation__button.close .navigation__button__line:nth-child(1) {
-        transform: rotate(1deg) translate(1px, -5px); }
+        transform: rotate(42deg) translate(-2px, -1px);
+        width: 3.5rem;
+        height: 4px; }
       .navigation__button.close .navigation__button__line:nth-child(2) {
-        transform: rotate(92deg) translate(2px, -17px); }
+        display: none; }
       .navigation__button.close .navigation__button__line:nth-child(3) {
-        transform: rotate(1deg) translate(1px, 11px); }
+        transform: rotate(-42deg) translate(7px, -10px);
+        width: 3.5rem;
+        height: 4px; }
   .navigation__nav {
     position: fixed;
     top: 0;
