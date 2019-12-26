@@ -17,10 +17,20 @@
 
     &__button{
         margin: 1rem 0;
-        padding: .5rem;
-        font-size: 2rem;
+        padding: .6rem 1rem;
+        font-size: 1.8rem;
         background-color: $color-blue-dark;
+        border: 1px solid $color-blue-dark;
         color: $color-white;
+        transition-duration: .2s;
+        transition-property: background-color, color, transform;
+        transition-timing-function: ease-in-out;
+
+        &:hover{
+            background-color: $color-white;
+            color: $color-blue-dark;
+            transform: translateX(2px);
+        }
     }
 
     &__picture{

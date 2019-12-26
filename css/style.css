@@ -188,10 +188,18 @@ body {
     padding: 1rem 0; }
   .card__button {
     margin: 1rem 0;
-    padding: .5rem;
-    font-size: 2rem;
+    padding: .6rem 1rem;
+    font-size: 1.8rem;
     background-color: #000066;
-    color: #ffffff; }
+    border: 1px solid #000066;
+    color: #ffffff;
+    transition-duration: .2s;
+    transition-property: background-color, color, transform;
+    transition-timing-function: ease-in-out; }
+    .card__button:hover {
+      background-color: #ffffff;
+      color: #000066;
+      transform: translateX(2px); }
   .card__picture {
     position: relative;
     background-color: #ffffff; }
