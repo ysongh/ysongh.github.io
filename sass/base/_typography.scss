@@ -13,11 +13,6 @@ body{
         animation-name: moveFromTop;
         animation-duration: 1s;
         animation-timing-function: ease-out;
-
-        @include responsive(t-portrait){
-            font-size: 3.6rem;
-            margin-bottom: 2.5rem;
-        }
     }
 
     &__summary{
@@ -29,10 +24,6 @@ body{
         animation-name: moveFromTop;
         animation-duration: 1s;
         animation-timing-function: ease-out;
-
-        @include responsive(phone){
-            font-size: 1.5rem;
-        }
     }
 }
 

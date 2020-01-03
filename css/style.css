@@ -44,7 +44,7 @@ html {
   @media (max-width: 56.25em) {
     html {
       font-size: 50%; } }
-  @media (max-width: 112.5em) {
+  @media (min-width: 112.5em) {
     html {
       font-size: 75%; } }
 
@@ -66,10 +66,6 @@ body {
   animation-name: moveFromTop;
   animation-duration: 1s;
   animation-timing-function: ease-out; }
-  @media (max-width: 56.25em) {
-    .introduction__title {
-      font-size: 3.6rem;
-      margin-bottom: 2.5rem; } }
 
 .introduction__summary {
   text-align: left;
@@ -79,9 +75,6 @@ body {
   animation-name: moveFromTop;
   animation-duration: 1s;
   animation-timing-function: ease-out; }
-  @media (max-width: 37.5em) {
-    .introduction__summary {
-      font-size: 1.5rem; } }
 
 .heading-primary {
   font-size: 3rem;
@@ -138,7 +131,7 @@ body {
 
 .btn-cta:link, .btn-cta:visited {
   display: block;
-  width: 20rem;
+  width: 22rem;
   font-size: 2rem;
   border-radius: 10px;
   padding: 1rem;
@@ -153,9 +146,6 @@ body {
   animation-name: moveFromBottom;
   animation-duration: 1s;
   animation-timing-function: ease-out; }
-  @media (max-width: 37.5em) {
-    .btn-cta:link, .btn-cta:visited {
-      font-size: 1.8rem; } }
   .btn-cta:link i, .btn-cta:visited i {
     transition-duration: .2s;
     transition-property: transform;
@@ -265,7 +255,7 @@ body {
   margin-bottom: 1.2rem; }
   @media (max-width: 56.25em) {
     .icon {
-      font-size: 2.8rem; } }
+      font-size: 3.5rem; } }
   .icon__link {
     color: #000066;
     text-decoration: none;
@@ -368,12 +358,6 @@ body {
     padding: 1rem;
     transform: skewX(15deg);
     margin-left: 1rem; }
-    @media (max-width: 75em) {
-      .parallelogram__contact-text {
-        font-size: 2rem; } }
-    @media (max-width: 56.25em) {
-      .parallelogram__contact-text {
-        font-size: 1.5rem; } }
 
 .rectangle {
   width: 60%;
@@ -392,7 +376,7 @@ body {
     margin-bottom: .7rem; }
     @media (max-width: 37.5em) {
       .rectangle__details {
-        font-size: 1.4rem; } }
+        font-size: 1.8rem; } }
   .rectangle__icon {
     font-size: 2.5rem; }
     .rectangle__icon--large {
@@ -407,12 +391,12 @@ body {
     margin-top: 1.5rem;
     margin-left: 1rem; }
   .rectangle__item {
-    font-size: 1.8rem;
+    font-size: 2rem;
     padding: .6rem;
     margin-left: 1.95rem; }
     @media (max-width: 56.25em) {
       .rectangle__item {
-        font-size: 1.4rem; } }
+        font-size: 1.8rem; } }
 
 .footer {
   background-color: #80ffff;

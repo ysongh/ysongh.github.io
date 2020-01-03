@@ -22,13 +22,5 @@
         padding: 1rem;
         transform: skewX(15deg);
         margin-left: 1rem;
-
-        @include responsive(t-landscape){
-            font-size: 2rem;
-        }
-
-        @include responsive(t-portrait){
-            font-size: 1.5rem;
-        }
     }
 }
