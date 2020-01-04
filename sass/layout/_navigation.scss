@@ -120,5 +120,9 @@
             opacity: .5;
             transform: translateX(10px);
         }
+
+        @include responsive(phone){
+            font-size: 3.5rem;
+        }
     }
 }

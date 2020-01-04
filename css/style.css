@@ -563,6 +563,9 @@ body {
     .navigation__link:hover {
       opacity: .5;
       transform: translateX(10px); }
+    @media (max-width: 37.5em) {
+      .navigation__link {
+        font-size: 3.5rem; } }
 
 .section-projects {
   background-color: #a6dada;
