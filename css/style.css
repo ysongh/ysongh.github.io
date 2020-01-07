@@ -473,6 +473,9 @@ body {
   display: none;
   position: fixed;
   z-index: 20; }
+  @media (max-width: 56.25em) {
+    .navigation {
+      display: block; } }
   .navigation__button {
     position: fixed;
     top: 3rem;
@@ -571,9 +574,13 @@ body {
 .navigationDesktop {
   position: fixed;
   top: 0;
-  z-index: 20;
+  z-index: 10;
   padding: 1rem 2rem;
-  width: 100%; }
+  width: 100%;
+  background-color: #66b3ff; }
+  @media (max-width: 56.25em) {
+    .navigationDesktop {
+      display: none; } }
   .navigationDesktop__nav {
     display: flex;
     justify-content: space-between; }
@@ -588,7 +595,7 @@ body {
     list-style: none; }
   .navigationDesktop__link {
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
     font-weight: 300;
     color: #000066;

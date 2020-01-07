@@ -3,6 +3,10 @@
     position: fixed;
     z-index: 20;
 
+    @include responsive(t-portrait){
+        display: block;
+    }
+
     &__button{
         position: fixed;
         top: 3rem;
@@ -131,9 +135,14 @@
 .navigationDesktop{
     position: fixed;
     top: 0;
-    z-index: 20;
+    z-index: 10;
     padding: 1rem 2rem;
     width: 100%;
+    background-color: $color-blue;
+
+    @include responsive(t-portrait){
+        display: none;
+    }
     
     &__nav{
         display: flex;
@@ -156,7 +165,7 @@
 
     &__link{
         text-decoration: none;
-        font-size: 2rem;
+        font-size: 1.8rem;
         text-transform: uppercase;
         font-weight: 300;
         color: $color-blue-dark;
