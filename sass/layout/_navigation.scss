@@ -1,4 +1,5 @@
 .navigation{
+    display: none;
     position: fixed;
     z-index: 20;
 
@@ -124,5 +125,41 @@
         @include responsive(phone){
             font-size: 3.5rem;
         }
+    }
+}
+
+.navigationDesktop{
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    padding: 1rem 2rem;
+    width: 100%;
+    
+    &__nav{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    &__logo{
+        font-size: 2rem;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    &__list{
+        display: flex;
+        justify-content: flex-end;
+        padding-left: 4rem;
+        list-style: none;
+    }
+
+    &__link{
+        text-decoration: none;
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 300;
+        color: $color-blue-dark;
+        margin: 0 1rem;
     }
 }

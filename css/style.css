@@ -470,6 +470,7 @@ body {
         margin: 2.5rem 0; } }
 
 .navigation {
+  display: none;
   position: fixed;
   z-index: 20; }
   .navigation__button {
@@ -566,6 +567,32 @@ body {
     @media (max-width: 37.5em) {
       .navigation__link {
         font-size: 3.5rem; } }
+
+.navigationDesktop {
+  position: fixed;
+  top: 0;
+  z-index: 20;
+  padding: 1rem 2rem;
+  width: 100%; }
+  .navigationDesktop__nav {
+    display: flex;
+    justify-content: space-between; }
+  .navigationDesktop__logo {
+    font-size: 2rem;
+    text-decoration: none;
+    cursor: pointer; }
+  .navigationDesktop__list {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 4rem;
+    list-style: none; }
+  .navigationDesktop__link {
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #000066;
+    margin: 0 1rem; }
 
 .section-projects {
   background-color: #a6dada;
