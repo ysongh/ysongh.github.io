@@ -171,5 +171,11 @@
         font-weight: 300;
         color: $color-blue-dark;
         margin: 0 1rem;
+        @include animationAll;
+
+        &:hover{
+            opacity: .5;
+        }
     }
+    
 }

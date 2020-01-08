@@ -600,7 +600,10 @@ body {
     font-size: 1.8rem;
     font-weight: 300;
     color: #000066;
-    margin: 0 1rem; }
+    margin: 0 1rem;
+    transition: all .5s; }
+    .navigationDesktop__link:hover {
+      opacity: .5; }
 
 .section-projects {
   background-color: #a6dada;
