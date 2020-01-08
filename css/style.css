@@ -575,9 +575,9 @@ body {
   position: fixed;
   top: 0;
   z-index: 10;
-  padding: 1rem 2rem;
+  padding: 1rem 7rem;
   width: 100%;
-  background-color: #66b3ff; }
+  background-color: #a6dada; }
   @media (max-width: 56.25em) {
     .navigationDesktop {
       display: none; } }
@@ -586,6 +586,8 @@ body {
     justify-content: space-between; }
   .navigationDesktop__logo {
     font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
     text-decoration: none;
     cursor: pointer; }
   .navigationDesktop__list {
@@ -596,7 +598,6 @@ body {
   .navigationDesktop__link {
     text-decoration: none;
     font-size: 1.8rem;
-    text-transform: uppercase;
     font-weight: 300;
     color: #000066;
     margin: 0 1rem; }
