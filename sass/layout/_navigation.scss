@@ -136,7 +136,7 @@
     position: fixed;
     top: 0;
     z-index: 10;
-    padding: 1rem 7rem;
+    padding: .6rem 7rem;
     width: 100%;
     background-color: $color-blue-lighter;
 
@@ -151,23 +151,27 @@
     }
 
     &__logo{
-        font-size: 2rem;
-        font-weight: bold;
-        font-style: italic;
         text-decoration: none;
+        height: 100%;
         cursor: pointer;
+        @include animationAll;
+
+        &:hover{
+            opacity: .5;
+        }
     }
 
     &__list{
         display: flex;
         justify-content: flex-end;
+        align-items: center;
         padding-left: 4rem;
         list-style: none;
     }
 
     &__link{
         text-decoration: none;
-        font-size: 1.8rem;
+        font-size: 1.9rem;
         font-weight: 300;
         color: $color-blue-dark;
         margin: 0 1rem;

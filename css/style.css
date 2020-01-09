@@ -575,7 +575,7 @@ body {
   position: fixed;
   top: 0;
   z-index: 10;
-  padding: 1rem 7rem;
+  padding: .6rem 7rem;
   width: 100%;
   background-color: #a6dada; }
   @media (max-width: 56.25em) {
@@ -585,19 +585,21 @@ body {
     display: flex;
     justify-content: space-between; }
   .navigationDesktop__logo {
-    font-size: 2rem;
-    font-weight: bold;
-    font-style: italic;
     text-decoration: none;
-    cursor: pointer; }
+    height: 100%;
+    cursor: pointer;
+    transition: all .5s; }
+    .navigationDesktop__logo:hover {
+      opacity: .5; }
   .navigationDesktop__list {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     padding-left: 4rem;
     list-style: none; }
   .navigationDesktop__link {
     text-decoration: none;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     font-weight: 300;
     color: #000066;
     margin: 0 1rem;
