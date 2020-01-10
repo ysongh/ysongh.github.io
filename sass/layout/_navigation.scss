@@ -138,7 +138,6 @@
     z-index: 10;
     padding: .6rem 7rem;
     width: 100%;
-    background-color: $color-blue-lighter;
 
     @include responsive(t-portrait){
         display: none;

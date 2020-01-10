@@ -104,6 +104,12 @@ body {
 .u-p-font-size {
   font-size: 2.6rem; }
 
+.u-bg-blue {
+  background-color: #a6dada; }
+
+.u-bg-transparent {
+  background-color: transparent; }
+
 .btn:link, .btn:visited {
   font-size: 1.5rem;
   color: #66b3ff;
@@ -576,8 +582,7 @@ body {
   top: 0;
   z-index: 10;
   padding: .6rem 7rem;
-  width: 100%;
-  background-color: #a6dada; }
+  width: 100%; }
   @media (max-width: 56.25em) {
     .navigationDesktop {
       display: none; } }

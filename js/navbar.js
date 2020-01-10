@@ -2,7 +2,8 @@ const navBtn = document.querySelector('.navigation__button');
 const nav = document.querySelector('.navigation__nav');
 const navList = document.querySelector('.navigation__list');
 const navItems = document.querySelectorAll('.navigation__item');
-const navLinks = document.querySelectorAll('.navigation__link')
+const navLinks = document.querySelectorAll('.navigation__link');
+const navDesktop = document.querySelector('.navigationDesktop');
 
 let showNav = false;
 
@@ -37,3 +38,14 @@ function closeNav(){
 
     showNav = false;
 }
+
+window.addEventListener('scroll', function (e) {
+    if (document.documentElement.scrollTop || document.body.scrollTop > window.innerHeight) {
+        navDesktop.classList.add('u-bg-blue');
+        navDesktop.classList.remove('u-bg-transparent');
+    }
+    else {
+        navDesktop.classList.add('u-bg-transparent');
+        navDesktop.classList.remove('u-bg-blue');
+    }
+});
