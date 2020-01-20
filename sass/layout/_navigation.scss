@@ -139,6 +139,10 @@
     padding: .6rem 7rem;
     width: 100%;
 
+    @include responsive(t-landscape){
+        padding: .6rem 4.5rem;
+    }
+
     @include responsive(t-portrait){
         display: none;
     }
@@ -146,7 +150,6 @@
     &__nav{
         display: flex;
         justify-content: space-between;
-        
     }
 
     &__logo{
