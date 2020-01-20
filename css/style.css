@@ -485,9 +485,11 @@ body {
   .navigation__button {
     position: fixed;
     top: 3rem;
+    padding: 1.1rem 1rem .5rem 1rem;
     right: 3rem;
     cursor: pointer;
     z-index: 12;
+    background-color: #66b3ff;
     transition: all .5s; }
     @media (max-width: 37.5em) {
       .navigation__button {

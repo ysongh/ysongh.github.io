@@ -10,9 +10,11 @@
     &__button{
         position: fixed;
         top: 3rem;
+        padding: 1.1rem 1rem .5rem 1rem;
         right: 3rem;
         cursor: pointer;
         z-index: 12;
+        background-color: $color-blue;
         @include animationAll;
 
         @include responsive(phone){
