@@ -68,7 +68,6 @@ body {
   animation-timing-function: ease-out; }
 
 .introduction__summary {
-  text-align: left;
   line-height: 1.4;
   font-size: 2rem;
   background: rgba(112, 184, 255, 0.1);
