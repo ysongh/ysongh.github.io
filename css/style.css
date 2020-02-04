@@ -55,6 +55,10 @@ textarea:focus, input:focus {
   outline: none;
   border-left: 3px solid #000066; }
 
+.main-content {
+  display: none;
+  opacity: 0; }
+
 body {
   color: #000066;
   line-height: 1.2;
