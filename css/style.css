@@ -478,6 +478,17 @@ body {
       .header__photo {
         margin: 2.5rem 0; } }
 
+.loading {
+  background-color: #80ffff;
+  position: relative;
+  height: 100vh; }
+  .loading__content {
+    font-size: 5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
 .navigation {
   display: none;
   position: fixed;
