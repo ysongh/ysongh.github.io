@@ -45,3 +45,9 @@
         transform: translate(0);
     }
 }
+
+@keyframes showDots{
+    to{
+        width: 7rem;
+    }
+}

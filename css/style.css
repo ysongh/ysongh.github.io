@@ -28,6 +28,10 @@
     opacity: 1;
     transform: translate(0); } }
 
+@keyframes showDots {
+  to {
+    width: 7rem; } }
+
 *,
 *::after,
 *::before {
@@ -488,6 +492,13 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
+    .loading__content::after {
+      content: '\2026';
+      display: inline-block;
+      overflow: hidden;
+      vertical-align: bottom;
+      animation: showDots steps(4, end) 1s infinite;
+      width: 0px; }
 
 .navigation {
   display: none;
