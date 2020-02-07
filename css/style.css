@@ -657,6 +657,9 @@ body {
   position: relative;
   padding: 5rem 0;
   min-height: 100vh; }
+  @media (max-width: 56.25em) {
+    .section-education {
+      min-height: 50vh; } }
 
 .section-experience {
   background-color: #a6dada;
@@ -671,4 +674,5 @@ body {
   min-height: 100vh; }
   @media (max-width: 37.5em) {
     .section-contact {
-      padding: 5rem .5rem; } }
+      padding: 5rem .5rem;
+      min-height: 85vh; } }
