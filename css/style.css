@@ -178,12 +178,9 @@ body {
   border: none; }
 
 .card {
-  perspective: 150rem;
-  -moz-perspective: 150rem;
   background-color: #e2dada;
-  height: 48rem; }
-  .card__main {
-    height: 86%; }
+  display: flex;
+  margin-bottom: 2rem; }
   .card__logo {
     display: block;
     width: 70%;

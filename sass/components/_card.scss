@@ -1,12 +1,7 @@
 .card{
-    perspective: 150rem;
-    -moz-perspective: 150rem;
     background-color: $color-silver;
-    height: 48rem;
-
-    &__main{
-        height: 86%;
-    }
+    display: flex;
+    margin-bottom: 2rem;
 
     &__logo{
         display: block;
