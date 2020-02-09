@@ -183,7 +183,8 @@ body {
   margin-bottom: 2rem; }
   .card__logo {
     display: block;
-    width: 100%; }
+    width: 100%;
+    cursor: pointer; }
   .card__button {
     margin: 1rem 0;
     padding: .6rem 1rem;
