@@ -3,8 +3,16 @@
     display: flex;
     margin: 4rem 0;
 
+    @include responsive(phone){
+        flex-direction: column;
+    }
+
     &__reverse{
         flex-direction: row-reverse;
+
+        @include responsive(phone){
+            flex-direction: column;
+        }
     }
 
     &__logo{

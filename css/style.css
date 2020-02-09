@@ -128,8 +128,7 @@ body {
   border: 1px solid #66b3ff;
   background-color: #66b3ff;
   color: #ffffff;
-  padding: .8rem 0;
-  width: 20%;
+  padding: 1rem 2rem;
   text-align: center;
   transition-duration: .2s;
   transition-property: background-color, color, box-shadow, transform;
@@ -184,8 +183,14 @@ body {
   background-color: #e2dada;
   display: flex;
   margin: 4rem 0; }
+  @media (max-width: 37.5em) {
+    .card {
+      flex-direction: column; } }
   .card__reverse {
     flex-direction: row-reverse; }
+    @media (max-width: 37.5em) {
+      .card__reverse {
+        flex-direction: column; } }
   .card__logo {
     display: block;
     width: 100%;
@@ -651,7 +656,7 @@ body {
   min-height: 80vh; }
   @media (max-width: 75em) {
     .section-projects {
-      padding: 4rem 2rem 6rem 2rem; } }
+      padding: 4rem 5rem 6rem 5rem; } }
 
 .section-education {
   background-color: #b2dfdf;
