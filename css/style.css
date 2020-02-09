@@ -184,6 +184,8 @@ body {
   background-color: #e2dada;
   display: flex;
   margin: 4rem 0; }
+  .card__reverse {
+    flex-direction: row-reverse; }
   .card__logo {
     display: block;
     width: 100%;
