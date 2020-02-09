@@ -102,6 +102,9 @@ body {
 .u-margin-top-small {
   margin-top: 1.5rem; }
 
+.u-margin-right-small {
+  margin-right: 1.5rem; }
+
 .u-margin-bottom-medium {
   margin-bottom: 4rem; }
 
@@ -126,7 +129,7 @@ body {
   background-color: #66b3ff;
   color: #ffffff;
   padding: .8rem 0;
-  width: 46%;
+  width: 20%;
   text-align: center;
   transition-duration: .2s;
   transition-property: background-color, color, box-shadow, transform;
@@ -180,11 +183,15 @@ body {
 .card {
   background-color: #e2dada;
   display: flex;
-  margin-bottom: 2rem; }
+  margin: 4rem 0; }
   .card__logo {
     display: block;
     width: 100%;
+    height: 100%;
     cursor: pointer; }
+  .card__title {
+    font-size: 2.6rem;
+    margin-bottom: 1rem; }
   .card__button {
     margin: 1rem 0;
     padding: .6rem 1rem;
@@ -205,7 +212,7 @@ body {
   .card__details {
     line-height: 1.2;
     margin-top: 1rem;
-    padding: .5rem 1.5rem; }
+    padding: 1rem 3rem; }
     .card__details span {
       display: inline-block;
       background-color: #80ffff;
@@ -217,10 +224,6 @@ body {
   .card__summary {
     font-size: 1.8rem;
     line-height: 1.25; }
-  .card__buttonsGroup {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 1.5rem; }
 
 .contact-form {
   display: flex;
