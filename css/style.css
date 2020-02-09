@@ -183,9 +183,7 @@ body {
   margin-bottom: 2rem; }
   .card__logo {
     display: block;
-    width: 70%;
-    margin: auto;
-    padding: 1rem 0; }
+    width: 100%; }
   .card__button {
     margin: 1rem 0;
     padding: .6rem 1rem;
