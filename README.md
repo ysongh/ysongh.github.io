@@ -1,3 +1,3 @@
-My Portfolio
-------------
-Using HTML and SASS
+# My Portfolio
+
+Using HTML5, SCSS, and Javascript
