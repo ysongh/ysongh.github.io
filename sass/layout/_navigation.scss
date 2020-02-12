@@ -107,7 +107,7 @@
         }
     }
 
-    @for $item from 1 through 6{
+    @for $item from 1 through 7{
         &__item:nth-child(#{$item}){
             transition-delay: $item * 0.1s;
         }
@@ -118,7 +118,7 @@
         padding: 1rem 0;
         text-decoration: none;
         text-transform: uppercase;
-        font-size: 2.4rem;
+        font-size: 2.5rem;
         font-weight: 300;
         color: $color-blue-dark;
         @include animationAll;
@@ -130,6 +130,14 @@
 
         @include responsive(phone){
             font-size: 3.5rem;
+        }
+
+        & i{
+            font-size: 4rem;
+
+            @include responsive(phone){
+                font-size: 5rem;
+            }
         }
     }
 }

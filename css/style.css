@@ -99,8 +99,14 @@ body {
 .u-center-text {
   text-align: center; }
 
+.u-margin-top-medium {
+  margin-top: 2.5rem; }
+
 .u-margin-top-small {
   margin-top: 1.5rem; }
+
+.u-margin-right-medium {
+  margin-right: 2.5rem; }
 
 .u-margin-right-small {
   margin-right: 1.5rem; }
@@ -594,12 +600,14 @@ body {
     transition-delay: 0.5s; }
   .navigation__item:nth-child(6) {
     transition-delay: 0.6s; }
+  .navigation__item:nth-child(7) {
+    transition-delay: 0.7s; }
   .navigation__link {
     display: inline-block;
     padding: 1rem 0;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 2.4rem;
+    font-size: 2.5rem;
     font-weight: 300;
     color: #000066;
     transition: all .5s; }
@@ -609,6 +617,11 @@ body {
     @media (max-width: 37.5em) {
       .navigation__link {
         font-size: 3.5rem; } }
+    .navigation__link i {
+      font-size: 4rem; }
+      @media (max-width: 37.5em) {
+        .navigation__link i {
+          font-size: 5rem; } }
 
 .navigationDesktop {
   position: fixed;
