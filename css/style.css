@@ -431,34 +431,6 @@ body {
     font-weight: bold;
     font-size: 1.6rem; }
 
-.row {
-  max-width: 114rem;
-  margin: 0 auto;
-  padding: 0 10rem; }
-  .row:not(:last-child) {
-    margin-bottom: 8rem; }
-  @media (max-width: 75em) {
-    .row {
-      padding: 0 4rem; } }
-  @media (max-width: 56.25em) {
-    .row {
-      max-width: 50rem;
-      padding: 0 1.5rem; } }
-  .row::after {
-    content: "";
-    display: table;
-    clear: both; }
-  .row .col-1-of-2 {
-    width: calc((100% - 10rem) / 2);
-    float: left; }
-    @media (max-width: 56.25em) {
-      .row .col-1-of-2 {
-        width: 100%; }
-        .row .col-1-of-2:not(:last-child) {
-          margin-bottom: 5rem; } }
-    .row .col-1-of-2:not(:last-child) {
-      margin-right: 10rem; }
-
 .header {
   background-image: linear-gradient(to right bottom, rgba(226, 218, 218, 0.5), rgba(128, 255, 255, 0.8)), url(../img/background-1.jpeg);
   background-attachment: fixed;
