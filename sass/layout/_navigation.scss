@@ -105,6 +105,14 @@
         &.show{
             transform: translate3d(0, 0, 0);
         }
+
+        & i{
+            font-size: 4rem;
+
+            @include responsive(phone){
+                font-size: 5rem;
+            }
+        }
     }
 
     @for $item from 1 through 7{
@@ -130,14 +138,6 @@
 
         @include responsive(phone){
             font-size: 3.5rem;
-        }
-
-        & i{
-            font-size: 4rem;
-
-            @include responsive(phone){
-                font-size: 5rem;
-            }
         }
     }
 }
