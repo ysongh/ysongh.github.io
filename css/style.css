@@ -28,9 +28,13 @@
     opacity: 1;
     transform: translate(0); } }
 
-@keyframes showDots {
-  to {
-    width: 7rem; } }
+@keyframes fade {
+  0% {
+    opacity: .3; }
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: .3; } }
 
 *,
 *::after,
@@ -470,18 +474,17 @@ body {
   position: relative;
   height: 100vh; }
   .loading__content {
-    font-size: 4.5rem;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); }
-    .loading__content::after {
-      content: '\2026';
-      display: inline-block;
-      overflow: hidden;
-      vertical-align: bottom;
-      animation: showDots steps(4, end) 1s infinite;
-      width: 0px; }
+    transform: translate(-50%, -50%);
+    animation: fade .5s infinite; }
+    .loading__content img {
+      width: 20rem; }
+    .loading__content p {
+      font-size: 3rem;
+      margin-top: 1rem;
+      margin-left: 2rem; }
 
 .navigation {
   display: none;

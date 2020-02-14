@@ -4,19 +4,20 @@
     height: 100vh;
 
     &__content{
-        font-size: 4.5rem;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        animation: fade .5s infinite;
 
-        &::after{
-            content: '\2026';
-            display: inline-block;
-            overflow: hidden;
-            vertical-align: bottom;
-            animation: showDots steps(4, end) 1s infinite;
-            width: 0px;
+        & img{
+            width: 20rem;
+        }
+
+        & p{
+            font-size: 3rem;
+            margin-top: 1rem;
+            margin-left: 2rem;
         }
     }
 }
