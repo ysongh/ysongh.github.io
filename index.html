@@ -21,17 +21,16 @@
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 </head>
 <body>
-    <!-- loading animation -->
-    <div class="loading">
-        <div class="loading__content">
-            <img src="./img/mylogo.png" alt="My Name">
-            <p>Loading...</p>
+    <header class="header" id="home">
+        <!-- loading animation -->
+        <div class="loading">
+            <div class="loading__content">
+                <img src="./img/mylogo.png" alt="My Name">
+                <p>Loading...</p>
+            </div>
         </div>
-    </div>
 
-    <div class="main-content">
-        <header class="header" id="home">
-            
+        <div class="main-content">
             <!-- mobile navbar -->
             <div class="navigation">
                 <div class="navigation__button">
@@ -90,198 +89,197 @@
                     See Projects <i class="fas fa-arrow-right"></i>
                 </a>
             </div>
-        </header>
-
-        <main>
-
-            <!-- project section -->
-            <section class="section-projects" id="myProject">
-                <div class="u-center-text u-margin-bottom-medium">
-                    <h2 class="heading-primary">My projects</h2>
-                </div>
-                <div class="card">
-                    <div class="card__picture">
-                        <img src="./img/project1.png" id="showModalP1Btn" class="card__logo" alt="CheapNY">
-                    </div>
-                    <div class="card__details">
-                        <h3 class="card__title">CheapNY</h3>
-                        <p class="card__summary">A platform that helps people find accessible prices such as foods, events, and classes in NYC</p>
-                        <p class="u-margin-top-small">
-                            <span>&#9734; Mongodb</span> <span>&#9734; Express</span> <span>&#9734; ReactJS</span> <span>&#9734; NodeJS</span> <span>&#9734; React Native</span> <span>&#9734; RESTful API</span> <span>&#9734; GraphQL</span>
-                        </p>
-                        <div class="u-margin-top-small u-margin-bottom-small">
-                            <a href="https://www.realcheapny.com/" class="btn btn--blue u-margin-right-small" target="_blank" rel="noopener noreferrer">Visit Site</a>
-                            <a href="https://github.com/ysongh/CheapNYC-Server" class="btn btn--blue" target="_blank" rel="noopener noreferrer">See Code</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="card card__reverse">
-                    <div class="card__picture">
-                        <img src="./img/project2.png" id="showModalP2Btn" class="card__logo" alt="FindSport2Play">
-                    </div>
-                    <div class="card__details">
-                        <h3 class="card__title">FindSport2Play</h3>
-                        <p class="card__summary">A web app where player can host an event for other players to join and meet up to play any sports together</p>
-                        <p class="u-margin-top-small">
-                            <span>&#9734; Mongodb</span> <span>&#9734; Express</span> <span>&#9734; ReactJS</span> <span>&#9734; NodeJS</span> <span>&#9734; RESTful API</span>
-                        </p>
-                        <div class="u-margin-top-small u-margin-bottom-small">
-                            <a href="https://findsport2play.herokuapp.com/" class="btn btn--blue u-margin-right-small" target="_blank" rel="noopener noreferrer">Visit Site</a>
-                            <a href="https://github.com/ysongh/FindSport2Play" class="btn btn--blue" target="_blank" rel="noopener noreferrer">See Code</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card__picture">
-                        <img src="./img/project3.png" class="card__logo" alt="Web Amigos">
-                    </div>
-                    <div class="card__details">
-                        <h3 class="card__title">Web Amigos</h3>
-                        <p class="card__summary">A website for the design agency based in USA that provides services for designing and building websites</p>
-                        <p class="u-margin-top-small">
-                            <span>&#9734; HTML5</span> <span>&#9734; CSS3</span> <span>&#9734; SCSS</span> <span>&#9734; JQuery</span>
-                        </p>
-                        <div class="u-margin-top-small u-margin-bottom-small">
-                            <a href="https://thewebamigos.netlify.com/" class="btn btn--blue u-margin-right-small" target="_blank" rel="noopener noreferrer">Visit Site</a>
-                            <a href="https://github.com/ysongh/freelance-package" class="btn btn--blue" target="_blank" rel="noopener noreferrer">See Code</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- education section -->
-            <section class="section-education" id="myEducation">
-                <div class="u-center-text u-margin-bottom-medium">
-                    <h2 class="heading-primary">My Education</h2>
-                </div>
-                <div class="rectangle">
-                    <p class="rectangle__details"><i class="fas fa-university rectangle__icon rectangle__icon--med"></i>New York City College of Technology</p>
-                    <p class="rectangle__details"><i class="fas fa-graduation-cap rectangle__icon rectangle__icon--small"></i>Bachelor of Technology</p>
-                    <p class="rectangle__details"><i class="fas fa-book rectangle__icon rectangle__icon--large"></i>Computer Systems</p>
-                    <p class="rectangle__details"><i class="far fa-calendar-alt rectangle__icon rectangle__icon--large"></i>2016 - 2017</p>
-                </div>
-                <div class="rectangle">
-                    <p class="rectangle__details"><i class="fas fa-university rectangle__icon rectangle__icon--med"></i>New York City College of Technology</p>
-                    <p class="rectangle__details"><i class="fas fa-graduation-cap rectangle__icon rectangle__icon--small"></i>Associate in Applied Science</p>
-                    <p class="rectangle__details"><i class="fas fa-book rectangle__icon rectangle__icon--large"></i>Computer Information Systems</p>
-                    <p class="rectangle__details"><i class="far fa-calendar-alt rectangle__icon rectangle__icon--large"></i>2013 - 2016</p>
-                </div>
-            </section>
-
-            <!-- experience section -->
-            <section class="section-experience" id="myExperience">
-                    <div class="u-center-text u-margin-bottom-medium">
-                        <h2 class="heading-primary">My Experience</h2>
-                    </div>
-                    <div class="rectangle">
-                        <p class="rectangle__details"><i class="fas fa-briefcase rectangle__icon rectangle__icon--med"></i>College Assistant</p>
-                        <p class="rectangle__details"><i class="fas fa-building rectangle__icon rectangle__icon--large"></i>City Tech Library</p>
-                        <p class="rectangle__details"><i class="far fa-calendar-alt rectangle__icon rectangle__icon--large"></i>Aug 2016 - Present</p>
-                        <ul class="rectangle__list">
-                            <li class="rectangle__item">Assist students with scanners, printers, and computers</li>
-                            <li class="rectangle__item">Troubleshoot any technical issues and report it to the technician</li>
-                        </ul>
-                    </div>
-                    <div class="rectangle">
-                        <p class="rectangle__details"><i class="fas fa-briefcase rectangle__icon rectangle__icon--med"></i>Software Testing Intern</p>
-                        <p class="rectangle__details"><i class="fas fa-building rectangle__icon rectangle__icon--large"></i>Everlasting Footprint</p>
-                        <p class="rectangle__details"><i class="far fa-calendar-alt rectangle__icon rectangle__icon--large"></i>Jan 2017 - Sep 2017</p>
-                        <ul class="rectangle__list">
-                            <li class="rectangle__item">Tested the website for bugs and issues</li>
-                            <li class="rectangle__item">Focused on usablility testing along with functionality and compatibility testing</li>
-                            <li class="rectangle__item">Communicated with the development team on how to improve the website</li>
-                        </ul>
-                    </div>
-            </section>
-
-            <!-- contact section -->
-            <section class="section-contact" id="contactMe">
-                <div class="u-center-text u-margin-bottom-medium">
-                    <h2 class="heading-primary">Contact Me</h2>
-                </div>
-                <div class="parallelogram">
-                    <p class="parallelogram__contact-text"><strong>Email</strong> &rarr; yousonghou@gmail.com</p>
-                </div>
-                <div class="parallelogram u-margin-bottom-medium">
-                    <p class="parallelogram__contact-text"><strong>Cell Phone</strong> &rarr; 347-559-3638</p>
-                </div>
-
-                <div class="lines">
-                    <div class="lines__line"></div>
-                    <p class="lines__text">OR</p>
-                    <div class="lines__line"></div>
-                </div>
-
-                <form method="POST" data-netlify="true" class="contact-form">
-                    <label class="contact-form__label" for="name">Name *</label>
-                    <input
-                        class="contact-form__input"
-                        type="text"
-                        name="name"
-                        id="name"
-                        required />
-
-                    <label class="contact-form__label" for="email">Email *</label>
-                    <input
-                        class="contact-form__input"
-                        type="email"
-                        name="email"
-                        id="email"
-                        required />
-
-                    <label class="contact-form__label" for="message">Message *</label>
-                    <textarea
-                        class="contact-form__input"
-                        name="message"
-                        id="message"
-                        rows="6"
-                        required></textarea>
-
-                    <input
-                        class="contact-form__button"
-                        type="submit"
-                        value="Send Message" />
-                </form>
-
-            </section>
-        </main>
-
-        <!-- project images popup -->
-        <div class="modal">
-            <div id="project1Img" class="modal__content">
-                <button id="closeModalBtn" class="button modal__button">X</button>
-                <img src="./img/project-B1.PNG" id="projects" class="modal__img" alt="Project Image #1">
-                <span id="prevProject">
-                    <i class="fas fa-arrow-circle-left"></i>
-                </span>
-                <span id="numProject">1/5 </span>
-                <span id="nextProject">
-                    <i class="fas fa-arrow-circle-right"></i>
-                </span>
-            </div>
         </div>
+    </header>
 
-        <!-- footer -->
-        <footer class="footer">
-            <div class="icon">
-                <a href="mailto:yousonghou@gmail.com" class="icon__link" aria-label="Icon" target="_blank">
-                    <span>Email</span> <i class="fas fa-envelope"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/you-song-hou" class="icon__link" aria-label="Icon" target="_blank" rel="noopener noreferrer">
-                    <span>Linkedin</span> <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://github.com/ysongh" class="icon__link" aria-label="Icon" target="_blank" rel="noopener noreferrer">
-                    <span>Github</span> <i class="fab fa-github"></i>
-                </a>
-                <a href="https://drive.google.com/file/d/1XJCKpSvsRn9WpxVB7j6MrU1mvz_67-PD/view?usp=sharing" class="icon__link" aria-label="Icon" target="_blank" rel="noopener noreferrer">
-                    <span>Resume</span> <i class="fas fa-file"></i>
-                </a>
+    <main>
+        <!-- project section -->
+        <section class="section-projects" id="myProject">
+            <div class="u-center-text u-margin-bottom-medium">
+                <h2 class="heading-primary">My projects</h2>
             </div>
-            <div class="footer__copyright">
-                <p>© 2020 You Song Hou</p>
+            <div class="card">
+                <div class="card__picture">
+                    <img src="./img/project1.png" id="showModalP1Btn" class="card__logo" alt="CheapNY">
+                </div>
+                <div class="card__details">
+                    <h3 class="card__title">CheapNY</h3>
+                    <p class="card__summary">A platform that helps people find accessible prices such as foods, events, and classes in NYC</p>
+                    <p class="u-margin-top-small">
+                        <span>&#9734; Mongodb</span> <span>&#9734; Express</span> <span>&#9734; ReactJS</span> <span>&#9734; NodeJS</span> <span>&#9734; React Native</span> <span>&#9734; RESTful API</span> <span>&#9734; GraphQL</span>
+                    </p>
+                    <div class="u-margin-top-small u-margin-bottom-small">
+                        <a href="https://www.realcheapny.com/" class="btn btn--blue u-margin-right-small" target="_blank" rel="noopener noreferrer">Visit Site</a>
+                        <a href="https://github.com/ysongh/CheapNYC-Server" class="btn btn--blue" target="_blank" rel="noopener noreferrer">See Code</a>
+                    </div>
+                </div>
             </div>
-        </footer>
+            <div class="card card__reverse">
+                <div class="card__picture">
+                    <img src="./img/project2.png" id="showModalP2Btn" class="card__logo" alt="FindSport2Play">
+                </div>
+                <div class="card__details">
+                    <h3 class="card__title">FindSport2Play</h3>
+                    <p class="card__summary">A web app where player can host an event for other players to join and meet up to play any sports together</p>
+                    <p class="u-margin-top-small">
+                        <span>&#9734; Mongodb</span> <span>&#9734; Express</span> <span>&#9734; ReactJS</span> <span>&#9734; NodeJS</span> <span>&#9734; RESTful API</span>
+                    </p>
+                    <div class="u-margin-top-small u-margin-bottom-small">
+                        <a href="https://findsport2play.herokuapp.com/" class="btn btn--blue u-margin-right-small" target="_blank" rel="noopener noreferrer">Visit Site</a>
+                        <a href="https://github.com/ysongh/FindSport2Play" class="btn btn--blue" target="_blank" rel="noopener noreferrer">See Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__picture">
+                    <img src="./img/project3.png" class="card__logo" alt="Web Amigos">
+                </div>
+                <div class="card__details">
+                    <h3 class="card__title">Web Amigos</h3>
+                    <p class="card__summary">A website for the design agency based in USA that provides services for designing and building websites</p>
+                    <p class="u-margin-top-small">
+                        <span>&#9734; HTML5</span> <span>&#9734; CSS3</span> <span>&#9734; SCSS</span> <span>&#9734; JQuery</span>
+                    </p>
+                    <div class="u-margin-top-small u-margin-bottom-small">
+                        <a href="https://thewebamigos.netlify.com/" class="btn btn--blue u-margin-right-small" target="_blank" rel="noopener noreferrer">Visit Site</a>
+                        <a href="https://github.com/ysongh/freelance-package" class="btn btn--blue" target="_blank" rel="noopener noreferrer">See Code</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- education section -->
+        <section class="section-education" id="myEducation">
+            <div class="u-center-text u-margin-bottom-medium">
+                <h2 class="heading-primary">My Education</h2>
+            </div>
+            <div class="rectangle">
+                <p class="rectangle__details"><i class="fas fa-university rectangle__icon rectangle__icon--med"></i>New York City College of Technology</p>
+                <p class="rectangle__details"><i class="fas fa-graduation-cap rectangle__icon rectangle__icon--small"></i>Bachelor of Technology</p>
+                <p class="rectangle__details"><i class="fas fa-book rectangle__icon rectangle__icon--large"></i>Computer Systems</p>
+                <p class="rectangle__details"><i class="far fa-calendar-alt rectangle__icon rectangle__icon--large"></i>2016 - 2017</p>
+            </div>
+            <div class="rectangle">
+                <p class="rectangle__details"><i class="fas fa-university rectangle__icon rectangle__icon--med"></i>New York City College of Technology</p>
+                <p class="rectangle__details"><i class="fas fa-graduation-cap rectangle__icon rectangle__icon--small"></i>Associate in Applied Science</p>
+                <p class="rectangle__details"><i class="fas fa-book rectangle__icon rectangle__icon--large"></i>Computer Information Systems</p>
+                <p class="rectangle__details"><i class="far fa-calendar-alt rectangle__icon rectangle__icon--large"></i>2013 - 2016</p>
+            </div>
+        </section>
+
+        <!-- experience section -->
+        <section class="section-experience" id="myExperience">
+                <div class="u-center-text u-margin-bottom-medium">
+                    <h2 class="heading-primary">My Experience</h2>
+                </div>
+                <div class="rectangle">
+                    <p class="rectangle__details"><i class="fas fa-briefcase rectangle__icon rectangle__icon--med"></i>College Assistant</p>
+                    <p class="rectangle__details"><i class="fas fa-building rectangle__icon rectangle__icon--large"></i>City Tech Library</p>
+                    <p class="rectangle__details"><i class="far fa-calendar-alt rectangle__icon rectangle__icon--large"></i>Aug 2016 - Present</p>
+                    <ul class="rectangle__list">
+                        <li class="rectangle__item">Assist students with scanners, printers, and computers</li>
+                        <li class="rectangle__item">Troubleshoot any technical issues and report it to the technician</li>
+                    </ul>
+                </div>
+                <div class="rectangle">
+                    <p class="rectangle__details"><i class="fas fa-briefcase rectangle__icon rectangle__icon--med"></i>Software Testing Intern</p>
+                    <p class="rectangle__details"><i class="fas fa-building rectangle__icon rectangle__icon--large"></i>Everlasting Footprint</p>
+                    <p class="rectangle__details"><i class="far fa-calendar-alt rectangle__icon rectangle__icon--large"></i>Jan 2017 - Sep 2017</p>
+                    <ul class="rectangle__list">
+                        <li class="rectangle__item">Tested the website for bugs and issues</li>
+                        <li class="rectangle__item">Focused on usablility testing along with functionality and compatibility testing</li>
+                        <li class="rectangle__item">Communicated with the development team on how to improve the website</li>
+                    </ul>
+                </div>
+        </section>
+
+        <!-- contact section -->
+        <section class="section-contact" id="contactMe">
+            <div class="u-center-text u-margin-bottom-medium">
+                <h2 class="heading-primary">Contact Me</h2>
+            </div>
+            <div class="parallelogram">
+                <p class="parallelogram__contact-text"><strong>Email</strong> &rarr; yousonghou@gmail.com</p>
+            </div>
+            <div class="parallelogram u-margin-bottom-medium">
+                <p class="parallelogram__contact-text"><strong>Cell Phone</strong> &rarr; 347-559-3638</p>
+            </div>
+
+            <div class="lines">
+                <div class="lines__line"></div>
+                <p class="lines__text">OR</p>
+                <div class="lines__line"></div>
+            </div>
+
+            <form method="POST" data-netlify="true" class="contact-form">
+                <label class="contact-form__label" for="name">Name *</label>
+                <input
+                    class="contact-form__input"
+                    type="text"
+                    name="name"
+                    id="name"
+                    required />
+
+                <label class="contact-form__label" for="email">Email *</label>
+                <input
+                    class="contact-form__input"
+                    type="email"
+                    name="email"
+                    id="email"
+                    required />
+
+                <label class="contact-form__label" for="message">Message *</label>
+                <textarea
+                    class="contact-form__input"
+                    name="message"
+                    id="message"
+                    rows="6"
+                    required></textarea>
+
+                <input
+                    class="contact-form__button"
+                    type="submit"
+                    value="Send Message" />
+            </form>
+
+        </section>
+    </main>
+
+    <!-- project images popup -->
+    <div class="modal">
+        <div id="project1Img" class="modal__content">
+            <button id="closeModalBtn" class="button modal__button">X</button>
+            <img src="./img/project-B1.PNG" id="projects" class="modal__img" alt="Project Image #1">
+            <span id="prevProject">
+                <i class="fas fa-arrow-circle-left"></i>
+            </span>
+            <span id="numProject">1/5 </span>
+            <span id="nextProject">
+                <i class="fas fa-arrow-circle-right"></i>
+            </span>
+        </div>
     </div>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="icon">
+            <a href="mailto:yousonghou@gmail.com" class="icon__link" aria-label="Icon" target="_blank">
+                <span>Email</span> <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/you-song-hou" class="icon__link" aria-label="Icon" target="_blank" rel="noopener noreferrer">
+                <span>Linkedin</span> <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/ysongh" class="icon__link" aria-label="Icon" target="_blank" rel="noopener noreferrer">
+                <span>Github</span> <i class="fab fa-github"></i>
+            </a>
+            <a href="https://drive.google.com/file/d/1XJCKpSvsRn9WpxVB7j6MrU1mvz_67-PD/view?usp=sharing" class="icon__link" aria-label="Icon" target="_blank" rel="noopener noreferrer">
+                <span>Resume</span> <i class="fas fa-file"></i>
+            </a>
+        </div>
+        <div class="footer__copyright">
+            <p>© 2020 You Song Hou</p>
+        </div>
+    </footer>
 
     <script src="js/loading.js"></script>
     <script src="js/navbar.js"></script>
