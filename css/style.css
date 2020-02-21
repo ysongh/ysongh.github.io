@@ -631,10 +631,15 @@ body {
     font-size: 1.9rem;
     font-weight: 300;
     color: #000066;
-    margin: 0 1rem;
+    margin: 0 1.2rem;
     transition: all .5s; }
     .navigationDesktop__link:hover {
       opacity: .5; }
+  .navigationDesktop__cta {
+    background-color: #000066;
+    color: white;
+    padding: .5rem 1.2rem;
+    border-radius: 20px; }
 
 .section-projects {
   background-color: #a6dada;
