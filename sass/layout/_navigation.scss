@@ -160,6 +160,7 @@
     &__nav{
         display: flex;
         justify-content: space-between;
+        @include maxScreen;
     }
 
     &__logo{

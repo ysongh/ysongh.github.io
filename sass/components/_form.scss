@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     width: 50%;
-    margin: auto;
+    @include maxScreen;
 
     @include responsive(t-landscape){
         width: 55%;

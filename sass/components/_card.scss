@@ -1,7 +1,9 @@
 .card{
     background-color: $color-silver;
     display: flex;
-    margin: 4rem 0;
+    @include maxScreen;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 
     @include responsive(phone){
         flex-direction: column;

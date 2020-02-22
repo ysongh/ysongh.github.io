@@ -10,6 +10,11 @@
     transition: all .5s;
 }
 
+@mixin maxScreen{
+    max-width: 160rem;
+    margin: auto;
+}
+
 @mixin responsive($breakpoint){
     @if $breakpoint == phone{
         @media(max-width: 37.5em){ @content };
