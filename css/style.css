@@ -130,6 +130,9 @@ body {
 .u-bg-transparent {
   background-color: transparent; }
 
+.u-red {
+  color: #b60c0c; }
+
 .btn:link, .btn:visited {
   font-size: 1.5rem;
   color: #66b3ff;
