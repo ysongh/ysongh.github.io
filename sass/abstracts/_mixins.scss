@@ -10,9 +10,9 @@
     transition: all .5s;
 }
 
-@mixin maxScreen{
+@mixin maxScreen($size: 0){
     max-width: 160rem;
-    margin: auto;
+    margin: $size auto;
 }
 
 @mixin responsive($breakpoint){

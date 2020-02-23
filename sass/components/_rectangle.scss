@@ -3,9 +3,7 @@
     box-shadow: 0 1rem 3rem rgba($color-black, .2);
     background-color: $color-white;
     padding: 4rem;
-    @include maxScreen;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    @include maxScreen(5rem);
 
     @include responsive(t-portrait){
         width: 85%;

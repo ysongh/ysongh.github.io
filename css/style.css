@@ -194,9 +194,7 @@ body {
   background-color: #e2dada;
   display: flex;
   max-width: 160rem;
-  margin: auto;
-  margin-top: 4rem;
-  margin-bottom: 4rem; }
+  margin: 4rem auto; }
   @media (max-width: 37.5em) {
     .card {
       flex-direction: column; } }
@@ -251,7 +249,7 @@ body {
   flex-direction: column;
   width: 50%;
   max-width: 160rem;
-  margin: auto; }
+  margin: 0 auto; }
   @media (max-width: 75em) {
     .contact-form {
       width: 55%; } }
@@ -303,9 +301,10 @@ body {
 .lines {
   display: flex;
   align-items: center;
-  margin: 1rem auto;
   margin-top: 2.5rem;
-  width: 50%; }
+  width: 50%;
+  max-width: 160rem;
+  margin: 1rem auto; }
   @media (max-width: 75em) {
     .lines {
       width: 55%; } }
@@ -377,9 +376,7 @@ body {
   transform: skewX(-15deg);
   background-image: linear-gradient(to right bottom, rgba(128, 255, 255, 0.8), rgba(102, 179, 255, 0.8));
   max-width: 160rem;
-  margin: auto;
-  margin-top: 2rem;
-  margin-bottom: 2rem; }
+  margin: 2rem auto; }
   @media (max-width: 75em) {
     .parallelogram {
       width: 55%; } }
@@ -401,9 +398,7 @@ body {
   background-color: #ffffff;
   padding: 4rem;
   max-width: 160rem;
-  margin: auto;
-  margin-top: 5rem;
-  margin-bottom: 5rem; }
+  margin: 5rem auto; }
   @media (max-width: 56.25em) {
     .rectangle {
       width: 85%; } }
@@ -464,7 +459,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 160rem;
-    margin: auto; }
+    margin: 0 auto; }
     @media (max-width: 56.25em) {
       .header__text-box {
         width: 60%; } }
@@ -626,7 +621,7 @@ body {
     display: flex;
     justify-content: space-between;
     max-width: 160rem;
-    margin: auto; }
+    margin: 0 auto; }
   .navigationDesktop__logo {
     text-decoration: none;
     height: 100%;
