@@ -295,7 +295,7 @@ body {
     text-decoration: none;
     margin-right: 2rem; }
     .icon__link:hover {
-      color: #32a341; }
+      opacity: .5; }
   @media (max-width: 56.25em) {
     .icon span {
       display: none; } }
