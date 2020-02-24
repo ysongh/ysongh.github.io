@@ -146,11 +146,11 @@
     position: fixed;
     top: 0;
     z-index: 10;
-    padding: .6rem 7rem;
+    padding: .6rem 10rem;
     width: 100%;
 
     @include responsive(t-landscape){
-        padding: .6rem 4.5rem;
+        padding: .6rem 3rem;
     }
 
     @include responsive(t-portrait){
@@ -190,6 +190,10 @@
         color: $color-blue-dark;
         margin: 0 1.2rem;
         @include animationAll;
+
+        @include responsive(t-landscape){
+            font-size: 1.8rem;
+        }
 
         &:hover{
             opacity: .5;

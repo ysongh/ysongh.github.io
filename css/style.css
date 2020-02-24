@@ -612,11 +612,11 @@ body {
   position: fixed;
   top: 0;
   z-index: 10;
-  padding: .6rem 7rem;
+  padding: .6rem 10rem;
   width: 100%; }
   @media (max-width: 75em) {
     .navigationDesktop {
-      padding: .6rem 4.5rem; } }
+      padding: .6rem 3rem; } }
   @media (max-width: 56.25em) {
     .navigationDesktop {
       display: none; } }
@@ -646,6 +646,9 @@ body {
     color: #000066;
     margin: 0 1.2rem;
     transition: all .5s; }
+    @media (max-width: 75em) {
+      .navigationDesktop__link {
+        font-size: 1.8rem; } }
     .navigationDesktop__link:hover {
       opacity: .5; }
   .navigationDesktop__cta {
@@ -658,7 +661,7 @@ body {
 .section-projects {
   background-color: #a6dada;
   position: relative;
-  padding: 4rem 8rem 6rem 8rem;
+  padding: 4rem 11rem 6rem 11rem;
   min-height: 80vh; }
   @media (max-width: 75em) {
     .section-projects {
