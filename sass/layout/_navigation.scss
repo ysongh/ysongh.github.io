@@ -14,7 +14,7 @@
         right: 3rem;
         cursor: pointer;
         z-index: 12;
-        background-color: $color-blue;
+        background-color: $color-blue-lighter;
         @include animationAll;
 
         @include responsive(phone){
@@ -57,7 +57,7 @@
         position: fixed;
         top: 0;
         width: 100%;
-        opacity: 0.95;
+        opacity: .985;
         visibility: hidden;
 
         &.show{
@@ -74,7 +74,7 @@
         height: 100vh;
         padding-top: 10rem;
         padding-left: 4rem;
-        background: $color-blue;
+        background: $color-blue-lighter;
         list-style: none;
         transform: translate3d(0, -100%, 0);
         @include animationAll;
