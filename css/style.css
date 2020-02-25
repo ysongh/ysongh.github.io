@@ -90,7 +90,8 @@ body {
   font-size: 3rem;
   letter-spacing: 1px;
   text-transform: uppercase;
-  text-shadow: 2px 2px #31a0d8; }
+  color: #3f4781;
+  font-weight: bold; }
   .heading-primary:after {
     display: block;
     content: "";

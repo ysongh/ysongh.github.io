@@ -29,7 +29,8 @@ body{
     font-size: 3rem;
     letter-spacing: 1px;
     text-transform: uppercase;
-    text-shadow: 2px 2px $color-blue;
+    color: $color-blue-dark;
+    font-weight: bold;
 
     &:after {
         display:block;
