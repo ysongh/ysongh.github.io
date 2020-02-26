@@ -1,8 +1,7 @@
 .parallelogram{
     width: 50%;
-    border: 2px solid $color-blue-dark;
+    background-color: $color-white;
     transform: skewX(-15deg);
-    background-image: linear-gradient(to right bottom, rgba($color-blue-light, 0.8), rgba($color-blue, 0.8));
     @include maxScreen(2rem);
 
     @include responsive(t-landscape){
