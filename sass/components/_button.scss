@@ -5,6 +5,7 @@
         display: inline-block;
         text-decoration: none;
         border: 1px solid $color-blue;
+        border-radius: 5px;
         background-color: $color-blue;
         color: $color-white;
         padding: 1rem 2rem;
@@ -34,7 +35,7 @@
         width: 22rem;
         font-size: 2rem;
         font-weight: bold;
-        border-radius: 10px;
+        border-radius: 5px;
         padding: 1rem;
         margin: auto;
         text-decoration: none;

@@ -138,6 +138,7 @@ body {
   display: inline-block;
   text-decoration: none;
   border: 1px solid #31a0d8;
+  border-radius: 5px;
   background-color: #31a0d8;
   color: #ffffff;
   padding: 1rem 2rem;
@@ -161,7 +162,7 @@ body {
   width: 22rem;
   font-size: 2rem;
   font-weight: bold;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 1rem;
   margin: auto;
   text-decoration: none;
@@ -279,9 +280,9 @@ body {
     padding: 14px 20px;
     margin: 1rem 0;
     border: none;
+    border-radius: 5px;
     font-size: 1.5rem;
     font-weight: bold;
-    border-radius: 4px;
     cursor: pointer; }
 
 .icon {
