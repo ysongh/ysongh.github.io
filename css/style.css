@@ -115,6 +115,9 @@ body {
 .u-margin-right-small {
   margin-right: 1.5rem; }
 
+.u-margin-left-medium {
+  margin-left: 4.47rem; }
+
 .u-margin-bottom-medium {
   margin-bottom: 4rem; }
 
@@ -417,7 +420,7 @@ body {
   .rectangle__icon {
     font-size: 2.5rem; }
     .rectangle__icon--large {
-      margin-right: 1.5rem; }
+      margin-right: 2rem; }
     .rectangle__icon--med {
       margin-right: 1.3rem; }
     .rectangle__icon--small {
@@ -426,7 +429,7 @@ body {
     border-top: 1px solid #31a0d8;
     list-style-type: circle;
     margin-top: 1.5rem;
-    margin-left: 1rem; }
+    margin-left: 1.9rem; }
   .rectangle__item {
     font-size: 2rem;
     padding: .6rem;
