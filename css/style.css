@@ -81,7 +81,6 @@ body {
 .introduction__summary {
   line-height: 1.4;
   font-size: 2rem;
-  background: rgba(58, 164, 218, 0.1);
   animation-name: moveFromTop;
   animation-duration: 1s;
   animation-timing-function: ease-out; }
