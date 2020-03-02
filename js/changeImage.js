@@ -7,18 +7,16 @@ const showModalP2Btn = document.getElementById('showModalP2Btn');
 const closeModalBtn = document.getElementById('closeModalBtn');
 
 const image1List = [
-    "./img/project-B1.png",
-    "./img/project-B2.png",
-    "./img/project-B3.png",
-    "./img/project-B4.png"
-];
-
-const image2List = [
     "./img/project-A1.png",
     "./img/project-A2.png",
     "./img/project-A3.png",
-    "./img/project-A4.png",
-    "./img/project-A5.png"
+    "./img/project-A4.png"
+];
+
+const image2List = [
+    "./img/project-B1.png",
+    "./img/project-B2.png",
+    "./img/project-B3.png"
 ];
 
 const image1ListLen = image1List.length - 1;
