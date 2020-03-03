@@ -39,17 +39,17 @@
     & span{
         position: absolute;
         right: -20px;
-        bottom: 100px;
+        bottom: 110px;
         font-size: 2.2rem;
         font-weight: bold;
         text-transform: uppercase;
         transform: rotate(90deg);
         color: $color-blue-dark;
+        animation: fade 1s infinite;
 
         @include responsive(t-portrait){
             font-size: 2rem;
             right: -25px;
-            bottom: 80px;
         }
     }
 }

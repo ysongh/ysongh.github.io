@@ -30,11 +30,11 @@
 
 @keyframes fade {
   0% {
-    opacity: .3; }
+    opacity: .5; }
   50% {
     opacity: 1; }
   100% {
-    opacity: .3; } }
+    opacity: .5; } }
 
 *,
 *::after,
@@ -474,17 +474,17 @@ body {
   .header span {
     position: absolute;
     right: -20px;
-    bottom: 100px;
+    bottom: 110px;
     font-size: 2.2rem;
     font-weight: bold;
     text-transform: uppercase;
     transform: rotate(90deg);
-    color: #3f4781; }
+    color: #3f4781;
+    animation: fade 1s infinite; }
     @media (max-width: 56.25em) {
       .header span {
         font-size: 2rem;
-        right: -25px;
-        bottom: 80px; } }
+        right: -25px; } }
 
 .navigation {
   display: none;
