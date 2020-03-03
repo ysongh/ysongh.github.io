@@ -63,10 +63,6 @@ textarea:focus, input:focus {
   outline: none;
   border-left: 3px solid #3f4781; }
 
-.main-content {
-  display: none;
-  opacity: 0; }
-
 body {
   line-height: 1.2;
   font-family: "Montserrat", sans-serif; }
@@ -125,12 +121,6 @@ body {
 
 .u-p-font-size {
   font-size: 2.6rem; }
-
-.u-bg-blue {
-  background-color: #a6dada; }
-
-.u-bg-transparent {
-  background-color: transparent; }
 
 .u-red {
   color: #b60c0c; }
@@ -495,23 +485,6 @@ body {
         font-size: 2rem;
         right: -25px;
         bottom: 80px; } }
-
-.loading {
-  background-color: #91eccb;
-  position: relative;
-  height: 100vh; }
-  .loading__content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    animation: fade .5s infinite; }
-    .loading__content img {
-      width: 20rem; }
-    .loading__content p {
-      font-size: 3rem;
-      margin-top: 1rem;
-      margin-left: 2rem; }
 
 .navigation {
   display: none;
