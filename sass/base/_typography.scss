@@ -12,6 +12,10 @@ body{
         animation-name: moveFromTop;
         animation-duration: 1s;
         animation-timing-function: ease-out;
+
+        @include responsive(phone){
+            font-size: 3.5rem;
+        }
     }
 
     &__summary{

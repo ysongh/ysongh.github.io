@@ -73,6 +73,9 @@ body {
   animation-name: moveFromTop;
   animation-duration: 1s;
   animation-timing-function: ease-out; }
+  @media (max-width: 37.5em) {
+    .introduction__title {
+      font-size: 3.5rem; } }
 
 .introduction__summary {
   line-height: 1.4;
@@ -502,18 +505,19 @@ body {
     margin-top: 2.5rem;
     margin-left: 3rem;
     padding: .5rem;
+    width: 14rem;
     background-color: #a6dada;
     transition: all .5s; }
     .navigation__logo:hover {
       opacity: .5; }
     @media (max-width: 37.5em) {
       .navigation__logo {
-        margin-top: 1.5rem;
+        margin-top: 2rem;
         margin-left: 2rem; } }
   .navigation__button {
     position: fixed;
-    top: 3rem;
     padding: 1.1rem 1rem .5rem 1rem;
+    top: 2.5rem;
     right: 3rem;
     cursor: pointer;
     z-index: 12;
