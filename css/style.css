@@ -498,6 +498,18 @@ body {
   @media (max-width: 56.25em) {
     .navigation {
       display: block; } }
+  .navigation__logo {
+    margin-top: 2.5rem;
+    margin-left: 3rem;
+    padding: .5rem;
+    background-color: #a6dada;
+    transition: all .5s; }
+    .navigation__logo:hover {
+      opacity: .5; }
+    @media (max-width: 37.5em) {
+      .navigation__logo {
+        margin-top: 1.5rem;
+        margin-left: 2rem; } }
   .navigation__button {
     position: fixed;
     top: 3rem;
