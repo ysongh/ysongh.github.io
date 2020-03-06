@@ -7,7 +7,7 @@
 }
 
 @mixin animationAll{
-    transition: all .5s;
+    transition: all .3s;
 }
 
 @mixin maxScreen($size: 0){

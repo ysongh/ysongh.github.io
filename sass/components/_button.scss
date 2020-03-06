@@ -10,15 +10,12 @@
         color: $color-white;
         padding: 1rem 2rem;
         text-align: center;
-        transition-duration: .2s;
-        transition-property: background-color, color, box-shadow, transform;
-        transition-timing-function: ease-in-out;
+        @include animationAll;
     }
 
     &:hover{
         background-color: $color-white;
         color: $color-blue;
-        box-shadow: 0 1rem 2rem rgba($color-black, 0.1);
         transform: translateY(-2px);
     }
 

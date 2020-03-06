@@ -144,14 +144,11 @@ body {
   color: #ffffff;
   padding: 1rem 2rem;
   text-align: center;
-  transition-duration: .2s;
-  transition-property: background-color, color, box-shadow, transform;
-  transition-timing-function: ease-in-out; }
+  transition: all .3s; }
 
 .btn:hover {
   background-color: #ffffff;
   color: #31a0d8;
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
   transform: translateY(-2px); }
 
 .btn:active {
@@ -507,7 +504,7 @@ body {
     padding: .5rem;
     width: 14rem;
     background-color: #a6dada;
-    transition: all .5s; }
+    transition: all .3s; }
     .navigation__logo:hover {
       opacity: .5; }
     @media (max-width: 37.5em) {
@@ -522,7 +519,7 @@ body {
     cursor: pointer;
     z-index: 12;
     background-color: #a6dada;
-    transition: all .5s; }
+    transition: all .3s; }
     @media (max-width: 37.5em) {
       .navigation__button {
         top: 2rem;
@@ -564,7 +561,7 @@ body {
     background: #a6dada;
     list-style: none;
     transform: translate3d(0, -100%, 0);
-    transition: all .5s; }
+    transition: all .3s; }
     @media (max-width: 75em) {
       .navigation__list {
         width: 35%; } }
@@ -580,7 +577,7 @@ body {
       transform: translate3d(0, 0, 0); }
   .navigation__item {
     transform: translate3d(500px, 0, 0);
-    transition: all .5s; }
+    transition: all .3s; }
     .navigation__item.show {
       transform: translate3d(0, 0, 0); }
     .navigation__item i {
@@ -610,7 +607,7 @@ body {
     font-size: 2.5rem;
     font-weight: 300;
     color: #3f4781;
-    transition: all .5s; }
+    transition: all .3s; }
     .navigation__link:hover {
       opacity: .5;
       transform: translateX(10px); }
@@ -639,7 +636,7 @@ body {
     text-decoration: none;
     height: 100%;
     cursor: pointer;
-    transition: all .5s; }
+    transition: all .3s; }
     .navigationDesktop__logo:hover {
       opacity: .5; }
   .navigationDesktop__list {
@@ -655,7 +652,7 @@ body {
     font-weight: 300;
     color: #3f4781;
     margin: 0 1.2rem;
-    transition: all .5s; }
+    transition: all .3s; }
     @media (max-width: 75em) {
       .navigationDesktop__link {
         font-size: 1.8rem; } }
