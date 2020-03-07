@@ -5,12 +5,6 @@
     height: 100vh;
 
     &__text-box{
-        width: 50%;
-        position: absolute;
-        text-align: center;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
         @include maxScreen;
 
         @include responsive(t-portrait){
@@ -24,7 +18,7 @@
     }
     
     &__photo{
-        width: 30rem;
+        width: 100%;
         margin: 3rem 0;
 
         animation-name: moveFromTop;
@@ -52,4 +46,16 @@
             right: -25px;
         }
     }
+}
+
+.hero{
+    width: 100%;
+    padding: 10rem;
+    display: grid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    grid-template-columns: repeat(2, 1fr);
+    @include maxScreen;
 }

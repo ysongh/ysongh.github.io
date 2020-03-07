@@ -7,6 +7,7 @@ body{
 
     &__title{
         font-size: 4rem;
+        margin-top: 5rem;
         margin-bottom: 3rem;
 
         animation-name: moveFromTop;
@@ -21,6 +22,7 @@ body{
     &__summary{
         line-height: 1.4;
         font-size: 2rem;
+        margin-bottom: 3rem;
 
         animation-name: moveFromTop;
         animation-duration: 1s;
