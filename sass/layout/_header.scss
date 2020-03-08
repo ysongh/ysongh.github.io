@@ -12,8 +12,7 @@
         }
 
         @include responsive(phone){
-            width: 80%;
-            top: 45%;
+            width: 100%;
         }
     }
     
@@ -26,7 +25,15 @@
         animation-timing-function: ease-out;
 
         @include responsive(t-portrait){
-            margin: 2.5rem 0;
+            width: 60%;
+            display: block;
+            margin: auto;
+            margin-top: 5rem;
+        }
+
+        @include responsive(phone){
+            width: 100%;
+            margin-top: 3rem;
         }
     }
 
@@ -58,4 +65,11 @@
     transform: translate(-50%, -50%);
     grid-template-columns: repeat(2, 1fr);
     @include maxScreen;
+
+    @include responsive(t-portrait){
+        display: flex;
+        flex-direction: column-reverse;
+        grid-template-columns: 1fr;
+        padding: 5rem;
+    }
 }
