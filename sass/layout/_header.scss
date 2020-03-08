@@ -15,27 +15,6 @@
             width: 100%;
         }
     }
-    
-    &__photo{
-        width: 100%;
-        margin: 3rem 0;
-
-        animation-name: moveFromTop;
-        animation-duration: 1s;
-        animation-timing-function: ease-out;
-
-        @include responsive(t-portrait){
-            width: 60%;
-            display: block;
-            margin: auto;
-            margin-top: 5rem;
-        }
-
-        @include responsive(phone){
-            width: 100%;
-            margin-top: 3rem;
-        }
-    }
 
     & span{
         position: absolute;
@@ -55,21 +34,19 @@
     }
 }
 
-.hero{
-    width: 100%;
-    padding: 10rem;
-    display: grid;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    grid-template-columns: repeat(2, 1fr);
-    @include maxScreen;
+.heading-primary{
+    font-size: 3rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $color-blue-dark;
+    font-weight: bold;
 
-    @include responsive(t-portrait){
-        display: flex;
-        flex-direction: column-reverse;
-        grid-template-columns: 1fr;
-        padding: 5rem;
+    &:after {
+        display:block;
+        content: "";
+        width: 15rem;
+        border-bottom: 2px solid $color-blue-dark;
+        margin: auto;
+        padding: .35rem 0;
     }
 }
