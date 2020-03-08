@@ -1,19 +1,19 @@
-@keyframes moveFromTop {
+@keyframes moveFromLeft {
   0% {
     opacity: 0;
-    transform: translateY(-10rem); }
+    transform: translateX(-10rem); }
   70% {
-    transform: translateY(1rem); }
+    transform: translateX(1rem); }
   100% {
     opacity: 1;
     transform: translate(0); } }
 
-@keyframes moveFromBottom {
+@keyframes moveFromRight {
   0% {
     opacity: 0;
-    transform: translateY(5rem); }
+    transform: translateX(10rem); }
   70% {
-    transform: translateY(-1rem); }
+    transform: translateX(-1rem); }
   100% {
     opacity: 1;
     transform: translate(0); } }
@@ -139,7 +139,7 @@ body {
   transition-duration: .2s;
   transition-property: background-color, color;
   transition-timing-function: ease-in-out;
-  animation-name: moveFromBottom;
+  animation-name: moveFromLeft;
   animation-duration: 1s;
   animation-timing-function: ease-out; }
   .btn-cta:link i, .btn-cta:visited i {
@@ -467,6 +467,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 4rem;
   max-width: 160rem;
   margin: 0 auto; }
   @media (max-width: 56.25em) {
@@ -476,31 +477,35 @@ body {
       grid-template-columns: 1fr;
       padding: 5rem; } }
   .hero__title {
-    font-size: 4rem;
+    font-size: 5rem;
     margin-top: 5rem;
     margin-bottom: 3rem;
-    animation-name: moveFromTop;
+    animation-name: moveFromLeft;
     animation-duration: 1s;
     animation-timing-function: ease-out; }
     @media (max-width: 37.5em) {
       .hero__title {
-        font-size: 3.5rem; } }
+        font-size: 3.5rem;
+        margin-bottom: 1.7rem; } }
   .hero__summary {
     line-height: 1.4;
     font-size: 2rem;
     margin-bottom: 3rem;
-    animation-name: moveFromTop;
+    animation-name: moveFromLeft;
     animation-duration: 1s;
     animation-timing-function: ease-out; }
+    @media (max-width: 37.5em) {
+      .hero__summary {
+        margin-bottom: 2rem; } }
   .hero__photo {
     width: 100%;
     margin: 3rem 0;
-    animation-name: moveFromTop;
+    animation-name: moveFromRight;
     animation-duration: 1s;
     animation-timing-function: ease-out; }
     @media (max-width: 56.25em) {
       .hero__photo {
-        width: 60%;
+        width: 70%;
         display: block;
         margin: auto;
         margin-top: 5rem; } }

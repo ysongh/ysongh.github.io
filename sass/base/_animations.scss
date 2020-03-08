@@ -1,11 +1,11 @@
-@keyframes moveFromTop{
+@keyframes moveFromLeft{
     0%{
         opacity: 0;
-        transform: translateY(-10rem);
+        transform: translateX(-10rem);
     }
 
     70%{
-        transform: translateY(1rem);
+        transform: translateX(1rem);
     }
 
     100%{
@@ -14,14 +14,14 @@
     }
 }
 
-@keyframes moveFromBottom{
+@keyframes moveFromRight{
     0%{
         opacity: 0;
-        transform: translateY(5rem);
+        transform: translateX(10rem);
     }
 
     70%{
-        transform: translateY(-1rem);
+        transform: translateX(-1rem);
     }
 
     100%{
