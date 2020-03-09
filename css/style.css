@@ -248,9 +248,14 @@ body {
     margin: 1rem 0;
     border: none;
     border-radius: 5px;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
-    cursor: pointer; }
+    font-family: inherit;
+    cursor: pointer;
+    transition: all .3s; }
+    .contact-form__button:hover {
+      background-color: #ffffff;
+      color: #31a0d8; }
 
 .icon {
   font-size: 2.4rem;
