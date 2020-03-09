@@ -16,21 +16,13 @@
         }
     }
 
-    & span{
+    &__arrow{
         position: absolute;
-        right: -20px;
-        bottom: 110px;
-        font-size: 2.2rem;
-        font-weight: bold;
-        text-transform: uppercase;
-        transform: rotate(90deg);
+        right: 50%;
+        bottom: 25px;
+        margin-right: -50px;
         color: $color-blue-dark;
         animation: fade 1s infinite;
-
-        @include responsive(t-portrait){
-            font-size: 2rem;
-            right: -25px;
-        }
     }
 }
 

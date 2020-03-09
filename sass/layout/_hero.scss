@@ -5,7 +5,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -55%);
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 4rem;
     @include maxScreen;
