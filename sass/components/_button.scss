@@ -1,77 +1,101 @@
 .btn{
+    &,
     &:link,
     &:visited{
-        font-size: 1.5rem;
         display: inline-block;
         text-decoration: none;
-        border: 1px solid $color-blue;
+        border: none;
         border-radius: 5px;
-        background-color: $color-blue;
-        color: $color-white;
-        padding: 1rem 2rem;
+        cursor: pointer;
         text-align: center;
         @include animationAll;
     }
 
-    &:hover{
-        background-color: $color-white;
-        color: $color-blue;
-        transform: translateY(-2px);
-    }
-
-    &:active{
-        box-shadow: 0 .5rem 1rem rgba($color-black, 0.1);
-        transform: translateY(0);
-    }
-}
-
-.btn-cta{
-    &:link,
-    &:visited{
-        display: block;
-        width: 20rem;
-        font-size: 2rem;
-        font-weight: bold;
-        text-align: center;
-        border-radius: 5px;
-        padding: 1rem;
-        text-decoration: none;
-        color: $color-white;
-        border: 1px solid $color-blue;
-        background-color: $color-blue-dark;
-        transition-duration: .2s;
-        transition-property: background-color, color;
-        transition-timing-function: ease-in-out;
-
-        animation-name: moveFromLeft;
-        animation-duration: 1s;
-        animation-timing-function: ease-out;
-
-        & i{
+    &-cta{
+        &:link,
+        &:visited{
+            font-size: 2rem;
+            font-weight: bold;
+            padding: 1rem 2rem;
+            color: $color-white;
+            border: 1px solid $color-blue-dark;
+            background-color: $color-blue-dark;
             transition-duration: .2s;
-            transition-property: transform;
+            transition-property: background-color, color;
             transition-timing-function: ease-in-out;
+    
+            animation-name: moveFromLeft;
+            animation-duration: 1s;
+            animation-timing-function: ease-out;
+    
+            & i{
+                transition-duration: .2s;
+                transition-property: transform;
+                transition-timing-function: ease-in-out;
+            }
+        }
+    
+        &:hover{
+            background-color: $color-white;
+            color: $color-blue-dark;
+    
+            & i{
+                transform: rotate(90deg);
+            }
         }
     }
 
-    &:hover{
-        background-color: $color-white;
-        color: $color-blue-dark;
-
-        & i{
-            transform: rotate(90deg);
+    &-card{
+        &:link,
+        &:visited{
+            font-size: 1.5rem;
+            padding: 1rem 2rem;
+            border: 1px solid $color-blue;
+            background-color: $color-blue;
+            color: $color-white;
+        }
+    
+        &:hover{
+            background-color: $color-white;
+            color: $color-blue;
+            transform: translateY(-2px);
+        }
+    
+        &:active{
+            transform: translateY(0);
         }
     }
-}
+    
+    &-form{
+        background-color: $color-blue-dark;
+        color: $color-white;
+        padding: 1.4rem 0;
+        margin: 1rem 0;
+        border: 1px solid $color-blue-dark;
+        font-size: 1.8rem;
+        font-weight: bold;
+        font-family: inherit;
+    
+        &:hover{
+            background-color: $color-white;
+            color: $color-blue-dark;
+        }
+    }
+    
+    &-close{
+        position: absolute;
+        top: -16px;
+        right: -12px;
+        font-size: 2rem;
+        font-weight: 800;
+        padding: .3rem .75rem;
+        border-radius: 50%;
+        background-color: $color-blue-dark;
+        color: $color-white;
 
-.button{
-    &,
-    &:link,
-    &:visited{
-        display: block;
-        background: none;
-        cursor: pointer;
-        text-decoration: none;
-        border: none;
+        &:hover{
+            background-color: $color-white;
+            color: $color-blue-dark;
+        }
     }
 }

@@ -30,24 +30,4 @@
         margin-bottom: .5rem;
         line-height: 1.4;
     }
-
-    &__button{
-        width: 100%;
-        background-color: $color-blue-dark;
-        color: $color-white;
-        padding: 14px 20px;
-        margin: 1rem 0;
-        border: none;
-        border-radius: 5px;
-        font-size: 1.8rem;
-        font-weight: bold;
-        font-family: inherit;
-        cursor: pointer;
-        @include animationAll;
-
-        &:hover{
-            background-color: $color-white;
-            color: $color-blue;
-        }
-    }
 }
