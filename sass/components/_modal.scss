@@ -12,10 +12,9 @@
     &__content{
         position: relative;
         background-color: $color-white;
-        text-align-last: center;
-        margin: 7% auto;
+        text-align: center;
+        margin: 15rem auto;
         width: 50%;
-        height: 70vh;
 
         @include responsive(t-landscape){
             width: 70%;
@@ -23,10 +22,6 @@
     
         @include responsive(t-portrait){
             width: 90%;
-        }
-
-        @include responsive(phone){
-            margin: 15% auto;
         }
 
         animation-name: openModal;

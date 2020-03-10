@@ -314,10 +314,9 @@ body {
   .modal__content {
     position: relative;
     background-color: #ffffff;
-    text-align-last: center;
-    margin: 7% auto;
+    text-align: center;
+    margin: 15rem auto;
     width: 50%;
-    height: 70vh;
     animation-name: openModal;
     animation-duration: .7s;
     animation-timing-function: ease-out; }
@@ -327,9 +326,6 @@ body {
     @media (max-width: 56.25em) {
       .modal__content {
         width: 90%; } }
-    @media (max-width: 37.5em) {
-      .modal__content {
-        margin: 15% auto; } }
   .modal__img {
     width: 100%;
     height: 90%; }
