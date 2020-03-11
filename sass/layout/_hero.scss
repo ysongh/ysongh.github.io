@@ -5,16 +5,24 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -55%);
+    transform: translate(-50%, -50%);
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 4rem;
     @include maxScreen;
+
+    @include responsive(t-landscape){
+        transform: translate(-50%, -55%);
+        padding: 3.5rem;
+    }
 
     @include responsive(t-portrait){
         display: flex;
         flex-direction: column-reverse;
         grid-template-columns: 1fr;
-        padding: 5rem;
+    }
+
+    @include responsive(phone){
+        transform: translate(-50%, -60%);
     }
 
     &__title{
@@ -26,9 +34,13 @@
         animation-duration: 1s;
         animation-timing-function: ease-out;
 
+        @include responsive(t-portrait){
+            margin-top: 3rem;
+            margin-bottom: 1.7rem;
+        }
+
         @include responsive(phone){
             font-size: 3.5rem;
-            margin-bottom: 1.7rem;
         }
     }
 
@@ -55,7 +67,7 @@
         animation-timing-function: ease-out;
 
         @include responsive(t-portrait){
-            width: 70%;
+            width: 60%;
             display: block;
             margin: auto;
             margin-top: 5rem;
