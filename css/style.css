@@ -125,16 +125,10 @@ body {
   animation-name: moveFromLeft;
   animation-duration: 1s;
   animation-timing-function: ease-out; }
-  .btn-cta:link i, .btn-cta:visited i {
-    transition-duration: .2s;
-    transition-property: transform;
-    transition-timing-function: ease-in-out; }
 
 .btn-cta:hover {
   background-color: #ffffff;
   color: #3f4781; }
-  .btn-cta:hover i {
-    transform: rotate(90deg); }
 
 .btn-card:link, .btn-card:visited {
   font-size: 1.5rem;
