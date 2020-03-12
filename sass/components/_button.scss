@@ -8,7 +8,7 @@
         border-radius: 5px;
         cursor: pointer;
         text-align: center;
-        @include animationAll;
+        color: $color-white;
     }
 
     &-cta{
@@ -17,21 +17,10 @@
             font-size: 2rem;
             font-weight: bold;
             padding: 1rem 2rem;
-            color: $color-white;
-            border: 1px solid $color-blue-dark;
-            background-color: $color-blue-dark;
-            transition-duration: .2s;
-            transition-property: background-color, color;
-            transition-timing-function: ease-in-out;
     
             animation-name: moveFromLeft;
             animation-duration: 1s;
             animation-timing-function: ease-out;
-        }
-    
-        &:hover{
-            background-color: $color-white;
-            color: $color-blue-dark;
         }
     }
 
@@ -40,36 +29,15 @@
         &:visited{
             font-size: 1.5rem;
             padding: 1rem 2rem;
-            border: 1px solid $color-blue;
-            background-color: $color-blue;
-            color: $color-white;
-        }
-    
-        &:hover{
-            background-color: $color-white;
-            color: $color-blue;
-            transform: translateY(-2px);
-        }
-    
-        &:active{
-            transform: translateY(0);
         }
     }
     
     &-form{
-        background-color: $color-blue-dark;
-        color: $color-white;
         padding: 1.4rem 0;
         margin: 1rem 0;
-        border: 1px solid $color-blue-dark;
         font-size: 1.8rem;
         font-weight: bold;
         font-family: inherit;
-    
-        &:hover{
-            background-color: $color-white;
-            color: $color-blue-dark;
-        }
     }
     
     &-close{
@@ -78,14 +46,37 @@
         right: -12px;
         font-size: 2rem;
         font-weight: 800;
-        padding: .3rem .75rem;
+        padding: .5rem 1rem;
         border-radius: 50%;
-        background-color: $color-blue-dark;
-        color: $color-white;
+    }
 
-        &:hover{
-            background-color: $color-white;
-            color: $color-blue-dark;
+    &-primary{
+        &,
+        &:link,
+        &:visited{
+            border: 1px solid $color-blue-dark;
+            background-color: $color-blue-dark;
+            @include animationAll;
+    
+            &:hover{
+                background-color: $color-white;
+                color: $color-blue-dark;
+            }
+        }
+    }
+
+    &-secondary{
+        &,
+        &:link,
+        &:visited{
+            border: 1px solid $color-blue;
+            background-color: $color-blue;
+            @include animationAll;
+
+            &:hover{
+                background-color: $color-white;
+                color: $color-blue;
+            }
         }
     }
 }
