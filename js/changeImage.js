@@ -31,12 +31,13 @@ if(nextImage){
     nextImage.addEventListener('click', changeNextImage);
     prevImage.addEventListener('click', changePrevImage);
     
-    closeModalBtn.addEventListener('click', closeModal);
+    closeModalBtn.addEventListener('click', closeModalByButton);
 }
 
 showModalP1Btn.addEventListener('click', showModal);
 showModalP1Btn.myParam = "p1";
 showModalP2Btn.addEventListener('click', showModal);
+window.addEventListener('click', closeModal);
 
 function changeNextImage(){
     if(projectNumber === 1){
@@ -99,6 +100,12 @@ function showModal(pNumber){
     }
 }
 
-function closeModal(){
+function closeModalByButton(){
     modal.style.display = 'none';
+}
+
+function closeModal(e){
+    if(e.target === modal){
+        modal.style.display = 'none';
+    }
 }
