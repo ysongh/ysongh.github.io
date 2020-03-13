@@ -16,11 +16,16 @@
         &:visited{
             font-size: 2rem;
             font-weight: bold;
-            padding: 1rem 2rem;
+            padding: 1rem 2.5rem;
     
             animation-name: moveFromLeft;
             animation-duration: 1s;
             animation-timing-function: ease-out;
+
+            @include responsive(phone){
+                padding: 1rem 2rem;
+                width: 45%;
+            }
         }
     }
 
@@ -28,7 +33,11 @@
         &:link,
         &:visited{
             font-size: 1.5rem;
-            padding: 1rem 2rem;
+            padding: 1rem 2.5rem;
+
+            @include responsive(phone){
+                width: 45%;
+            }
         }
     }
     

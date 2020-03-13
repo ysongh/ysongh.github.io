@@ -115,14 +115,21 @@ body {
 .btn-cta:link, .btn-cta:visited {
   font-size: 2rem;
   font-weight: bold;
-  padding: 1rem 2rem;
+  padding: 1rem 2.5rem;
   animation-name: moveFromLeft;
   animation-duration: 1s;
   animation-timing-function: ease-out; }
+  @media (max-width: 37.5em) {
+    .btn-cta:link, .btn-cta:visited {
+      padding: 1rem 2rem;
+      width: 45%; } }
 
 .btn-card:link, .btn-card:visited {
   font-size: 1.5rem;
-  padding: 1rem 2rem; }
+  padding: 1rem 2.5rem; }
+  @media (max-width: 37.5em) {
+    .btn-card:link, .btn-card:visited {
+      width: 45%; } }
 
 .btn-form {
   padding: 1.4rem 0;
