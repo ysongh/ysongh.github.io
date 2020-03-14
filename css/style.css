@@ -317,7 +317,10 @@ body {
   .modal span {
     font-size: 3rem;
     bottom: 40%;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: all .3s; }
+    .modal span:hover {
+      opacity: .5; }
 
 .parallelogram {
   width: 50%;

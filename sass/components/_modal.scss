@@ -38,6 +38,11 @@
         font-size: 3rem;
         bottom: 40%;
         cursor: pointer;
+        @include animationAll;
+
+        &:hover{
+            opacity: .5;
+        }
     }
 }
 
