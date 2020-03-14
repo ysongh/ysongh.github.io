@@ -674,33 +674,25 @@ body {
 .section-projects {
   background-color: #a6dada;
   position: relative;
-  padding: 4rem 11rem 6rem 11rem;
-  min-height: 80vh; }
+  padding: 7rem 11rem; }
   @media (max-width: 75em) {
     .section-projects {
-      padding: 4rem 5rem 6rem 5rem; } }
+      padding: 6rem 5rem; } }
 
 .section-education {
   background-color: #b2dfdf;
   position: relative;
-  padding: 5rem 0;
-  min-height: 100vh; }
-  @media (max-width: 56.25em) {
-    .section-education {
-      min-height: 50vh; } }
+  padding: 6rem 0; }
 
 .section-experience {
   background-color: #a6dada;
   position: relative;
-  padding: 5rem 0;
-  min-height: 100vh; }
+  padding: 8rem 0; }
 
 .section-contact {
   background-color: #b2dfdf;
   position: relative;
-  padding: 5rem 3rem;
-  min-height: 100vh; }
+  padding: 6rem 3rem; }
   @media (max-width: 37.5em) {
     .section-contact {
-      padding: 5rem .5rem;
-      min-height: 85vh; } }
+      padding: 5rem .5rem; } }
