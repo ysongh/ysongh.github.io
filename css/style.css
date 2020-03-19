@@ -116,12 +116,14 @@ body {
   font-size: 2rem;
   font-weight: bold;
   padding: 1rem 2.5rem;
+  margin-right: 2rem;
   animation-name: moveFromLeft;
   animation-duration: 1s;
   animation-timing-function: ease-out; }
-  @media (max-width: 37.5em) {
+  @media (max-width: 56.25em) {
     .btn-cta:link, .btn-cta:visited {
       padding: 1rem 2rem;
+      margin-right: 0;
       width: 45%; } }
 
 .btn-card:link, .btn-card:visited {
@@ -398,7 +400,7 @@ body {
     position: absolute;
     right: 50%;
     bottom: 25px;
-    margin-right: -50px;
+    margin-right: -40px;
     color: #3f4781;
     animation: fade 1s infinite; }
 
@@ -479,14 +481,18 @@ body {
     animation-timing-function: ease-out; }
     @media (max-width: 56.25em) {
       .hero__photo {
-        width: 60%;
+        width: 55%;
         display: block;
         margin: auto;
-        margin-top: 5rem; } }
+        margin-top: 3rem; } }
     @media (max-width: 37.5em) {
       .hero__photo {
         width: 100%;
-        margin-top: 3rem; } }
+        margin-top: 4rem; } }
+  @media (max-width: 56.25em) {
+    .hero__buttons {
+      display: flex;
+      justify-content: space-between; } }
 
 .navigation {
   display: none;

@@ -17,13 +17,15 @@
             font-size: 2rem;
             font-weight: bold;
             padding: 1rem 2.5rem;
+            margin-right: 2rem;
     
             animation-name: moveFromLeft;
             animation-duration: 1s;
             animation-timing-function: ease-out;
 
-            @include responsive(phone){
+            @include responsive(t-portrait){
                 padding: 1rem 2rem;
+                margin-right: 0;
                 width: 45%;
             }
         }

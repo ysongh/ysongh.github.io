@@ -79,15 +79,23 @@
         animation-timing-function: ease-out;
 
         @include responsive(t-portrait){
-            width: 60%;
+            width: 55%;
             display: block;
             margin: auto;
-            margin-top: 5rem;
+            margin-top: 3rem;
         }
 
         @include responsive(phone){
             width: 100%;
-            margin-top: 3rem;
+            margin-top: 4rem;
+        }
+    }
+
+    &__buttons{
+
+        @include responsive(t-portrait){
+            display: flex;
+            justify-content: space-between;
         }
     }
 }
