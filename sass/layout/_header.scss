@@ -3,18 +3,6 @@
     position: relative;
     height: 100vh;
 
-    &__text-box{
-        @include maxScreen;
-
-        @include responsive(t-portrait){
-            width: 60%;
-        }
-
-        @include responsive(phone){
-            width: 100%;
-        }
-    }
-
     &__arrow{
         position: absolute;
         right: 50%;

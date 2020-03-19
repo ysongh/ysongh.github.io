@@ -25,6 +25,18 @@
         transform: translate(-50%, -60%);
     }
 
+    &__text-box{
+
+        @include responsive(t-portrait){
+            width: 70%;
+            margin: auto;
+        }
+
+        @include responsive(phone){
+            width: 100%;
+        }
+    }
+
     &__title{
         font-size: 5rem;
         margin-top: 5rem;

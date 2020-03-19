@@ -394,15 +394,6 @@ body {
   background-image: linear-gradient(to right bottom, rgba(226, 218, 218, 0.5), rgba(145, 236, 203, 0.8));
   position: relative;
   height: 100vh; }
-  .header__text-box {
-    max-width: 160rem;
-    margin: 0 auto; }
-    @media (max-width: 56.25em) {
-      .header__text-box {
-        width: 60%; } }
-    @media (max-width: 37.5em) {
-      .header__text-box {
-        width: 100%; } }
   .header__arrow {
     position: absolute;
     right: 50%;
@@ -449,6 +440,13 @@ body {
   @media (max-width: 37.5em) {
     .hero {
       transform: translate(-50%, -60%); } }
+  @media (max-width: 56.25em) {
+    .hero__text-box {
+      width: 70%;
+      margin: auto; } }
+  @media (max-width: 37.5em) {
+    .hero__text-box {
+      width: 100%; } }
   .hero__title {
     font-size: 5rem;
     margin-top: 5rem;
