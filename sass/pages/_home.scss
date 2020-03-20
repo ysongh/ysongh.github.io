@@ -21,7 +21,7 @@
 }
 
 .section-contact{
-    background-image: linear-gradient(to right bottom, rgba($color-silver, 0.5), rgba($color-blue-light, 0.8)), url(../img/background-1.jpeg);
+    background-image: linear-gradient(to right bottom, rgba($color-white, 0.5), rgba($color-blue-light, 0.8)), url(../img/background-1.jpeg);
     @include parallaxScrolling;
     position: relative;
     padding: 6rem 3rem;

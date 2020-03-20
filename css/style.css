@@ -393,7 +393,7 @@ body {
     font-size: 1.6rem; }
 
 .header {
-  background-image: linear-gradient(to right bottom, rgba(226, 218, 218, 0.5), rgba(145, 236, 203, 0.8));
+  background-image: linear-gradient(to right bottom, rgba(49, 160, 216, 0.5), rgba(145, 236, 203, 0.5));
   position: relative;
   height: 100vh; }
   .header__arrow {
@@ -687,7 +687,7 @@ body {
   padding: 8rem 0; }
 
 .section-contact {
-  background-image: linear-gradient(to right bottom, rgba(226, 218, 218, 0.5), rgba(145, 236, 203, 0.8)), url(../img/background-1.jpeg);
+  background-image: linear-gradient(to right bottom, rgba(247, 247, 247, 0.5), rgba(145, 236, 203, 0.8)), url(../img/background-1.jpeg);
   background-attachment: fixed;
   background-position: bottom;
   background-repeat: no-repeat;
