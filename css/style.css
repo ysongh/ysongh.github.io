@@ -497,36 +497,27 @@ body {
 .navigation {
   display: none;
   position: fixed;
-  z-index: 20; }
+  z-index: 20;
+  width: 100%; }
   @media (max-width: 56.25em) {
     .navigation {
       display: block; } }
   .navigation__logo {
-    margin-top: 2.5rem;
-    margin-left: 3rem;
+    margin-top: .5rem;
+    margin-left: 4rem;
     padding: .5rem;
     width: 14rem;
-    background-color: #a6dada;
     transition: all .3s; }
     .navigation__logo:hover {
       opacity: .5; }
-    @media (max-width: 37.5em) {
-      .navigation__logo {
-        margin-top: 2rem;
-        margin-left: 2rem; } }
   .navigation__button {
     position: fixed;
     padding: 1.1rem 1rem .5rem 1rem;
-    top: 2.5rem;
-    right: 3rem;
+    top: .5rem;
+    right: 4rem;
     cursor: pointer;
     z-index: 12;
-    background-color: #a6dada;
     transition: all .3s; }
-    @media (max-width: 37.5em) {
-      .navigation__button {
-        top: 2rem;
-        right: 2rem; } }
     .navigation__button__line {
       width: 3.2rem;
       height: 3px;

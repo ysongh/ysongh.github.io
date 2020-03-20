@@ -2,43 +2,32 @@
     display: none;
     position: fixed;
     z-index: 20;
+    width: 100%;
 
     @include responsive(t-portrait){
         display: block;
     }
 
     &__logo{
-        margin-top: 2.5rem;
-        margin-left: 3rem;
+        margin-top: .5rem;
+        margin-left: 4rem;
         padding: .5rem;
         width: 14rem;
-        background-color: $color-blue-lighter;
         @include animationAll;
 
         &:hover{
             opacity: .5;
-        }
-
-        @include responsive(phone){
-            margin-top: 2rem;
-            margin-left: 2rem;
         }
     }
 
     &__button{
         position: fixed;
         padding: 1.1rem 1rem .5rem 1rem;
-        top: 2.5rem;
-        right: 3rem;
+        top: .5rem;
+        right: 4rem;
         cursor: pointer;
         z-index: 12;
-        background-color: $color-blue-lighter;
         @include animationAll;
-
-        @include responsive(phone){
-            top: 2rem;
-            right: 2rem;
-        }
 
         &__line{
             width: 3.2rem;

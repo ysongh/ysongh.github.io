@@ -4,6 +4,7 @@ const navList = document.querySelector('.navigation__list');
 const navItems = document.querySelectorAll('.navigation__item');
 const navLinks = document.querySelectorAll('.navigation__link');
 const navDesktop = document.querySelector('.navigationDesktop');
+const navMobile = document.querySelector('.navigation');
 
 let showNav = false;
 
@@ -43,9 +44,13 @@ window.addEventListener('scroll', function (e) {
     if (document.documentElement.scrollTop || document.body.scrollTop > window.innerHeight) {
         navDesktop.classList.add('u-bg-blue');
         navDesktop.classList.remove('u-bg-transparent');
+        navMobile.classList.add('u-bg-blue');
+        navMobile.classList.remove('u-bg-transparent');
     }
     else {
         navDesktop.classList.add('u-bg-transparent');
         navDesktop.classList.remove('u-bg-blue');
+        navMobile.classList.add('u-bg-transparent');
+        navMobile.classList.remove('u-bg-blue');
     }
 });
