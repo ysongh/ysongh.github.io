@@ -110,7 +110,7 @@ body {
   border-radius: 5px;
   cursor: pointer;
   text-align: center;
-  color: #ffffff; }
+  color: #f7f7f7; }
 
 .btn-cta:link, .btn-cta:visited {
   font-size: 2rem;
@@ -154,7 +154,7 @@ body {
   background-color: #3f4781;
   transition: all .3s; }
   .btn-primary:hover, .btn-primary:link:hover, .btn-primary:visited:hover {
-    background-color: #ffffff;
+    background-color: #f7f7f7;
     color: #3f4781; }
 
 .btn-secondary, .btn-secondary:link, .btn-secondary:visited {
@@ -162,11 +162,11 @@ body {
   background-color: #31a0d8;
   transition: all .3s; }
   .btn-secondary:hover, .btn-secondary:link:hover, .btn-secondary:visited:hover {
-    background-color: #ffffff;
+    background-color: #f7f7f7;
     color: #31a0d8; }
 
 .card {
-  background-color: #ffffff;
+  background-color: #f7f7f7;
   display: flex;
   max-width: 160rem;
   margin: 4rem auto; }
@@ -192,17 +192,17 @@ body {
     font-size: 1.8rem;
     background-color: #3f4781;
     border: 1px solid #3f4781;
-    color: #ffffff;
+    color: #f7f7f7;
     transition-duration: .2s;
     transition-property: background-color, color, transform;
     transition-timing-function: ease-in-out; }
     .card__button:hover {
-      background-color: #ffffff;
+      background-color: #f7f7f7;
       color: #3f4781;
       transform: translateX(2px); }
   .card__picture {
     position: relative;
-    background-color: #ffffff; }
+    background-color: #f7f7f7; }
   .card__details {
     line-height: 1.2;
     margin-top: 1rem;
@@ -300,7 +300,7 @@ body {
   background: rgba(0, 0, 0, 0.4); }
   .modal__content {
     position: relative;
-    background-color: #ffffff;
+    background-color: #f7f7f7;
     text-align: center;
     margin: 15rem auto;
     width: 50%;
@@ -326,7 +326,7 @@ body {
 
 .parallelogram {
   width: 50%;
-  background-color: #ffffff;
+  background-color: #f7f7f7;
   transform: skewX(-15deg);
   max-width: 160rem;
   margin: 2rem auto; }
@@ -347,7 +347,7 @@ body {
 
 .rectangle {
   width: 60%;
-  background-color: #ffffff;
+  background-color: #f7f7f7;
   padding: 4rem;
   max-width: 160rem;
   margin: 5rem auto; }
