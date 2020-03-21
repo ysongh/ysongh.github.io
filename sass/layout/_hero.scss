@@ -22,6 +22,10 @@
     }
 
     @include responsive(phone){
+        padding: 3rem;
+    }
+
+    @include responsive(phone){
         transform: translate(-50%, -60%);
     }
 

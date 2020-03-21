@@ -441,6 +441,9 @@ body {
       grid-template-columns: 1fr; } }
   @media (max-width: 37.5em) {
     .hero {
+      padding: 3rem; } }
+  @media (max-width: 37.5em) {
+    .hero {
       transform: translate(-50%, -60%); } }
   @media (max-width: 56.25em) {
     .hero__text-box {
@@ -504,7 +507,7 @@ body {
       display: block; } }
   .navigation__logo {
     margin-top: .5rem;
-    margin-left: 4rem;
+    margin-left: 2.4rem;
     padding: .5rem;
     width: 14rem;
     transition: all .3s; }
@@ -514,7 +517,7 @@ body {
     position: fixed;
     padding: 1.1rem 1rem .5rem 1rem;
     top: .5rem;
-    right: 4rem;
+    right: 2rem;
     cursor: pointer;
     z-index: 12;
     transition: all .3s; }
@@ -665,7 +668,7 @@ body {
   padding: 7rem 11rem; }
   @media (max-width: 75em) {
     .section-projects {
-      padding: 6rem 5rem; } }
+      padding: 6rem 3rem; } }
 
 .section-education {
   background-color: #b2dfdf;
