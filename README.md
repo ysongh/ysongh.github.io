@@ -1,3 +1,9 @@
 # My Portfolio
 
-Using HTML5, SCSS, and Javascript
+My Portfolio
+
+## Technologies Used
+- HTML
+- CSS
+- Javascript
+- SASS/SCSS
