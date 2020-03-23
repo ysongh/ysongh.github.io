@@ -44,11 +44,20 @@
     }
     
     &-form{
-        padding: 1.4rem 0;
+        width: 33%;
+        padding: 1.2rem 0;
         margin: 1rem 0;
         font-size: 1.8rem;
         font-weight: bold;
         font-family: inherit;
+
+        @include responsive(t-portrait){
+            width: 40%;
+        }
+
+        @include responsive(phone){
+            width: 100%;
+        }
     }
     
     &-close{

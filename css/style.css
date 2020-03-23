@@ -134,11 +134,18 @@ body {
       width: 45%; } }
 
 .btn-form {
-  padding: 1.4rem 0;
+  width: 33%;
+  padding: 1.2rem 0;
   margin: 1rem 0;
   font-size: 1.8rem;
   font-weight: bold;
   font-family: inherit; }
+  @media (max-width: 56.25em) {
+    .btn-form {
+      width: 40%; } }
+  @media (max-width: 37.5em) {
+    .btn-form {
+      width: 100%; } }
 
 .btn-close {
   position: absolute;
