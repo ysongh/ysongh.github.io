@@ -5,6 +5,7 @@ const modal = document.querySelector('.modal');
 const showModalP1Btn = document.getElementById('showModalP1Btn');
 const showModalP2Btn = document.getElementById('showModalP2Btn');
 const showModalP3Btn = document.getElementById('showModalP3Btn');
+const showModalP4Btn = document.getElementById('showModalP4Btn');
 const closeModalBtn = document.getElementById('closeModalBtn');
 
 const image1List = [
@@ -26,13 +27,22 @@ const image3List = [
     "./img/project-C3.png"
 ];
 
+const image4List = [
+    "./img/project-D1.png",
+    "./img/project-D2.png",
+    "./img/project-D3.png",
+    "./img/project-D4.png"
+];
+
 const image1ListLen = image1List.length - 1;
 const image2ListLen = image2List.length - 1;
 const image3ListLen = image3List.length - 1;
+const image4ListLen = image4List.length - 1;
 
 let currentImage1 = 0;
 let currentImage2 = 0;
 let currentImage3 = 0;
+let currentImage4 = 0;
 
 let projectNumber = 1;
 
@@ -48,6 +58,8 @@ showModalP1Btn.myParam = "p1";
 showModalP2Btn.addEventListener('click', showModal);
 showModalP2Btn.myParam = "p2";
 showModalP3Btn.addEventListener('click', showModal);
+showModalP3Btn.myParam = "p3";
+showModalP4Btn.addEventListener('click', showModal);
 window.addEventListener('click', closeModal);
 
 function changeNextImage(){
@@ -71,7 +83,7 @@ function changeNextImage(){
         document.getElementById("projects").src = image2List[currentImage2];
         numProject.innerHTML = `${currentImage2 + 1}/${image2ListLen + 1} `;
     }
-    else{
+    else if(projectNumber === 3){
         if(currentImage3 === image3ListLen){
             currentImage3 = 0;
         }
@@ -80,6 +92,16 @@ function changeNextImage(){
         }
         document.getElementById("projects").src = image3List[currentImage3];
         numProject.innerHTML = `${currentImage3 + 1}/${image3ListLen + 1} `;
+    }
+    else{
+        if(currentImage4 === image4ListLen){
+            currentImage4 = 0;
+        }
+        else{
+            currentImage4++;
+        }
+        document.getElementById("projects").src = image4List[currentImage4];
+        numProject.innerHTML = `${currentImage4 + 1}/${image4ListLen + 1} `;
     }
 }
 
@@ -104,7 +126,7 @@ function changePrevImage(){
         document.getElementById("projects").src = image2List[currentImage2];
         numProject.innerHTML = `${currentImage2 + 1}/${image2ListLen + 1} `;
     }
-    else{
+    else if(projectNumber === 3){
         if(currentImage3 === 0){
             currentImage3 = image3ListLen;
         }
@@ -113,6 +135,16 @@ function changePrevImage(){
         }
         document.getElementById("projects").src = image3List[currentImage3];
         numProject.innerHTML = `${currentImage3 + 1}/${image3ListLen + 1} `;
+    }
+    else{
+        if(currentImage4 === 0){
+            currentImage4 = image4ListLen;
+        }
+        else{
+            currentImage4--;
+        }
+        document.getElementById("projects").src = image4List[currentImage4];
+        numProject.innerHTML = `${currentImage4 + 1}/${image4ListLen + 1} `;
     }
 }
 
@@ -129,10 +161,15 @@ function showModal(pNumber){
         document.getElementById("projects").src = image2List[currentImage1];
         numProject.innerHTML = `${currentImage2 + 1}/${image2ListLen + 1} `;
     }
-    else{
+    else if(pNumber.currentTarget.myParam === "p3"){
         projectNumber = 3;
         document.getElementById("projects").src = image3List[currentImage3];
         numProject.innerHTML = `${currentImage3 + 1}/${image3ListLen + 1} `;
+    }
+    else{
+        projectNumber = 4;
+        document.getElementById("projects").src = image4List[currentImage4];
+        numProject.innerHTML = `${currentImage4 + 1}/${image4ListLen + 1} `;
     }
 }
 
