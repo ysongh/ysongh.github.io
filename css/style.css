@@ -172,6 +172,23 @@ body {
     background-color: #f7f7f7;
     color: #31a0d8; }
 
+.btn-scroll {
+  background-color: #3f4781;
+  position: fixed;
+  bottom: 20px;
+  right: 23px;
+  z-index: 99;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all .3s; }
+  .btn-scroll:hover {
+    background-color: #f7f7f7;
+    color: #3f4781; }
+
 .card {
   background-color: #f7f7f7;
   display: flex;

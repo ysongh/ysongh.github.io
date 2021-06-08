@@ -100,3 +100,23 @@
         }
     }
 }
+
+.btn-scroll{
+    background-color: $color-blue-dark;
+    position: fixed;
+    bottom: 20px;
+    right: 23px;
+    z-index: 99;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    @include animationAll;
+
+    &:hover{
+        background-color: $color-white;
+        color: $color-blue-dark;
+    }
+}
