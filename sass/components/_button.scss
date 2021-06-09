@@ -106,7 +106,7 @@
     display: none;
     position: fixed;
     bottom: 20px;
-    right: 23px;
+    right: 10%;
     z-index: 99;
     font-size: 2rem;
     color: white;
@@ -115,6 +115,10 @@
     border-radius: 4px;
     cursor: pointer;
     @include animationAll;
+
+    @include responsive(t-landscape){
+        right: 23px;
+    }
 
     &:hover{
         background-color: $color-white;
