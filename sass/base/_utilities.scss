@@ -17,3 +17,6 @@
 .u-bg-transparent{ background-color: transparent; }
 
 .u-red{ color: #b60c0c; }
+
+.u-scroll-down{ transform: translate3d(0, -100%, 0); }
+.u-scroll-up{ filter: drop-shadow(0 -10px 10px $color-blue-dark); }

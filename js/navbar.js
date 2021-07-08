@@ -7,6 +7,7 @@ const navDesktop = document.querySelector('.navigationDesktop');
 const navMobile = document.querySelector('.navigation');
 
 let showNav = false;
+let lastScroll = 0;
 
 navBtn.addEventListener('click', toggleNav);
 
@@ -41,6 +42,25 @@ function closeNav(){
 }
 
 window.addEventListener('scroll', function (e) {
+    const currentScroll = window.pageYOffset;
+
+    if (currentScroll <= 0) {
+        navDesktop.classList.remove('u-scroll-up');
+    }
+
+    if (currentScroll > lastScroll && !navDesktop.classList.contains('u-scroll-down')) {
+        navDesktop.classList.remove('u-scroll-up');
+        navDesktop.classList.add('u-scroll-down');
+    }
+
+    if (currentScroll < lastScroll && navDesktop.classList.contains('u-scroll-down')) {
+        navDesktop.classList.remove('u-scroll-down');
+        navDesktop.classList.add('u-scroll-up');
+    }
+
+    lastScroll = currentScroll;
+
+    // show or hide the background color of navigation
     if (document.documentElement.scrollTop || document.body.scrollTop > window.innerHeight) {
         navDesktop.classList.add('u-bg-blue');
         navDesktop.classList.remove('u-bg-transparent');
